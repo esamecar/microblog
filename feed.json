@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2023/08/10/lets-have-some.html",
+				
+				"content_html": "<p>Let&rsquo;s have some fun 😅</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Let's have some fun 😅\n\n<img src=\"uploads/2023/ce0f63494bca454582bac20fedfbcfd5.jpg\" width=\"450\" height=\"600\" alt=\"Free Fall Tower in Hansa Park, Germany\">\n",
+				"date_published": "2023-08-10T13:55:01+02:00",
+				"url": "https://mb.esamecar.net/2023/08/10/lets-have-some.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/08/08/vw-bulli-t.html",
 				
 				"content_html": "<p>VW Bulli T1</p>\n<!-- raw HTML omitted -->\n",
@@ -42,7 +50,7 @@
 				"id": "http://esamecar.micro.blog/2023/08/05/our-dog-relaxes.html",
 				
 				"content_html": "<p>Our dog relaxes on the train ride towards the holiday.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Our dog relaxes on the train ride towards the holiday.\n\n<img src=\"uploads/2023/d6e3ef62ea.jpg\" width=\"450\" height=\"600\" alt=\"Dog relaxes on train's floor.\">\n",
+				"content_text": "Our dog relaxes on the train ride towards the holiday.\n\n<img src=\"https://cdn.uploads.micro.blog/95406/2023/d6e3ef62ea.jpg\" width=\"450\" height=\"600\" alt=\"Dog relaxes on train's floor.\">\n",
 				"date_published": "2023-08-05T10:42:05+02:00",
 				"url": "https://mb.esamecar.net/2023/08/05/our-dog-relaxes.html"
 			},
