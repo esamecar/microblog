@@ -24,10 +24,74 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://mb.esamecar.net/2025/04/06/moving-my-data-to-europe.html">Moving (my Data) to Europe</a></h1>
+		
+
+		<a href="https://mb.esamecar.net/2025/04/06/moving-my-data-to-europe.html" class="u-url"><time class="dt-published" datetime="2025-04-06 18:24:13 &#43;0200">Apr 6, 2025</time></a>
+
+		<div class="e-content">
+			 <p>In recent weeks, like many others, I&rsquo;ve been contemplating where my digital data and the services I use are actually located. Predominantly, they reside on servers located in the United States, owned by American tech companies. Given the current political climate, I&rsquo;ve made an effort to migrate much of my digital life to services within the European Union.</p>
+<p>To begin this digital relocation, I&rsquo;ve gone through my current services. My encrypted online backup is hosted on Microsoft&rsquo;s OneDrive. I use iCloud for emails, calendars, contacts, photo storage, passwords, music, and video streaming. I also rely on iCloud for file storage. Apple services are exceptionally well-integrated into the operating systems I use. The Family Sharing features they offer are awesome, and the stability is now commendably robust. Allegedly, most of these services are end-to-end encrypted. All seems fine, except for recent developments involving Trump, Tim Cook&rsquo;s support of him and the general attitude of Apple towards the European government. But I don&rsquo;t want to get too political at this point 😎.</p>
+<p>Anyhow, I made a table in my BuJo<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and started looking around and testing stuff. Here are the results, including not only servers and services but also related stuff:</p>
+<ul>
+<li>Address book → NextCloud</li>
+<li>AI → Mistral (?)</li>
+<li>Blogging → micro.blog</li>
+<li>Calendar → NextCloud</li>
+<li>Cloud Storage → koofr.eu &amp; NextCloud</li>
+<li>DNS resolver → my local ISP</li>
+<li>E-Mail → posteo.de</li>
+<li>Home assistant → tbd</li>
+<li>Maps → OpenStreetMap, OsmAnd Maps, GuruMaps (still WIP)</li>
+<li>Music streaming → tbd</li>
+<li>Online shopping → no more purchases via Amazon</li>
+<li>Password manager → 1Password</li>
+<li>Pictures → recent albums on NextCloud, encrypted backup on koofr.eu</li>
+<li>Route planner → bikerouter.de</li>
+<li>Search engine → Kagi (still US-based but better privacy than Google)</li>
+<li>Social networks → social.lol, Signal, Threema</li>
+<li>TV/Movie → tbd</li>
+</ul>
+<p>A few things were quite simple, at least after I made a decision. Based on very helpful feedback on Mastodon, I found out that <a href="https://nextcloud.com/">NextCloud</a> can be quite well used as a managed service at <a href="https://www.hetzner.com/storage/storage-share/">Hetzner</a> for a reasonable amount of money. I then set up an instance there and moved all my calendars, address book<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, tasks<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, and a few files and pictures. I still need to spend some time researching encryption on NextCloud and understanding its implications, but overall, it was very easy to set everything up and configure it for the whole family, including calendar sharing, and so on. What I&rsquo;ve seen so far, I like very much. I even quite like the macOS and especially iOS app. You can even use passkeys and add two-factor for web authentication. Files that are too sensitive to be stored in the cloud without E2EE, I have saved in a <a href="http://koofr.eu/">koofr.eu</a> vault. Unfortunately, that&rsquo;s not quite as simple; you have to use <a href="https://rclone.org/">rclone</a>, which is a CLI program, but it&rsquo;s generally doable. For now, I&rsquo;ve moved a few backups of my most important data there, which have so far been backed up on OneDrive with <a href="https://www.arqbackup.com/">Arq</a><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<p>I exported all the individual photos from my Apple Photo.app library and copied them to an encrypted koofr vault. This went extremely well with the <a href="https://www.photosync-app.com/de/index">PhotoSync</a> app, which not only supports WebDAV but also encrypted rclone targets.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> How and where I will store my photo roll un the future, I do not know yet; it&rsquo;s still the biggest challenge.
+But, I was very pleased to see that a few weeks ago <a href="https://micro.blog/">Micro.blog</a>, which is still my blogging platform of choice, offered its users the option to move their blog&rsquo;s data to <a href="https://www.manton.org/2025/03/19/microblog-adding-european-servers.html">European servers</a>, which I did right away. My Obsidian data has felt like it&rsquo;s been on European servers for years now, and I was thrilled to see that the instance of my only remaining actively used social network, Mastodon, <a href="https://social.lol/@adam/114283682284316702">was moved</a> to European servers as well. Regarding maps and route planning, I am now trying to rely solely on OpenStreetMap-based services and apps like <a href="https://osmand.net/">OsmAnd</a>, or perhaps <a href="https://gurumaps.app/">Guru Maps</a>. Furthermore, due to the <a href="https://www.dcrainmaker.com/2025/03/komoot-acquired-history-says-this-wont-end-well.html">sale of Komoot</a>, which, while still a European company, no longer earns my trust for other reasons, I&rsquo;ve started switching to <a href="https://bikerouter.de/#map=5/50.990/9.860/osm-mapnik-german_style">bikerouter.de</a>. I already knew that it&rsquo;s fantastic, but it has a considerably steeper learning curve.</p>
+<p>I moved my passwords back from Apple&rsquo;s password app to 1Password. I&rsquo;m not entirely happy with it<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> but after all, it seems to be mainly a Canadian-based company.</p>
+<p>For email, I&rsquo;ve been using <a href="https://posteo.de/en">Posteo</a>, a German provider, and I am very satisfied with it. Regarding search, I haven&rsquo;t found a European provider yet that I want to use, but I&rsquo;ve been using <a href="https://kagi.com/">Kagi</a> for a few months and hope that their privacy statement holds up. Searching remains an open issue.</p>
+<p>Additionally, I&rsquo;ve canceled my YouTube Premium subscription and am trying not to buy anything from Amazon anymore. Maybe I&rsquo;ll just have to delete my account there to keep this up. We&rsquo;ll see.</p>
+<p>To sum it up, I find it very unfortunate that it had to come to this and hope that despite the lack of integration, the various apps and services will still work as reliably as they have. Time will tell for sure.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This should become another post.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Unfortunately, it appears that contact groups are not supported under macOS when synced via CardDAV; you can only use one address book. It seems to work under iOS, though. I guess only Apple knows why.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>There seems to be no way to export my reminders and tasks properly; I had to transfer them all by hand, except for those that are already managed in my bullet journal, which fortunately were not many.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>I am still searching for a service where I can use Arq again; however, that hasn&rsquo;t worked out yet. I would really like to have an incremental backup of all my data in the cloud.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p> <a href="https://filen.io/">Filen</a> might be something to look into as well.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p>But with all the back-and-forth of moving data, it is not about having fun, but about having a better feeling afterward, I guess.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 			<h1><a href="https://mb.esamecar.net/2025/03/10/making-your-own-bread-is.html">Making your own bread is awesome</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2025/03/10/making-your-own-bread-is.html" class="u-url"><time class="dt-published" datetime="2025-03-10 16:19:33 &#43;0100">Mar 10, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/03/10/making-your-own-bread-is.html" class="u-url"><time class="dt-published" datetime="2025-03-10 17:19:33 &#43;0200">Mar 10, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Baking bread is really a great thing. Yesterday we had &ldquo;Wurzelbrot&rdquo; (similar to baguette) made with sourdough for breakfast. Then in the afternoon, homemade pizza in the Ooni oven with our own yeast dough, and in the evening, lard bread (with vegan lard and soy yogurt), also made with sourdough 🤩.</p>
@@ -40,7 +104,7 @@
 			<h1><a href="https://mb.esamecar.net/2025/02/26/automated-daily-notes-in-obsidian.html">Automated Daily Notes in Obsidian - Daily News Integration</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2025/02/26/automated-daily-notes-in-obsidian.html" class="u-url"><time class="dt-published" datetime="2025-02-26 18:05:51 &#43;0100">Feb 26, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/02/26/automated-daily-notes-in-obsidian.html" class="u-url"><time class="dt-published" datetime="2025-02-26 19:05:51 &#43;0200">Feb 26, 2025</time></a>
 
 		<div class="e-content">
 			 <p>For over a year, a draft has been lying in my project folder, in which I wanted to describe all the shortcuts I use to automatically add some information to my Daily Notes in Obsidian at the end of the day. However, the project was far too big, as my setup is quite complex, and so I haven&rsquo;t really made any real progress in writing so far. That&rsquo;s why I thought I should break it down into several smaller pieces (posts), as is always advisable with large tasks, and just start. So today I&rsquo;m starting completely at random with a shortcut that was only recently added. I will deliberately not go into too much detail, but rather outline a rough framework. If anyone is interested in more detailed information, I will of course try help. Just contact me via e-mail or <a href="https://social.lol/@esamecar">Mastodon</a>.</p>
@@ -77,7 +141,7 @@
 			<h1><a href="https://mb.esamecar.net/2025/02/25/sharemyplugin-all-my-enabled-obsidian.html">ShareMyPlugin: All My Enabled Obsidian Plugins</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2025/02/25/sharemyplugin-all-my-enabled-obsidian.html" class="u-url"><time class="dt-published" datetime="2025-02-25 09:28:36 &#43;0100">Feb 25, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/02/25/sharemyplugin-all-my-enabled-obsidian.html" class="u-url"><time class="dt-published" datetime="2025-02-25 10:28:36 &#43;0200">Feb 25, 2025</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://appaddict.app/post/my-obsidian-plugin-list">Lou</a> wrote about his Obsidian plugins and mentioned the <a href="https://github.com/Benature/obsidian-share-my-plugin-list">Share My Plugin List</a> plugin. I’ve previously shared my <a href="https://mb.esamecar.net/2024/11/29/my-top-obsidian.html">10 favorite</a> plugins, but this tool makes it so easy to list all my enabled plugins that I couldn’t resist giving it a try:</p>
@@ -117,7 +181,7 @@
 			<h1><a href="https://mb.esamecar.net/2025/02/23/i-love-how-easy-it.html">I love how easy it is to vote in Germany</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2025/02/23/i-love-how-easy-it.html" class="u-url"><time class="dt-published" datetime="2025-02-23 16:13:40 &#43;0100">Feb 23, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/02/23/i-love-how-easy-it.html" class="u-url"><time class="dt-published" datetime="2025-02-23 17:13:40 &#43;0200">Feb 23, 2025</time></a>
 
 		<div class="e-content">
 			 <p>You automatically receive your election documents without having to request them. On election day, you simply walk a few hundred meters to your nearest polling station—ideally in perfect weather—where friendly volunteers are ready to hand you your ballot.</p>
@@ -130,7 +194,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2025/02/14/finished-reading-die-bulletjournalmethode-by.html" class="u-url"><time class="dt-published" datetime="2025-02-14 17:37:00 &#43;0100">Feb 14, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/02/14/finished-reading-die-bulletjournalmethode-by.html" class="u-url"><time class="dt-published" datetime="2025-02-14 18:37:00 &#43;0200">Feb 14, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Finished reading: <a href="https://micro.blog/books/9783644403222">Die Bullet-Journal-Methode</a> by Ryder Carroll 📚</p>
@@ -141,7 +205,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2025/02/01/oh-by-the-way-dry.html" class="u-url"><time class="dt-published" datetime="2025-02-01 19:38:24 &#43;0100">Feb 1, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/02/01/oh-by-the-way-dry.html" class="u-url"><time class="dt-published" datetime="2025-02-01 20:38:24 &#43;0200">Feb 1, 2025</time></a>
 
 		<div class="e-content">
 			 <p>Oh by the way, Dry January ✅</p>
@@ -153,7 +217,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2025/01/27/these-figures-are-a-little.html" class="u-url"><time class="dt-published" datetime="2025-01-27 16:51:07 &#43;0100">Jan 27, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/01/27/these-figures-are-a-little.html" class="u-url"><time class="dt-published" datetime="2025-01-27 17:51:07 &#43;0200">Jan 27, 2025</time></a>
 
 		<div class="e-content">
 			 <p>These <a href="https://mkorostoff.github.io/1-pixel-wealth/">figures</a> are a little out of date, but have only got worse since then. I don&rsquo;t understand how anyone can really believe that foreigners or LGBTQIA+ people are the core problem in our society.</p>
@@ -166,7 +230,7 @@
 			<h1><a href="https://mb.esamecar.net/2025/01/27/media-diet.html">Media Diet</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2025/01/27/media-diet.html" class="u-url"><time class="dt-published" datetime="2025-01-27 09:55:15 &#43;0100">Jan 27, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/01/27/media-diet.html" class="u-url"><time class="dt-published" datetime="2025-01-27 10:55:15 &#43;0200">Jan 27, 2025</time></a>
 
 		<div class="e-content">
 			 <p>I wish everyone a good start to the new week. Over the weekend I deliberately didn&rsquo;t read any news, didn&rsquo;t consume any RSS articles or social media feeds. My phone felt pleasantly useless. It wasn&rsquo;t easy for me, of course, but it was a good move. I have just marked 594 unread articles in my feed reader as read and should urgently think about whether I should fundamentally change the way I consume information.</p>
@@ -177,7 +241,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2025/01/16/omg-why-did-nobody-tell.html" class="u-url"><time class="dt-published" datetime="2025-01-16 13:27:22 &#43;0100">Jan 16, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/01/16/omg-why-did-nobody-tell.html" class="u-url"><time class="dt-published" datetime="2025-01-16 14:27:22 &#43;0200">Jan 16, 2025</time></a>
 
 		<div class="e-content">
 			 <p>OMG why did nobody tell me that Dataview Publisher (<a href="https://github.com/udus122/dataview-publisher">https://github.com/udus122/dataview-publisher</a>) for #Obsidian exists? What a freakin' game changer 🤩.</p>
@@ -188,7 +252,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2025/01/12/that-sounds-easy-and-fun.html" class="u-url"><time class="dt-published" datetime="2025-01-12 17:21:31 &#43;0100">Jan 12, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/01/12/that-sounds-easy-and-fun.html" class="u-url"><time class="dt-published" datetime="2025-01-12 18:21:31 &#43;0200">Jan 12, 2025</time></a>
 
 		<div class="e-content">
 			 <p>That sounds  easy and fun. I will definitely try it out: <a href="https://there.oughta.be/a/game-boy-slideshow">There oughta be a Game Boy Slideshow</a></p>
@@ -199,7 +263,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2025/01/09/why-do-we-have-to.html" class="u-url"><time class="dt-published" datetime="2025-01-09 13:17:58 &#43;0100">Jan 9, 2025</time></a>
+		<a href="https://mb.esamecar.net/2025/01/09/why-do-we-have-to.html" class="u-url"><time class="dt-published" datetime="2025-01-09 14:17:58 &#43;0200">Jan 9, 2025</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -211,7 +275,7 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/12/11/til-if-you.html" class="u-url"><time class="dt-published" datetime="2024-12-11 07:32:17 &#43;0100">Dec 11, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/12/11/til-if-you.html" class="u-url"><time class="dt-published" datetime="2024-12-11 08:32:17 &#43;0200">Dec 11, 2024</time></a>
 
 		<div class="e-content">
 			 <p>TIL if you enable &ldquo;Offload unused apps&rdquo; in iOS settings, an app will eventually be deleted, even if you use its functions via a shortcut every day. This will of course break the latter. 🤷‍♂️</p>
@@ -224,7 +288,7 @@
 			<h1><a href="https://mb.esamecar.net/2024/12/07/tech-i-dont.html">Tech I Don’t Need (But Want)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/12/07/tech-i-dont.html" class="u-url"><time class="dt-published" datetime="2024-12-07 12:11:52 &#43;0100">Dec 7, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/12/07/tech-i-dont.html" class="u-url"><time class="dt-published" datetime="2024-12-07 13:11:52 &#43;0200">Dec 7, 2024</time></a>
 
 		<div class="e-content">
 			 <p>There are a few tech items I’ve been eyeing for a long time<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, which I’d love to have, but the rational part of my brain forbids me from buying—at least for now, thankfully.</p>
@@ -258,7 +322,7 @@
 			<h1><a href="https://mb.esamecar.net/2024/12/04/apps-that-make.html">Apps that make me smile</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/12/04/apps-that-make.html" class="u-url"><time class="dt-published" datetime="2024-12-04 16:31:00 &#43;0100">Dec 4, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/12/04/apps-that-make.html" class="u-url"><time class="dt-published" datetime="2024-12-04 17:31:00 &#43;0200">Dec 4, 2024</time></a>
 
 		<div class="e-content">
 			 <p>There are those apps that really do nothing productive but just make you smile while using your computer. One I really love is <a href="https://bananabin.app">BananaBin</a> a &ldquo;playful reminder that it&rsquo;s time to take out the trash&rdquo;. Today <a href="https://mastodon.social/@simonbs">Simon B. Støvring</a> released another one of this kind: <a href="https://www.festivitas.app">Festivitas</a>, which &ldquo;brings the holiday spirit to your Mac with festive lights for the dock and menu bar 🎄&rdquo;.
@@ -274,7 +338,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/12/02/state-of-app.html">State of App and Services Subscriptions 2024 Edition</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/12/02/state-of-app.html" class="u-url"><time class="dt-published" datetime="2024-12-02 21:41:49 &#43;0100">Dec 2, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/12/02/state-of-app.html" class="u-url"><time class="dt-published" datetime="2024-12-02 22:41:49 &#43;0200">Dec 2, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I use a variety of apps and services across iOS, macOS, and the web. Most operate on subscription models, and although I aim to keep each subscription under € 5 per month, the total monthly cost can quickly become significant.</p>
@@ -628,7 +692,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/11/29/my-top-obsidian.html">My Top 10 Obsidian Plugins</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/11/29/my-top-obsidian.html" class="u-url"><time class="dt-published" datetime="2024-11-29 09:58:57 &#43;0100">Nov 29, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/29/my-top-obsidian.html" class="u-url"><time class="dt-published" datetime="2024-11-29 10:58:57 &#43;0200">Nov 29, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I know there are now <a href="https://obsidian-plugin-stats.vercel.app">over two thousand plugins</a> for <a href="https://obsidian.md/">Obsidian</a>, and everyone uses a different combination. There are also countless lists suggesting various plugins. But that&rsquo;s the great thing: The individual combination of plugins makes Obsidian exactly the (power) tool that each user wants it to be. So, here are my ten most important plugins<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
@@ -665,7 +729,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/11/28/i-think-by.html">Discounted macOS / iOS Apps</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/11/28/i-think-by.html" class="u-url"><time class="dt-published" datetime="2024-11-28 09:00:51 &#43;0100">Nov 28, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/28/i-think-by.html" class="u-url"><time class="dt-published" datetime="2024-11-28 10:00:51 &#43;0200">Nov 28, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I think by now everyone has noticed that there&rsquo;s another <a href="https://indieappsales.com">Indie App Sale</a> going on. Take a look and see if there are any software bargains you don&rsquo;t own yet but would like to have. Additionally, the <a href="https://unclutterapp.com/bundle/">Space/Time</a> sale is also happening, where you can get some really good apps<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> at a 50% discount.</p>
@@ -684,7 +748,7 @@ You can&rsquo;t invest your money any better I think.</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/11/27/tilthat-in-addition.html" class="u-url"><time class="dt-published" datetime="2024-11-27 17:11:26 &#43;0100">Nov 27, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/27/tilthat-in-addition.html" class="u-url"><time class="dt-published" datetime="2024-11-27 18:11:26 &#43;0200">Nov 27, 2024</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://podcasts.apple.com/de/podcast/accidental-tech-podcast/id617416468?i=1000677971790">TIL</a> that, in addition to hitting esc - which I already knew and use all the time - you can cancel a drag of a Finder item by dragging it onto the menu bar. Also, you can drag an item to the header of a Finder&rsquo;s list view and don&rsquo;t have to find an empty, safe spot to release it.</p>
@@ -697,7 +761,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/11/25/app-defaults-edition.html">App Defaults - 2024 Edition</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/11/25/app-defaults-edition.html" class="u-url"><time class="dt-published" datetime="2024-11-25 16:29:14 &#43;0100">Nov 25, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/25/app-defaults-edition.html" class="u-url"><time class="dt-published" datetime="2024-11-25 17:29:14 &#43;0200">Nov 25, 2024</time></a>
 
 		<div class="e-content">
 			 <p>It has now been over a year since <a href="https://social.lol/@canion">Andrew</a>, <a href="https://social.lol/@martinfeld">Martin</a>, and <a href="https://social.lol/@jason">Jason</a> of <a href="https://listen.hemisphericviews.com/097">Hemispheric Views</a> listed their app defaults, causing probably the biggest internet movement of 2023, documented with meticulous detail by <a href="https://defaults.rknight.me">Robb</a>.</p>
@@ -745,7 +809,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/11/25/sindres-new-app.html">Sindre&#39;s New App: Supercharge</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/11/25/sindres-new-app.html" class="u-url"><time class="dt-published" datetime="2024-11-25 15:01:41 &#43;0100">Nov 25, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/25/sindres-new-app.html" class="u-url"><time class="dt-published" datetime="2024-11-25 16:01:41 &#43;0200">Nov 25, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I purchased <a href="https://mastodon.social/@sindresorhus">Sindre Sorhus</a>' Mac app <a href="https://sindresorhus.com/supercharge">Supercharge</a>, not because I&rsquo;ve tested the demo version extensively or think I really need it or will even use it, but because Sindre has released so many different, <a href="https://sindresorhus.com/apps">really great software</a> for free so far. I wanted to take this opportunity to reward him for his wonderful apps. For now though, I&rsquo;m going to install Supercharge and see what it has to offer. I am sure I&rsquo;ll enjoy using this one, too.</p>
@@ -756,7 +820,7 @@ You can&rsquo;t invest your money any better I think.</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/11/24/the-first-cold.html" class="u-url"><time class="dt-published" datetime="2024-11-24 16:06:47 &#43;0100">Nov 24, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/24/the-first-cold.html" class="u-url"><time class="dt-published" datetime="2024-11-24 17:06:47 &#43;0200">Nov 24, 2024</time></a>
 
 		<div class="e-content">
 			 <p>The first cold days with hoarfrost. Everything silver and gray, only the fallen leaves of a tree added a touch of color to the scene.</p>
@@ -770,7 +834,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/11/19/unrealistic-wishes-for.html">Unrealistic Wishes for Switch 2</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/11/19/unrealistic-wishes-for.html" class="u-url"><time class="dt-published" datetime="2024-11-19 11:49:20 &#43;0100">Nov 19, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/19/unrealistic-wishes-for.html" class="u-url"><time class="dt-published" datetime="2024-11-19 12:49:20 &#43;0200">Nov 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>If I could wish for something completely unrealistic for the Switch 2, it would be Nintendo allowing users to legally digitize old game packs and cartridges on the device, and play them via emulation.</p>
@@ -787,7 +851,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/11/16/i-have-recently.html">I have recently started collecting again</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/11/16/i-have-recently.html" class="u-url"><time class="dt-published" datetime="2024-11-16 11:06:10 &#43;0100">Nov 16, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/16/i-have-recently.html" class="u-url"><time class="dt-published" datetime="2024-11-16 12:06:10 &#43;0200">Nov 16, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I&rsquo;ve recently started collecting something new again. I don&rsquo;t mean video games, LEGO <a href="https://brickset.com/minifigs/ownedby-racemase">minifigures</a>, retro handheld consoles, SAKs, or virtual <a href="https://apps.apple.com/us/app/pok%C3%A9mon-tcg-pocket/id6479970832?mt=8">Pokémon trading cards</a> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
@@ -814,7 +878,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/11/15/switching-to-lire.html">Switching to lire</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/11/15/switching-to-lire.html" class="u-url"><time class="dt-published" datetime="2024-11-15 22:00:12 &#43;0100">Nov 15, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/11/15/switching-to-lire.html" class="u-url"><time class="dt-published" datetime="2024-11-15 23:00:12 &#43;0200">Nov 15, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I was using the new <a href="https://reeder.app">Reeder</a> app for the last couple of months, but today I quit. For my number of subscribed feeds, it simply takes far too long to refresh. There are bugs, there is no support, and there is not even an OPML export feature. So, I purchased <a href="https://www.lireapp.com">lire</a> and set it up with <a href="https://feedbin.com">Feedbin</a>, a service I was not using before either. I&rsquo;m curious to see what will come of this.</p>
@@ -825,7 +889,7 @@ You can&rsquo;t invest your money any better I think.</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/10/27/fly.html" class="u-url"><time class="dt-published" datetime="2024-10-27 15:00:26 &#43;0100">Oct 27, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/10/27/fly.html" class="u-url"><time class="dt-published" datetime="2024-10-27 16:00:26 &#43;0200">Oct 27, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Fly</p>
@@ -839,7 +903,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/10/02/broken-daily-notes.html">Broken Daily Notes Workflow thanks to iOS 18</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/10/02/broken-daily-notes.html" class="u-url"><time class="dt-published" datetime="2024-10-02 15:10:26 &#43;0100">Oct 2, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/10/02/broken-daily-notes.html" class="u-url"><time class="dt-published" datetime="2024-10-02 16:10:26 &#43;0200">Oct 2, 2024</time></a>
 
 		<div class="e-content">
 			 <p>As an enthusiastic <a href="https://obsidian.md">Obsidian</a> user, over time I’ve built a rather complex system consisting of about 15 different shortcuts that are triggered sequentially by a master shortcut. At the end of each day, these shortcuts collect data from various apps and add them to my daily notes in Obsidian. It was undoubtedly a challenge to develop this system, and without the <a href="https://apps.icymi.lol/post/actions-for-obsidian">Actions for Obsidian</a> plugin, it would have been impossible. It’s definitely not elegant, but rather a bit of a hack, though it worked wonderfully for the past six months or so.</p>
@@ -854,7 +918,7 @@ You can&rsquo;t invest your money any better I think.</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/09/23/psa-no-more.html" class="u-url"><time class="dt-published" datetime="2024-09-23 10:36:49 &#43;0100">Sep 23, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/09/23/psa-no-more.html" class="u-url"><time class="dt-published" datetime="2024-09-23 11:36:49 &#43;0200">Sep 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p><!-- raw HTML omitted -->PSA: No More macOS 15 Sequoia Monthly Screen Recording Permission Reminders<!-- raw HTML omitted --> - I haven&rsquo;t tried it yet because I haven&rsquo;t updated to macOS Sequoia myself, but I&rsquo;ll definitely keep that in mind for that day in the future.</p>
@@ -865,7 +929,7 @@ You can&rsquo;t invest your money any better I think.</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/09/23/tilthat-you-can.html" class="u-url"><time class="dt-published" datetime="2024-09-23 10:16:35 &#43;0100">Sep 23, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/09/23/tilthat-you-can.html" class="u-url"><time class="dt-published" datetime="2024-09-23 11:16:35 &#43;0200">Sep 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://hachyderm.io/@leoncowle/113149445183495991">TIL</a> that you can open the current macOS Finder window in Terminal by right clicking in the Path Bar in the bottom of the Finder window. So far I only used to drag the proxy icon on the Terminal icon in the dock.</p>
@@ -878,7 +942,7 @@ You can&rsquo;t invest your money any better I think.</p>
 			<h1><a href="https://mb.esamecar.net/2024/09/11/latest-tech-temptations.html">Latest Tech Temptations</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/09/11/latest-tech-temptations.html" class="u-url"><time class="dt-published" datetime="2024-09-11 11:16:07 &#43;0100">Sep 11, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/09/11/latest-tech-temptations.html" class="u-url"><time class="dt-published" datetime="2024-09-11 12:16:07 &#43;0200">Sep 11, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In recent days, a lot of new hardware has been introduced, and for all these great new devices and gadgets, I consider myself part of the potential target audience. Apple has presented new <a href="https://www.apple.com/iphone-16-pro/">iPhones</a>, <a href="https://www.apple.com/apple-watch-series-10/">Apple Watches</a>, and <a href="https://www.apple.com/airpods-4/">AirPods</a>. Thanks to Apple&rsquo;s decision to slowly and gradually roll out the promised AI features and not at all in Germany in the long run, the innovations of the iPhone 16 are limited for me. Therefore, I have decided to use my iPhone 14 Pro for another year, especially since I was recently able to replace the battery thanks to Apple Care. So far, I always had the Pro model, but this year, for the first time, I had the impression that it is actually aimed at professional photographers/videographers, and I no longer belong to the target audience. If I were to order a new device today, I would choose the regular iPhone, and who knows, maybe I&rsquo;ll get lucky, and next year the iPhone 17 will even have Always On. That would probably be the only feature I would really miss. (120 Hz is guaranteed to be great, but I actually don&rsquo;t see the difference in daily use; which in my case is an advantage.)
@@ -894,7 +958,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/08/25/finished-reading-mr.html" class="u-url"><time class="dt-published" datetime="2024-08-24 23:37:45 &#43;0100">Aug 24, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/25/finished-reading-mr.html" class="u-url"><time class="dt-published" datetime="2024-08-25 00:37:45 &#43;0200">Aug 25, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Finished reading: <a href="https://micro.blog/books/9783641142933">Mr. Mercedes</a> by Stephen King 📚</p>
@@ -905,10 +969,10 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/08/23/074906.html" class="u-url"><time class="dt-published" datetime="2024-08-23 06:49:06 &#43;0100">Aug 23, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/23/074906.html" class="u-url"><time class="dt-published" datetime="2024-08-23 07:49:06 &#43;0200">Aug 23, 2024</time></a>
 
 		<div class="e-content">
-			 <p><img src="https://cdn.uploads.micro.blog/95406/2024/c5ecb23b-e2f1-4531-ae43-f9aadf08d3c6.jpg" alt=""></p>
+			 <p><img src="https://eu.uploads.micro.blog/95406/2024/c5ecb23b-e2f1-4531-ae43-f9aadf08d3c6.jpg" alt=""></p>
 
 		</div>
 	  </div>
@@ -918,7 +982,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/08/15/whats-up-with.html">What&#39;s Up With My Username?</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/08/15/whats-up-with.html" class="u-url"><time class="dt-published" datetime="2024-08-15 14:44:17 &#43;0100">Aug 15, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/15/whats-up-with.html" class="u-url"><time class="dt-published" datetime="2024-08-15 15:44:17 &#43;0200">Aug 15, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I think we now live in a time where people don&rsquo;t really wonder about things like usernames anymore. But maybe some of you have wondered about mine?</p>
@@ -939,7 +1003,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/08/14/the-biggest-problem.html" class="u-url"><time class="dt-published" datetime="2024-08-14 08:45:53 &#43;0100">Aug 14, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/14/the-biggest-problem.html" class="u-url"><time class="dt-published" datetime="2024-08-14 09:45:53 &#43;0200">Aug 14, 2024</time></a>
 
 		<div class="e-content">
 			 <p>The biggest problem with owning multiple gaming platforms is choosing the right one for a particular game. Those are the really tough decisions in life, I guess.</p>
@@ -950,7 +1014,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/08/13/til-that-when.html" class="u-url"><time class="dt-published" datetime="2024-08-13 09:44:33 &#43;0100">Aug 13, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/13/til-that-when.html" class="u-url"><time class="dt-published" datetime="2024-08-13 10:44:33 &#43;0200">Aug 13, 2024</time></a>
 
 		<div class="e-content">
 			 <p>TIL that when Safari on macOS suggests a username for a login and you have a Touch ID enabled Mac you can just directly use the sensor. In the past I always clicked on the popup with the mouse to select it first, and then used my finger on the sensor.</p>
@@ -964,7 +1028,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/08/12/what-caught-my.html">What caught my attention in week thirty-two, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/08/12/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-08-12 15:11:55 &#43;0100">Aug 12, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/12/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-08-12 16:11:55 &#43;0200">Aug 12, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/08/05/what-caught-my.html">31</a>, here are a few thoughts and things that caught my attention in the thirty-second week of 2024:</p>
@@ -1032,7 +1096,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/08/08/automated-translations-in.html">Automated Translations in Apps: A Threat to Quality and Credibility</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/08/08/automated-translations-in.html" class="u-url"><time class="dt-published" datetime="2024-08-08 11:46:47 &#43;0100">Aug 8, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/08/automated-translations-in.html" class="u-url"><time class="dt-published" datetime="2024-08-08 12:46:47 &#43;0200">Aug 8, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Apps that clearly contain automatically generated translations that no native speaker has reviewed are so disturbing to me that I can&rsquo;t use them<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I don&rsquo;t think the developers realize the damage they are doing to their software. Such apps come across as incredibly unprofessional to me, and I find it very difficult to spend money on them because I judge the quality of the entire project based on this sloppy usage of automated (AI) translation, which is now so easily accessible. Two examples that come to mind: <a href="https://appraven.net">Appraven</a> and <a href="https://www.twosapp.com/home">Twos</a>. Unfortunately, there are so many more.</p>
@@ -1053,7 +1117,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/08/08/macos-sequoia-permission.html">macOS Sequoia Permission Madness</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/08/08/macos-sequoia-permission.html" class="u-url"><time class="dt-published" datetime="2024-08-08 10:05:09 &#43;0100">Aug 8, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/08/macos-sequoia-permission.html" class="u-url"><time class="dt-published" datetime="2024-08-08 11:05:09 &#43;0200">Aug 8, 2024</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://9to5mac.com/2024/08/06/macos-sequoia-screen-recording-privacy-prompt/">9TO5Mac</a> reports that Apple is apparently planning to present its Mac operating system users with a copy of Microsoft&rsquo;s Vista disaster:</p>
@@ -1090,7 +1154,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/08/05/what-caught-my.html">What caught my attention in week thirty-one, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/08/05/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-08-05 20:50:10 &#43;0100">Aug 5, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/05/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-08-05 21:50:10 &#43;0200">Aug 5, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/07/28/what-caught-my.html">30</a>, here are a few thoughts and things that caught my attention in the thirty-first week of 2024:</p>
@@ -1169,7 +1233,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/08/03/finished-reading-der.html" class="u-url"><time class="dt-published" datetime="2024-08-03 22:21:02 &#43;0100">Aug 3, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/08/03/finished-reading-der.html" class="u-url"><time class="dt-published" datetime="2024-08-03 23:21:02 &#43;0200">Aug 3, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Finished reading: <a href="https://micro.blog/books/9783641272838">Der Astronaut</a> by Andy Weir 📚</p>
@@ -1180,7 +1244,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/07/29/there-are-a.html" class="u-url"><time class="dt-published" datetime="2024-07-29 10:03:19 &#43;0100">Jul 29, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/07/29/there-are-a.html" class="u-url"><time class="dt-published" datetime="2024-07-29 11:03:19 &#43;0200">Jul 29, 2024</time></a>
 
 		<div class="e-content">
 			 <p>There are a number of household product categories where it feels like you can only buy junk, even if you were prepared to spend more money.</p>
@@ -1199,7 +1263,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/07/28/finished-reading-brssel.html" class="u-url"><time class="dt-published" datetime="2024-07-28 20:12:32 &#43;0100">Jul 28, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/07/28/finished-reading-brssel.html" class="u-url"><time class="dt-published" datetime="2024-07-28 21:12:32 &#43;0200">Jul 28, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Finished reading: <a href="https://micro.blog/books/9783644019447">Brüssel sehen und sterben</a> by Nico Semsrott 📚</p>
@@ -1212,7 +1276,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/07/28/what-caught-my.html">What caught my attention in week thirty, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/07/28/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-28 16:02:18 &#43;0100">Jul 28, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/07/28/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-28 17:02:18 &#43;0200">Jul 28, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/07/21/what-caught-my.html">29</a>, here are a few thoughts and things that caught my attention in the thirtieth week of 2024:</p>
@@ -1276,7 +1340,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/07/21/what-caught-my.html">What caught my attention in week twenty-nine, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/07/21/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-21 10:25:47 &#43;0100">Jul 21, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/07/21/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-21 11:25:47 &#43;0200">Jul 21, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/07/14/what-caught-my.html">28</a>, here are a few thoughts and things that caught my attention in the twenty-ninth week of 2024:</p>
@@ -1330,7 +1394,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/07/14/what-caught-my.html">What caught my attention in week twenty-eight, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/07/14/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-14 10:17:22 &#43;0100">Jul 14, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/07/14/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-14 11:17:22 &#43;0200">Jul 14, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/07/08/what-caught-my.html">27</a>, here are a few thoughts and things that caught my attention in the twenty-eighth week of 2024:</p>
@@ -1385,7 +1449,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/07/09/indieappsales-sommer.html">IndieAppSales Summer 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/07/09/indieappsales-sommer.html" class="u-url"><time class="dt-published" datetime="2024-07-09 15:18:13 &#43;0100">Jul 9, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/07/09/indieappsales-sommer.html" class="u-url"><time class="dt-published" datetime="2024-07-09 16:18:13 &#43;0200">Jul 9, 2024</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://www.indieappsales.com/">Indie App Sales!</a> is running again, this time from July 9th to 10th.</p>
@@ -1413,7 +1477,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/07/08/what-caught-my.html">What caught my attention in week twenty-seven, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/07/08/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-08 08:52:47 &#43;0100">Jul 8, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/07/08/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-07-08 09:52:47 &#43;0200">Jul 8, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/06/23/what-caught-my.html">25</a>, here are a few thoughts and things that caught my attention in the twenty-sixth and twenty-seventh week of 2024:</p>
@@ -1473,7 +1537,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/06/26/til-that-you.html" class="u-url"><time class="dt-published" datetime="2024-06-26 08:58:35 &#43;0100">Jun 26, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/26/til-that-you.html" class="u-url"><time class="dt-published" datetime="2024-06-26 09:58:35 &#43;0200">Jun 26, 2024</time></a>
 
 		<div class="e-content">
 			 <p>TIL that you can scroll the list of Shortcuts in Apple&rsquo;s Shortcut menu item.</p>
@@ -1485,7 +1549,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/06/24/til-that-you.html" class="u-url"><time class="dt-published" datetime="2024-06-24 15:54:27 &#43;0100">Jun 24, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/24/til-that-you.html" class="u-url"><time class="dt-published" datetime="2024-06-24 16:54:27 &#43;0200">Jun 24, 2024</time></a>
 
 		<div class="e-content">
 			 <p>TIL that you can open a copy of a message in Apple Mail to edit and resend it via ⇧⌘D. I never thought about this feature, but it seems quite useful.</p>
@@ -1498,7 +1562,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/06/23/what-caught-my.html">What caught my attention in week twenty-five, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/06/23/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-23 12:18:32 &#43;0100">Jun 23, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/23/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-23 13:18:32 &#43;0200">Jun 23, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/06/17/what-caught-my.html">24</a>, here are a few thoughts and things that caught my attention in the twenty-fifth week of 2024:</p>
@@ -1564,7 +1628,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/06/17/what-caught-my.html">What caught my attention in week twenty-four, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/06/17/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-17 17:05:27 &#43;0100">Jun 17, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/17/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-17 18:05:27 &#43;0200">Jun 17, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/06/09/what-caught-my.html">23</a>, here are a few thoughts and things that caught my attention in the 24th week of 2024.</p>
@@ -1617,7 +1681,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/06/15/i-wonder-how.html" class="u-url"><time class="dt-published" datetime="2024-06-15 07:53:49 &#43;0100">Jun 15, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/15/i-wonder-how.html" class="u-url"><time class="dt-published" datetime="2024-06-15 08:53:49 &#43;0200">Jun 15, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I wonder how many people don&rsquo;t know that in iOS they can access a multiple selection mode in lists with a double tap and hold, e.g. in Apple Mail, with which they can very easily mark many mails as read, for example. That&rsquo;s only one of so many non-discoverable features in iOS.</p>
@@ -1630,7 +1694,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/06/14/macos-apps-i.html">macOS apps I wish were better</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/06/14/macos-apps-i.html" class="u-url"><time class="dt-published" datetime="2024-06-14 12:57:35 &#43;0100">Jun 14, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/14/macos-apps-i.html" class="u-url"><time class="dt-published" datetime="2024-06-14 13:57:35 &#43;0200">Jun 14, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I am a long-time macOS user and over the decades I&rsquo;ve tried a lot of different apps. Many I have used only briefly or they were discontinued after some time. However, some grow close to my heart, accompany me for countless years, and make my daily life easier. Nevertheless, sometimes some of them eventually lose their shine or fall behind, and I use them just out of habit or nostalgia, even though there are (supposedly) better alternatives.</p>
@@ -1660,7 +1724,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/06/09/what-caught-my.html">What caught my attention in week twenty-three, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/06/09/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-09 12:21:56 &#43;0100">Jun 9, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/09/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-09 13:21:56 &#43;0200">Jun 9, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/06/02/what-caught-my.html">22</a>, here are a few thoughts and things that caught my attention in the twenty-third week of 2024:</p>
@@ -1759,7 +1823,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/06/05/bartender-alternatives.html">Bartender Alternatives</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/06/05/bartender-alternatives.html" class="u-url"><time class="dt-published" datetime="2024-06-05 12:19:40 &#43;0100">Jun 5, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/05/bartender-alternatives.html" class="u-url"><time class="dt-published" datetime="2024-06-05 13:19:40 &#43;0200">Jun 5, 2024</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://www.macbartender.com/Bartender5/">Bartender</a> was acquired and neither the original programmer nor the new owner informed about it. Since the app requires extensive permissions to perform its service, including screen recording, and the communication about the sale apparently went rather catastrophically<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, many <a href="https://isfeeling.social/@matt/112560795817973480">users</a> are somehow concerned and are looking for an alternative. Fortunately, there are some, but I have not dealt with them much, as I have been using Bartender since its initial release many years ago.</p>
@@ -1808,7 +1872,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/06/05/til-that-on.html" class="u-url"><time class="dt-published" datetime="2024-06-05 10:59:27 &#43;0100">Jun 5, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/05/til-that-on.html" class="u-url"><time class="dt-published" datetime="2024-06-05 11:59:27 &#43;0200">Jun 5, 2024</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://toot.cafe/@codepo8/112562828562908837">TIL</a> that on macOS you can open an image with Quick Look by hitting Space bar and then just select all recognised text (⌘A) and copy it (⌘C) to your clipboard 🤯.</p>
@@ -1821,7 +1885,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/06/02/what-caught-my.html">What caught my attention in week twenty-two, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/06/02/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-02 10:52:52 &#43;0100">Jun 2, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/06/02/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-06-02 11:52:52 &#43;0200">Jun 2, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/05/26/what-caught-my.html">21</a>, here are a few thoughts and things that caught my attention in the 22. week of 2024:</p>
@@ -1885,7 +1949,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/05/28/til-that-the.html" class="u-url"><time class="dt-published" datetime="2024-05-28 12:44:44 &#43;0100">May 28, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/05/28/til-that-the.html" class="u-url"><time class="dt-published" datetime="2024-05-28 13:44:44 &#43;0200">May 28, 2024</time></a>
 
 		<div class="e-content">
 			 <p>TIL that the number of a CR battery <a href="https://en.wikipedia.org/wiki/Button_cell">indicates its diameter and thickness</a>. For example, CR2032 is 20 mm wide and 3.2 mm thick.</p>
@@ -1896,7 +1960,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/05/27/in-the-whole.html" class="u-url"><time class="dt-published" datetime="2024-05-27 19:02:56 &#43;0100">May 27, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/05/27/in-the-whole.html" class="u-url"><time class="dt-published" datetime="2024-05-27 20:02:56 &#43;0200">May 27, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In the whole Pro discussion about the iPad, I always miss the decisive factor for me: There is no multi-user support. I&rsquo;m not going to spend €2000 on an ultra-modern device that only one person in the household can use, whereas a Macbook Air is available to the whole family for a very similar price.</p>
@@ -1909,7 +1973,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/05/26/what-caught-my.html">What caught my attention in week twenty-one, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/05/26/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-05-26 12:06:21 &#43;0100">May 26, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/05/26/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-05-26 13:06:21 &#43;0200">May 26, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/05/20/what-caught-my.html">20</a>, here are a few thoughts and things that caught my attention in the 21. week of 2024:</p>
@@ -1959,7 +2023,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/05/21/finished-reading-doom.html" class="u-url"><time class="dt-published" datetime="2024-05-21 20:07:10 &#43;0100">May 21, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/05/21/finished-reading-doom.html" class="u-url"><time class="dt-published" datetime="2024-05-21 21:07:10 &#43;0200">May 21, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Finished reading: <a href="https://micro.blog/books/9781647005368">Doom Guy</a> by John Romero 📚</p>
@@ -1972,7 +2036,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/05/20/what-caught-my.html">What caught my attention in week twenty, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/05/20/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-05-20 11:36:48 &#43;0100">May 20, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/05/20/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-05-20 12:36:48 &#43;0200">May 20, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/05/05/what-caught-my.html">18</a>, here are a few thoughts and things that caught my attention in the 19. - 20. week of 2024:</p>
@@ -2037,7 +2101,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/05/05/what-caught-my.html">What caught my attention in week eighteen, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/05/05/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-05-05 15:43:11 &#43;0100">May 5, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/05/05/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-05-05 16:43:11 &#43;0200">May 5, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/04/28/what-caught-my.html">17</a>, here are a few thoughts and things that caught my attention in the 18. week of 2024:</p>
@@ -2101,7 +2165,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/05/02/i-am-so.html" class="u-url"><time class="dt-published" datetime="2024-05-02 08:33:51 &#43;0100">May 2, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/05/02/i-am-so.html" class="u-url"><time class="dt-published" datetime="2024-05-02 09:33:51 &#43;0200">May 2, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I am so grateful that some clever mind once invented the bicycle 🙏🥰</p>
@@ -2115,7 +2179,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/04/28/what-caught-my.html">What caught my attention in week seventeen, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/04/28/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-28 12:58:58 &#43;0100">Apr 28, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/04/28/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-28 13:58:58 &#43;0200">Apr 28, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/04/21/what-caught-my.html">16</a>, here are a few thoughts and things that caught my attention in the seventeenth week of 2024:</p>
@@ -2183,7 +2247,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/04/22/casio-fxp.html">CASIO fx-4800P</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/04/22/casio-fxp.html" class="u-url"><time class="dt-published" datetime="2024-04-22 09:37:31 &#43;0100">Apr 22, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/04/22/casio-fxp.html" class="u-url"><time class="dt-published" datetime="2024-04-22 10:37:31 &#43;0200">Apr 22, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In the latest Clockwise episode <a href="https://podcasts.apple.com/de/podcast/clockwise/id665964031?i=1000652770646">Strap In and Forget My Email</a> the question came up, what the oldest tech gadget was that is still being used. For me it&rsquo;s an old <!-- raw HTML omitted -->CASIO fx-4800P<!-- raw HTML omitted --> calculator I got most probably <!-- raw HTML omitted -->1990<!-- raw HTML omitted --> 🤯. I still use it several times a week, whenever I&rsquo;m not in the mood for <!-- raw HTML omitted -->PCalc<!-- raw HTML omitted --> or <!-- raw HTML omitted -->Soulver<!-- raw HTML omitted --> on the Mac/iPhone.</p>
@@ -2196,7 +2260,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/04/21/what-caught-my.html">What caught my attention in week sixteen, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/04/21/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-21 13:07:53 &#43;0100">Apr 21, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/04/21/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-21 14:07:53 &#43;0200">Apr 21, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/04/15/what-caught-my.html">15</a>, here are a few thoughts and things that caught my attention in the sixteenth week of 2024:</p>
@@ -2266,7 +2330,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/04/15/what-caught-my.html">What caught my attention in week fifteen, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/04/15/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-15 20:41:29 &#43;0100">Apr 15, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/04/15/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-15 21:41:29 &#43;0200">Apr 15, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/04/07/what-caught-my.html">14</a>, here are a few thoughts and things that caught my attention in the 15. week of 2024:</p>
@@ -2326,7 +2390,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/04/07/what-caught-my.html">What caught my attention in week fourteen, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/04/07/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-07 11:14:34 &#43;0100">Apr 7, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/04/07/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-04-07 12:14:34 &#43;0200">Apr 7, 2024</time></a>
 
 		<div class="e-content">
 			 <p>The week before Easter was once again very quiet in terms of new software and tech-related stuff. This was probably also because there was a lot to do at work before we went on our Easter vacation. For a few years now, we have been traveling more or less regularly during the Easter holidays together with my wife&rsquo;s family. She has three siblings, all of whom have partners and children, and our dog joins us as well. This year we went to Belgium, the weather was quite rainy and gray, but that&rsquo;s okay. We were 15 people and, of course, it was very bustling but also very nice. There was a lot of hiking, eating, reading, playing, and laughing. Especially for the younger ones, who let it show more, the fact that there was almost no functioning internet in the area and in the vacation apartment was quite noticeable. Wi-Fi and mobile networks were unusable. It took several minutes just to retrieve a single email. Social media, game streaming, YouTube, etc. were completely unthinkable. Digital detox par excellence. Actually, it did quite good and that was the reason there was also no post here on the blog last week. 🐣</p>
@@ -2381,7 +2445,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/03/25/what-caught-my.html">What caught my attention in week twelve, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/03/25/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-25 21:29:29 &#43;0100">Mar 25, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/03/25/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-25 22:29:29 &#43;0200">Mar 25, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/03/18/what-caught-my.html">11</a>, here are a few thoughts and things that caught my attention in the 12th week of 2024:</p>
@@ -2441,7 +2505,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/03/18/what-caught-my.html">What caught my attention in week eleven, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/03/18/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-18 17:04:40 &#43;0100">Mar 18, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/03/18/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-18 18:04:40 &#43;0200">Mar 18, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="XXX">10</a>, here are a few thoughts and things that caught my attention in the 11. week of 2024:</p>
@@ -2513,7 +2577,7 @@ It&rsquo;s similar with my Apple Watch. Although I could justify a new one, sinc
 			<h1><a href="https://mb.esamecar.net/2024/03/12/indieappsales.html">IndieAppSales Spring 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/03/12/indieappsales.html" class="u-url"><time class="dt-published" datetime="2024-03-12 12:19:39 &#43;0100">Mar 12, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/03/12/indieappsales.html" class="u-url"><time class="dt-published" datetime="2024-03-12 13:19:39 &#43;0200">Mar 12, 2024</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://www.indieappsales.com/">Indie App Sales!</a> is running from 12. to 13. March 2024</p>
@@ -2560,7 +2624,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/03/11/what-caught-my.html">What caught my attention in week ten, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/03/11/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-11 12:02:42 &#43;0100">Mar 11, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/03/11/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-11 13:02:42 &#43;0200">Mar 11, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Continuing from week <a href="https://mb.esamecar.net/2024/03/03/what-caught-my.html">09</a>, here are a few thoughts and things that caught my attention in the 10th week of 2024:</p>
@@ -2609,7 +2673,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/03/03/what-caught-my.html">What caught my attention in week nine, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/03/03/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-03 20:57:51 &#43;0100">Mar 3, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/03/03/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-03-03 21:57:51 &#43;0200">Mar 3, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/02/25/what-caught-my.html">8</a>, here are a few thoughts and things that caught my attention in the 9. week of 2024:</p>
@@ -2680,7 +2744,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/02/25/what-caught-my.html">What caught my attention in week eight, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/02/25/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-25 13:08:32 &#43;0100">Feb 25, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/02/25/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-25 14:08:32 &#43;0200">Feb 25, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Continuing from week <a href="https://mb.esamecar.net/2024/02/19/what-caught-my.html">07</a>, here are a few thoughts and things that caught my attention in the eighth week of 2024:</p>
@@ -2745,7 +2809,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/02/19/what-caught-my.html">What caught my attention in week seven, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/02/19/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-19 18:14:11 &#43;0100">Feb 19, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/02/19/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-19 19:14:11 &#43;0200">Feb 19, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Continuing from week <a href="https://mb.esamecar.net/2024/02/12/what-caught-my.html">06</a>, here are a few thoughts and things that caught my attention in the seventh week of 2024:</p>
@@ -2816,7 +2880,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/02/12/what-caught-my.html">What caught my attention in week six, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/02/12/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-12 21:11:54 &#43;0100">Feb 12, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/02/12/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-12 22:11:54 &#43;0200">Feb 12, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Continuing from week <a href="https://mb.esamecar.net/2024/02/03/what-caught-my.html">05</a>, here are a few thoughts and things that caught my attention in the sixth week of 2024:</p>
@@ -2873,7 +2937,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/02/05/apple-vision-pro.html">Apple Vision Pro - a glimpse of the future?</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/02/05/apple-vision-pro.html" class="u-url"><time class="dt-published" datetime="2024-02-05 13:00:25 &#43;0100">Feb 5, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/02/05/apple-vision-pro.html" class="u-url"><time class="dt-published" datetime="2024-02-05 14:00:25 &#43;0200">Feb 5, 2024</time></a>
 
 		<div class="e-content">
 			 <p>After <a href="https://www.theverge.com/24054862/apple-vision-pro-review-vr-ar-headset-features-price">reading</a> and <a href="https://youtube.com/watch?v=GkPw6ScHyb4">watching</a> selected reports about the Apple Vision Pro, the consensus seems to be that the experience is absolutely unique. Although, it seems to be just the beginning of something really big to come due to its many existing <a href="https://daringfireball.net/2024/01/the_vision_pro">shortcomings</a> (weight, battery life, bulkiness, price etc.). Therefore, the device is more of a vision what Spatial Computing could be like in the future. Wouldn&rsquo;t it be great if, in a few years, we could wear cheaper and especially much lighter and smaller glasses that discreetly answer all our questions anywhere or project a cinema screen in front of our faces, even though we&rsquo;re sitting on a <a href="https://youtube.com/watch?v=UvkgmyfMPks">bench on the Times Square</a>? Similar to how the iPhone initially had a number of shortcomings (price, EDGE, no copy and paste, no app store, no video recording, poor camera, etc.) that have now been almost completely eliminated, the next few years will also provide a far better Spatial Computing experience.</p>
@@ -2898,7 +2962,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/02/03/what-caught-my.html">What caught my attention in week five, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/02/03/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-03 16:47:28 &#43;0100">Feb 3, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/02/03/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-02-03 17:47:28 &#43;0200">Feb 3, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Continuing from week <a href="https://mb.esamecar.net/2024/01/28/what-caught-my.html">04</a>, here are a few thoughts and things that caught my attention in the fifth week of 2024:</p>
@@ -2999,7 +3063,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/01/28/what-caught-my.html">What caught my attention in week four, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/01/28/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-28 12:49:06 &#43;0100">Jan 28, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/01/28/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-28 13:49:06 &#43;0200">Jan 28, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Continuing from week <a href="https://mb.esamecar.net/2024/01/22/what-caught-my.html">03</a>, here are a few thoughts and things that caught my attention in the fourth week of 2024:</p>
@@ -3064,7 +3128,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/01/22/what-caught-my.html">What caught my attention in week three, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/01/22/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-22 09:25:31 &#43;0100">Jan 22, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/01/22/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-22 10:25:31 &#43;0200">Jan 22, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/01/14/what-caught-my.html">02</a>, here are a few thoughts and things that caught my attention in the third week of 2024:</p>
@@ -3118,7 +3182,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2024/01/15/finished-reading-die.html" class="u-url"><time class="dt-published" datetime="2024-01-15 21:21:02 &#43;0100">Jan 15, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/01/15/finished-reading-die.html" class="u-url"><time class="dt-published" datetime="2024-01-15 22:21:02 &#43;0200">Jan 15, 2024</time></a>
 
 		<div class="e-content">
 			 <p>Finished reading: <a href="https://micro.blog/books/9783961210596">Die subtile Kunst des Daraufscheißens</a> by Mark Manson 📚</p>
@@ -3131,7 +3195,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/01/14/what-caught-my.html">What caught my attention in week two, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/01/14/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-14 15:57:57 &#43;0100">Jan 14, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/01/14/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-14 16:57:57 &#43;0200">Jan 14, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2024/01/07/what-caught-my.html">01</a>, here are a few thoughts and things that caught my attention in the second week of 2024:</p>
@@ -3199,7 +3263,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2024/01/07/what-caught-my.html">What caught my attention in week one, 2024</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2024/01/07/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-07 12:36:31 &#43;0100">Jan 7, 2024</time></a>
+		<a href="https://mb.esamecar.net/2024/01/07/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2024-01-07 13:36:31 &#43;0200">Jan 7, 2024</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2023/12/31/what-caught-my.html">52</a>, 2023, here are a few thoughts and things that caught my attention in the first week of 2024:</p>
@@ -3270,7 +3334,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/12/31/what-caught-my.html">What caught my attention in week fifty-two, 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/12/31/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-31 12:07:47 &#43;0100">Dec 31, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/31/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-31 13:07:47 &#43;0200">Dec 31, 2023</time></a>
 
 		<div class="e-content">
 			 <p>In addition to week <a href="https://mb.esamecar.net/2023/12/17/what-caught-my.html">50</a>, here are a few thoughts and things that caught my attention in week 51 and 52, 2023:</p>
@@ -3357,7 +3421,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/12/28/i-remember-times.html" class="u-url"><time class="dt-published" datetime="2023-12-28 10:07:38 &#43;0100">Dec 28, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/28/i-remember-times.html" class="u-url"><time class="dt-published" datetime="2023-12-28 11:07:38 &#43;0200">Dec 28, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I remember times when BMW used to build relatively &ldquo;reasonable looking&rdquo; cars.</p>
@@ -3371,7 +3435,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/12/17/what-caught-my.html">What caught my attention in week fifty, 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/12/17/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-17 16:41:53 &#43;0100">Dec 17, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/17/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-17 17:41:53 &#43;0200">Dec 17, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Due to my Covid infection, I was only able to publish my Weeknotes for week 49 quite late, so here are just a few more thoughts and things that caught my attention in week 50, 2023:</p>
@@ -3408,7 +3472,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/12/17/those-were-the.html" class="u-url"><time class="dt-published" datetime="2023-12-17 11:26:06 &#43;0100">Dec 17, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/17/those-were-the.html" class="u-url"><time class="dt-published" datetime="2023-12-17 12:26:06 &#43;0200">Dec 17, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Those were the days &hellip;</p>
@@ -3422,7 +3486,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/12/13/state-of-app.html">State of App and Services Subscriptions 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/12/13/state-of-app.html" class="u-url"><time class="dt-published" datetime="2023-12-13 16:47:54 &#43;0100">Dec 13, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/13/state-of-app.html" class="u-url"><time class="dt-published" datetime="2023-12-13 17:47:54 &#43;0200">Dec 13, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I use a variety of different apps and services on iOS and macOS. Most of them are based on subscription models, and even though I try to make sure that each program doesn&rsquo;t cost more than 5 € / month, a not insignificant monthly amount<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> quickly adds up.</p>
@@ -3770,7 +3834,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/12/13/what-caught-my.html">What caught my attention in week fourty-nine, 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/12/13/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-13 12:18:39 &#43;0100">Dec 13, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/13/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-13 13:18:39 &#43;0200">Dec 13, 2023</time></a>
 
 		<div class="e-content">
 			 <p>In continuation of week <a href="https://mb.esamecar.net/2023/12/03/what-caught-my.html">48</a>, here are a few thoughts and things that caught my attention in week 49, 2023:</p>
@@ -3847,7 +3911,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/12/03/what-caught-my.html">What caught my attention in week fourty-eight, 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/12/03/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-03 17:15:20 &#43;0100">Dec 3, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/03/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-12-03 18:15:20 &#43;0200">Dec 3, 2023</time></a>
 
 		<div class="e-content">
 			 <p>In continuation to week <a href="https://mb.esamecar.net/2023/11/26/what-caught-my.html">47</a>, here are a few thoughts and things that caught my attention in week 48, 2023:</p>
@@ -3919,7 +3983,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/12/01/i-just-realized.html" class="u-url"><time class="dt-published" datetime="2023-12-01 20:42:16 &#43;0100">Dec 1, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/12/01/i-just-realized.html" class="u-url"><time class="dt-published" datetime="2023-12-01 21:42:16 &#43;0200">Dec 1, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I just realized that I&rsquo;m slowly getting old and tired. In the past, I knew at least a little bit about every (Apple) thing. Nowadays, I&rsquo;ve lost track and have no desire to understand whether I can simply integrate Matter devices into my existing Homekit setup or if I need to make some fundamental changes and then everything implodes. I&rsquo;d rather not touch anything and just let it continue as it is. And what is this RCS? Does it also run on mobile data or does the provider charge a fee for each message, like for an SMS? And if so, why does anyone believe that it could somehow be an alternative to WhatsApp? And these passkeys; is there really no way to copy them from Keychain to 1Password or vice versa? Do I have to think in advance about how and where to save them? Seriously? Then I&rsquo;d rather stick with conventional passwords. Oh man 🤷‍♂️🤦‍♂️</p>
@@ -3932,7 +3996,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/11/29/105144.html">Fun stuff with Obsidian and Dataview II - costs per week</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/11/29/105144.html" class="u-url"><time class="dt-published" datetime="2023-11-29 10:51:44 &#43;0100">Nov 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/11/29/105144.html" class="u-url"><time class="dt-published" datetime="2023-11-29 11:51:44 &#43;0200">Nov 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>You can do so much fun stuff with <!-- raw HTML omitted -->Obsidian<!-- raw HTML omitted --> and <!-- raw HTML omitted -->Dataview<!-- raw HTML omitted -->. I added notes for all of my electronic gear and based on properties for purchase date and price an inline dataview calculates the costs per week for each item, every time the note is opened 🤩</p>
@@ -3961,7 +4025,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/11/29/fun-stuff-with.html">Fun stuff with Obsidian and Dataview - pico-8 game launcher</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/11/29/fun-stuff-with.html" class="u-url"><time class="dt-published" datetime="2023-11-29 10:13:57 &#43;0100">Nov 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/11/29/fun-stuff-with.html" class="u-url"><time class="dt-published" datetime="2023-11-29 11:13:57 &#43;0200">Nov 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>You can do so much fun stuff with <!-- raw HTML omitted -->Obsidian<!-- raw HTML omitted --> and <!-- raw HTML omitted -->Dataview<!-- raw HTML omitted -->. I added notes for all my <!-- raw HTML omitted -->pico-8<!-- raw HTML omitted --> games, containing the cartridge png itself and added some <!-- raw HTML omitted -->Templater<!-- raw HTML omitted --> and Properties magic. With the help of <!-- raw HTML omitted -->Keyboard Maestro<!-- raw HTML omitted --> I can now click on the little play button in my Dataview table and the game just launches 🤩</p>
@@ -3973,7 +4037,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/11/28/winter-is-coming.html" class="u-url"><time class="dt-published" datetime="2023-11-28 11:09:31 &#43;0100">Nov 28, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/11/28/winter-is-coming.html" class="u-url"><time class="dt-published" datetime="2023-11-28 12:09:31 &#43;0200">Nov 28, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Winter is coming</p>
@@ -3987,7 +4051,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/11/26/what-caught-my.html">What caught my attention in week fourty-seven, 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/11/26/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-11-26 16:19:22 &#43;0100">Nov 26, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/11/26/what-caught-my.html" class="u-url"><time class="dt-published" datetime="2023-11-26 17:19:22 &#43;0200">Nov 26, 2023</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://social.lol/@lubieniebieski">Adam</a> told me to <a href="https://social.lol/@lubieniebieski/111416411270482033">stay on the path</a>, so I&rsquo;m trying to motivate myself to get back into the <a href="https://blog.esamecar.net/week">habit of writing</a> down what has interested me throughout the week. So, here comes week 47.</p>
@@ -4034,7 +4098,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/11/24/indie-app-sales.html">Indie App Sales 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/11/24/indie-app-sales.html" class="u-url"><time class="dt-published" datetime="2023-11-24 11:00:49 &#43;0100">Nov 24, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/11/24/indie-app-sales.html" class="u-url"><time class="dt-published" datetime="2023-11-24 12:00:49 &#43;0200">Nov 24, 2023</time></a>
 
 		<div class="e-content">
 			 <p>It feels like every day for weeks now is a special day and everything is and will be discounted. Oh, wouldn&rsquo;t life be nice if things were just generally cheaper and my inbox was spared the flood of advertising? Anyway &hellip;</p>
@@ -4055,7 +4119,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/11/04/app-defaults.html">App Defaults</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/11/04/app-defaults.html" class="u-url"><time class="dt-published" datetime="2023-11-04 18:08:35 &#43;0100">Nov 4, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/11/04/app-defaults.html" class="u-url"><time class="dt-published" datetime="2023-11-04 19:08:35 &#43;0200">Nov 4, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Shamelessly stolen from <a href="https://rknight.me/app-defaults/">Robb</a>  and inspired by <a href="https://listen.hemisphericviews.com/097">Hemispheric Views 097 - Duel of the Defaults!</a> here are all the apps I use in the various categories as written by Andrew:</p>
@@ -4094,7 +4158,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/11/04/ms-office-reset.html">MS Office Reset</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/11/04/ms-office-reset.html" class="u-url"><time class="dt-published" datetime="2023-11-04 10:46:00 &#43;0100">Nov 4, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/11/04/ms-office-reset.html" class="u-url"><time class="dt-published" datetime="2023-11-04 11:46:00 &#43;0200">Nov 4, 2023</time></a>
 
 		<div class="e-content">
 			 <p>TIL that you can easily uninstall your entire MS Office package under #macOS with Office Reset (<a href="https://office-reset.com/)">https://office-reset.com/)</a>, then download only the app(s) you need from the Mac Appstore and use your existing Office 365 subscription. I always thought you had to purchase a new one somehow via Apple IAP. Cool, now I&rsquo;m rid of all that garbage MS AutoUpdater.</p>
@@ -4105,7 +4169,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/09/17/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-09-17 21:44:14 &#43;0100">Sep 17, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/09/17/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-09-17 22:44:14 &#43;0200">Sep 17, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in <a href="https://week.esamecar.net/37">week 37</a>.</p>
@@ -4119,7 +4183,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/09/10/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-09-10 15:30:32 &#43;0100">Sep 10, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/09/10/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-09-10 16:30:32 &#43;0200">Sep 10, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week 36: <a href="https://week.esamecar.net/36">week.esamecar.net/36</a></p>
@@ -4133,7 +4197,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/09/03/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-09-03 18:26:46 &#43;0100">Sep 3, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/09/03/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-09-03 19:26:46 &#43;0200">Sep 3, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week 35: <a href="https://week.esamecar.net/35">week.esamecar.net/35</a></p>
@@ -4147,7 +4211,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/27/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-08-27 14:26:42 &#43;0100">Aug 27, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/27/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-08-27 15:26:42 &#43;0200">Aug 27, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week 32 - 34: <a href="https://week.esamecar.net/34">week.esamecar.net/34</a></p>
@@ -4161,7 +4225,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/27/use-kagi-as.html" class="u-url"><time class="dt-published" datetime="2023-08-27 10:45:50 &#43;0100">Aug 27, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/27/use-kagi-as.html" class="u-url"><time class="dt-published" datetime="2023-08-27 11:45:50 &#43;0200">Aug 27, 2023</time></a>
 
 		<div class="e-content">
 			 <h2 id="how-to-use-kagi-search-within-launchbar">How to use kagi search within Launchbar</h2>
@@ -4198,7 +4262,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/18/okay-until-just.html" class="u-url"><time class="dt-published" datetime="2023-08-18 21:14:57 &#43;0100">Aug 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/18/okay-until-just.html" class="u-url"><time class="dt-published" datetime="2023-08-18 22:14:57 &#43;0200">Aug 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Okay, until just now I thought my 3D printer was just such a useless thing. But far from it - look what you can do with it! 🪿😍</p>
@@ -4210,7 +4274,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/15/110807.html" class="u-url"><time class="dt-published" datetime="2023-08-15 10:08:07 &#43;0100">Aug 15, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/15/110807.html" class="u-url"><time class="dt-published" datetime="2023-08-15 11:08:07 &#43;0200">Aug 15, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4221,7 +4285,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/10/lets-have-some.html" class="u-url"><time class="dt-published" datetime="2023-08-10 12:55:01 &#43;0100">Aug 10, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/10/lets-have-some.html" class="u-url"><time class="dt-published" datetime="2023-08-10 13:55:01 &#43;0200">Aug 10, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Let&rsquo;s have some fun 😅</p>
@@ -4233,7 +4297,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/08/vw-bulli-t.html" class="u-url"><time class="dt-published" datetime="2023-08-08 19:38:17 &#43;0100">Aug 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/08/vw-bulli-t.html" class="u-url"><time class="dt-published" datetime="2023-08-08 20:38:17 &#43;0200">Aug 8, 2023</time></a>
 
 		<div class="e-content">
 			 <p>VW Bulli T1</p>
@@ -4245,7 +4309,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/07/211752.html" class="u-url"><time class="dt-published" datetime="2023-08-07 20:17:52 &#43;0100">Aug 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/07/211752.html" class="u-url"><time class="dt-published" datetime="2023-08-07 21:17:52 &#43;0200">Aug 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4256,7 +4320,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/07/finished-reading-nutzen.html" class="u-url"><time class="dt-published" datetime="2023-08-07 10:20:43 &#43;0100">Aug 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/07/finished-reading-nutzen.html" class="u-url"><time class="dt-published" datetime="2023-08-07 11:20:43 &#43;0200">Aug 7, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Finished reading: <a href="https://micro.blog/books/9783962674830">Nutzen Sie Ihr zweites Gehirn</a> by Tiago Forte 📚</p>
@@ -4267,7 +4331,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/06/i-finally-found.html" class="u-url"><time class="dt-published" datetime="2023-08-06 10:32:27 &#43;0100">Aug 6, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/06/i-finally-found.html" class="u-url"><time class="dt-published" datetime="2023-08-06 11:32:27 &#43;0200">Aug 6, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I finally found the answer 🙂</p>
@@ -4279,7 +4343,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/05/our-dog-relaxes.html" class="u-url"><time class="dt-published" datetime="2023-08-05 09:42:05 &#43;0100">Aug 5, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/05/our-dog-relaxes.html" class="u-url"><time class="dt-published" datetime="2023-08-05 10:42:05 &#43;0200">Aug 5, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Our dog relaxes on the train ride towards the holiday.</p>
@@ -4293,7 +4357,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/08/03/ive-come-to.html">I&#39;ve come to a decision today.</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/08/03/ive-come-to.html" class="u-url"><time class="dt-published" datetime="2023-08-03 19:28:48 &#43;0100">Aug 3, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/03/ive-come-to.html" class="u-url"><time class="dt-published" datetime="2023-08-03 20:28:48 &#43;0200">Aug 3, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I&rsquo;ve been using Apple products for almost 18 years now. I adore their hardware and used to be a big fan of their software ecosystem. However, the software quality has plummeted lately, to the point where I&rsquo;ve decided not to buy any new Apple products for the time being.</p>
@@ -4320,7 +4384,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/08/02/i-would-also.html" class="u-url"><time class="dt-published" datetime="2023-08-02 20:45:12 &#43;0100">Aug 2, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/08/02/i-would-also.html" class="u-url"><time class="dt-published" datetime="2023-08-02 21:45:12 &#43;0200">Aug 2, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I would also have liked to have hiked directly to the castle on the horizon, but there was no time for that :-)</p>
@@ -4332,7 +4396,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/31/i-thought-before.html" class="u-url"><time class="dt-published" datetime="2023-07-31 21:12:37 &#43;0100">Jul 31, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/31/i-thought-before.html" class="u-url"><time class="dt-published" datetime="2023-07-31 22:12:37 &#43;0200">Jul 31, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I thought before I implement my own blogroll on my <!-- raw HTML omitted -->omg.lol<!-- raw HTML omitted --> page, I might as well first compile a list of blogrolls created by people whose blogs I like to follow. So, a blogroll for blogrolls: <!-- raw HTML omitted -->blogroll.lol<!-- raw HTML omitted --></p>
@@ -4345,7 +4409,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/30/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-30 21:42:39 &#43;0100">Jul 30, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/30/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-30 22:42:39 &#43;0200">Jul 30, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week thirty: <a href="https://week.esamecar.net/30">week.esamecar.net/30</a></p>
@@ -4359,7 +4423,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/29/i-am-very.html" class="u-url"><time class="dt-published" datetime="2023-07-29 08:40:11 &#43;0100">Jul 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/29/i-am-very.html" class="u-url"><time class="dt-published" datetime="2023-07-29 09:40:11 &#43;0200">Jul 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I am very grateful to be able to be in the forest within a few minutes to walk my dog.</p>
@@ -4371,7 +4435,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/23/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-23 18:44:49 &#43;0100">Jul 23, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/23/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-23 19:44:49 &#43;0200">Jul 23, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-nine: <a href="https://week.esamecar.net/29">week.esamecar.net/29</a></p>
@@ -4385,7 +4449,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/21/great-scenery-on.html" class="u-url"><time class="dt-published" datetime="2023-07-21 20:16:57 &#43;0100">Jul 21, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/21/great-scenery-on.html" class="u-url"><time class="dt-published" datetime="2023-07-21 21:16:57 &#43;0200">Jul 21, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Great scenery on today&rsquo;s bike trip.</p>
@@ -4397,7 +4461,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/17/found-this-one.html" class="u-url"><time class="dt-published" datetime="2023-07-17 10:49:18 &#43;0100">Jul 17, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/17/found-this-one.html" class="u-url"><time class="dt-published" datetime="2023-07-17 11:49:18 &#43;0200">Jul 17, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Found this one. Those were days!</p>
@@ -4409,7 +4473,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/16/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-16 16:16:05 &#43;0100">Jul 16, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/16/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-16 17:16:05 &#43;0200">Jul 16, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-eight: <a href="https://week.esamecar.net/28">week.esamecar.net/28</a></p>
@@ -4423,7 +4487,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/11/the-sky-is.html" class="u-url"><time class="dt-published" datetime="2023-07-11 19:42:00 &#43;0100">Jul 11, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/11/the-sky-is.html" class="u-url"><time class="dt-published" datetime="2023-07-11 20:42:00 &#43;0200">Jul 11, 2023</time></a>
 
 		<div class="e-content">
 			 <p>The sky is falling down.</p>
@@ -4437,7 +4501,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/07/11/indie-dev-sales.html">Indie Dev Sales</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/07/11/indie-dev-sales.html" class="u-url"><time class="dt-published" datetime="2023-07-11 11:12:54 &#43;0100">Jul 11, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/11/indie-dev-sales.html" class="u-url"><time class="dt-published" datetime="2023-07-11 12:12:54 &#43;0200">Jul 11, 2023</time></a>
 
 		<div class="e-content">
 			 <p>So, the <a href="https://github.com/mattcorey/indie-dev-sales">Indie Dev Sales</a> for #macOS and #iOS apps is currently running. Here is what I</p>
@@ -4480,7 +4544,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/09/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-09 20:48:06 &#43;0100">Jul 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/09/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-09 21:48:06 &#43;0200">Jul 9, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-seven: <a href="https://week.esamecar.net/27">week.esamecar.net/27</a></p>
@@ -4494,10 +4558,10 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/05/towards-the-rainbow.html" class="u-url"><time class="dt-published" datetime="2023-07-05 19:44:10 &#43;0100">Jul 5, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/05/towards-the-rainbow.html" class="u-url"><time class="dt-published" datetime="2023-07-05 20:44:10 &#43;0200">Jul 5, 2023</time></a>
 
 		<div class="e-content">
-			 <p><img src="https://cdn.uploads.micro.blog/95406/2023/image.jpg" alt="Dog on a country lane; on the horizon a rainbow"></p>
+			 <p><img src="https://eu.uploads.micro.blog/95406/2023/image.jpg" alt="Dog on a country lane; on the horizon a rainbow"></p>
 <p>towards the rainbow 🌈</p>
 
 		</div>
@@ -4506,7 +4570,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/07/03/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-03 21:06:59 &#43;0100">Jul 3, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/07/03/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-07-03 22:06:59 &#43;0200">Jul 3, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-six: <a href="https://week.esamecar.net/26">week.esamecar.net/26</a></p>
@@ -4520,7 +4584,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/26/okay-i-didnt.html" class="u-url"><time class="dt-published" datetime="2023-06-26 21:47:04 &#43;0100">Jun 26, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/26/okay-i-didnt.html" class="u-url"><time class="dt-published" datetime="2023-06-26 22:47:04 &#43;0200">Jun 26, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Okay, I didn&rsquo;t expect Iggy Pop 🤘🤯</p>
@@ -4532,7 +4596,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/25/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-25 12:47:59 &#43;0100">Jun 25, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/25/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-25 13:47:59 &#43;0200">Jun 25, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-five: <a href="https://week.esamecar.net/25">week.esamecar.net/25</a></p>
@@ -4545,7 +4609,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/18/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-18 15:29:42 &#43;0100">Jun 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/18/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-18 16:29:42 &#43;0200">Jun 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-four: <a href="https://week.esamecar.net/24">week.esamecar.net/24</a></p>
@@ -4557,7 +4621,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/17/extinguishing-water-supply.html" class="u-url"><time class="dt-published" datetime="2023-06-17 14:18:31 &#43;0100">Jun 17, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/17/extinguishing-water-supply.html" class="u-url"><time class="dt-published" datetime="2023-06-17 15:18:31 &#43;0200">Jun 17, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Extinguishing water supply</p>
@@ -4569,7 +4633,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/11/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-11 21:00:23 &#43;0100">Jun 11, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/11/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-11 22:00:23 &#43;0200">Jun 11, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-three: <a href="https://week.esamecar.net/23">week.esamecar.net/23</a></p>
@@ -4581,7 +4645,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/09/okay-this-was.html" class="u-url"><time class="dt-published" datetime="2023-06-09 20:46:59 &#43;0100">Jun 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/09/okay-this-was.html" class="u-url"><time class="dt-published" datetime="2023-06-09 21:46:59 &#43;0200">Jun 9, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Okay, this was insane. Now to bed 🙂</p>
@@ -4593,7 +4657,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/09/this-is-the.html" class="u-url"><time class="dt-published" datetime="2023-06-09 15:28:13 &#43;0100">Jun 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/09/this-is-the.html" class="u-url"><time class="dt-published" datetime="2023-06-09 16:28:13 &#43;0200">Jun 9, 2023</time></a>
 
 		<div class="e-content">
 			 <p>This is the way.</p>
@@ -4605,7 +4669,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/09/first-h-train.html" class="u-url"><time class="dt-published" datetime="2023-06-09 09:32:14 &#43;0100">Jun 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/09/first-h-train.html" class="u-url"><time class="dt-published" datetime="2023-06-09 10:32:14 &#43;0200">Jun 9, 2023</time></a>
 
 		<div class="e-content">
 			 <p>🐕 First &gt;2 h train ride with the dog ✅</p>
@@ -4618,7 +4682,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/07/after-all-the.html" class="u-url"><time class="dt-published" datetime="2023-06-07 11:43:17 &#43;0100">Jun 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/07/after-all-the.html" class="u-url"><time class="dt-published" datetime="2023-06-07 12:43:17 &#43;0200">Jun 7, 2023</time></a>
 
 		<div class="e-content">
 			 <p>After all the excitement about the improvements in iPadOS for Stagemanager, I took another look at it on macOS. I need a tutorial or preferably a whole course for this to understand why what happens when. I&rsquo;m just too stupid for all this stuff and too old. 🤷‍♂️</p>
@@ -4629,7 +4693,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/03/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-03 19:31:35 &#43;0100">Jun 3, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/03/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-06-03 20:31:35 &#43;0200">Jun 3, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-two: <a href="https://week.esamecar.net/22">week.esamecar.net/22</a></p>
@@ -4641,7 +4705,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/02/finished-season-of.html" class="u-url"><time class="dt-published" datetime="2023-06-02 22:44:08 &#43;0100">Jun 2, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/02/finished-season-of.html" class="u-url"><time class="dt-published" datetime="2023-06-02 23:44:08 &#43;0200">Jun 2, 2023</time></a>
 
 		<div class="e-content">
 			 <p>📺 Finished Season 3 of <a href="https://www.themoviedb.org/tv/97546">Ted Lasso</a> - what a great TV show 🥰</p>
@@ -4653,7 +4717,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/06/01/i-really-should.html" class="u-url"><time class="dt-published" datetime="2023-06-01 11:08:47 &#43;0100">Jun 1, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/06/01/i-really-should.html" class="u-url"><time class="dt-published" datetime="2023-06-01 12:08:47 &#43;0200">Jun 1, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I really should read more books, especially by Carl Sagan.</p>
@@ -4664,7 +4728,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/31/everyone-is-so.html" class="u-url"><time class="dt-published" datetime="2023-05-31 21:45:13 &#43;0100">May 31, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/31/everyone-is-so.html" class="u-url"><time class="dt-published" datetime="2023-05-31 22:45:13 &#43;0200">May 31, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Everyone is so excited about Apple&rsquo;s new VR glasses. Meanwhile in my kitchen it smells burnt and my Homepod in response to  &ldquo;Hey Siri Status Timer&rdquo;:  &ldquo;The timer has been cancelledl&rdquo; WTF? You literally had only one job! 🤯</p>
@@ -4675,7 +4739,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/29/221745.html" class="u-url"><time class="dt-published" datetime="2023-05-29 21:17:45 &#43;0100">May 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/29/221745.html" class="u-url"><time class="dt-published" datetime="2023-05-29 22:17:45 &#43;0200">May 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Where Have I Been by Bike</p>
@@ -4687,7 +4751,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/29/buying-an-ooni.html" class="u-url"><time class="dt-published" datetime="2023-05-29 20:12:21 &#43;0100">May 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/29/buying-an-ooni.html" class="u-url"><time class="dt-published" datetime="2023-05-29 21:12:21 &#43;0200">May 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Buying an Ooni was such a good idea 🍕🥰</p>
@@ -4699,7 +4763,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/29/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-05-29 19:10:14 &#43;0100">May 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/29/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-05-29 20:10:14 &#43;0200">May 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty-one (teaser: #iOS, #macOS, cycling, #playdate): <a href="https://week.esamecar.net/21">week.esamecar.net/21</a></p>
@@ -4713,7 +4777,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/05/29/where-have-i.html">Where Have I Been</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/05/29/where-have-i.html" class="u-url"><time class="dt-published" datetime="2023-05-29 09:54:21 &#43;0100">May 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/29/where-have-i.html" class="u-url"><time class="dt-published" datetime="2023-05-29 10:54:21 &#43;0200">May 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I saw <!-- raw HTML omitted -->maique<!-- raw HTML omitted --> posting it and it seems, <!-- raw HTML omitted -->Manton<!-- raw HTML omitted --> started it &hellip;</p>
@@ -4744,7 +4808,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/21/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-05-21 19:05:09 &#43;0100">May 21, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/21/here-are-a.html" class="u-url"><time class="dt-published" datetime="2023-05-21 20:05:09 &#43;0200">May 21, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here are a few things that caught my attention in week twenty (teaser: #iOS, #macOS, cycling a small part of the Iron Curtain Trail 🚴‍♂️🚴): <a href="https://week.esamecar.net/20">week.esamecar.net/20</a></p>
@@ -4756,7 +4820,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/20/iron-curtain-trail.html" class="u-url"><time class="dt-published" datetime="2023-05-20 18:19:09 &#43;0100">May 20, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/20/iron-curtain-trail.html" class="u-url"><time class="dt-published" datetime="2023-05-20 19:19:09 &#43;0200">May 20, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Iron Curtain Trail Day Three
@@ -4769,7 +4833,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/19/iron-curtain-trail.html" class="u-url"><time class="dt-published" datetime="2023-05-19 19:19:39 &#43;0100">May 19, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/19/iron-curtain-trail.html" class="u-url"><time class="dt-published" datetime="2023-05-19 20:19:39 &#43;0200">May 19, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Iron Curtain Trail Day Two
@@ -4782,7 +4846,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/18/iron-curtain-trail.html" class="u-url"><time class="dt-published" datetime="2023-05-18 19:24:14 &#43;0100">May 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/18/iron-curtain-trail.html" class="u-url"><time class="dt-published" datetime="2023-05-18 20:24:14 &#43;0200">May 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Iron Curtain Trail Day One 🚴‍♂️🚴</p>
@@ -4794,7 +4858,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/18/here-the-ride.html" class="u-url"><time class="dt-published" datetime="2023-05-18 15:18:38 &#43;0100">May 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/18/here-the-ride.html" class="u-url"><time class="dt-published" datetime="2023-05-18 16:18:38 &#43;0200">May 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here the ride begins 🚴‍♂️🚴 …</p>
@@ -4806,7 +4870,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/18/waiting-in-hanover.html" class="u-url"><time class="dt-published" datetime="2023-05-18 13:32:56 &#43;0100">May 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/18/waiting-in-hanover.html" class="u-url"><time class="dt-published" datetime="2023-05-18 14:32:56 &#43;0200">May 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Waiting in Hanover for the second train to arrive.</p>
@@ -4818,7 +4882,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/18/currently-reading-how.html" class="u-url"><time class="dt-published" datetime="2023-05-18 12:39:20 &#43;0100">May 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/18/currently-reading-how.html" class="u-url"><time class="dt-published" datetime="2023-05-18 13:39:20 &#43;0200">May 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Currently reading: <a href="https://micro.blog/books/9783982438818">How to Take Smart Notes</a> by Sönke Ahrens 📚</p>
@@ -4829,7 +4893,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/05/18/days-of-cycling.html" class="u-url"><time class="dt-published" datetime="2023-05-18 09:54:17 &#43;0100">May 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/05/18/days-of-cycling.html" class="u-url"><time class="dt-published" datetime="2023-05-18 10:54:17 &#43;0200">May 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>2.5 days of cycling ahead of us 🥰</p>
@@ -4843,7 +4907,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/03/08/brewery.html">Brewery</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/03/08/brewery.html" class="u-url"><time class="dt-published" datetime="2023-03-08 21:21:10 &#43;0100">Mar 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/03/08/brewery.html" class="u-url"><time class="dt-published" datetime="2023-03-08 22:21:10 &#43;0200">Mar 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4856,7 +4920,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/03/04/problems-connecting-apple.html">Problems connecting Apple Wireless Keyboard (Aluminum) to MacBook</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/03/04/problems-connecting-apple.html" class="u-url"><time class="dt-published" datetime="2023-03-04 11:35:00 &#43;0100">Mar 4, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/03/04/problems-connecting-apple.html" class="u-url"><time class="dt-published" datetime="2023-03-04 12:35:00 &#43;0200">Mar 4, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4869,7 +4933,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/02/12/what-i-did.html">What I did in week six, 2023</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/02/12/what-i-did.html" class="u-url"><time class="dt-published" datetime="2023-02-12 15:17:00 &#43;0100">Feb 12, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/02/12/what-i-did.html" class="u-url"><time class="dt-published" datetime="2023-02-12 16:17:00 &#43;0200">Feb 12, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4880,7 +4944,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/02/12/black-panther-wakanda.html" class="u-url"><time class="dt-published" datetime="2023-02-12 08:11:13 &#43;0100">Feb 12, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/02/12/black-panther-wakanda.html" class="u-url"><time class="dt-published" datetime="2023-02-12 09:11:13 &#43;0200">Feb 12, 2023</time></a>
 
 		<div class="e-content">
 			 <p>🍿 <a href="https://www.themoviedb.org/movie/505642">Black Panther: Wakanda Forever (2022)</a> - ★★★☆☆</p>
@@ -4893,7 +4957,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/02/05/what-i-was.html" class="u-url"><time class="dt-published" datetime="2023-02-05 19:33:00 &#43;0100">Feb 5, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/02/05/what-i-was.html" class="u-url"><time class="dt-published" datetime="2023-02-05 20:33:00 &#43;0200">Feb 5, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4906,7 +4970,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/02/05/193300.html">What I was interested in during the fifth week of 2023  (teaser: Chagall, LEGO, macOS, iOS, podcasts, tv)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/02/05/193300.html" class="u-url"><time class="dt-published" datetime="2023-02-05 19:33:00 &#43;0100">Feb 5, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/02/05/193300.html" class="u-url"><time class="dt-published" datetime="2023-02-05 20:33:00 &#43;0200">Feb 5, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4917,7 +4981,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/29/vorsicht-glas.html" class="u-url"><time class="dt-published" datetime="2023-01-29 20:49:54 &#43;0100">Jan 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/29/vorsicht-glas.html" class="u-url"><time class="dt-published" datetime="2023-01-29 21:49:54 &#43;0200">Jan 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Vorsicht Glas</p>
@@ -4931,7 +4995,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/01/29/what-i-was.html">What I was interested in during the fourth week of 2023 (teaser: podcasts, iOS, macOS playdate)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/29/what-i-was.html" class="u-url"><time class="dt-published" datetime="2023-01-29 18:55:51 &#43;0100">Jan 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/29/what-i-was.html" class="u-url"><time class="dt-published" datetime="2023-01-29 19:55:51 &#43;0200">Jan 29, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I still felt sickly, so I refrained from cycling. Hope that I get the curve then next week.</p>
@@ -4976,7 +5040,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/29/125400.html" class="u-url"><time class="dt-published" datetime="2023-01-29 12:54:00 &#43;0100">Jan 29, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/29/125400.html" class="u-url"><time class="dt-published" datetime="2023-01-29 13:54:00 &#43;0200">Jan 29, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -4989,7 +5053,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/01/22/133800.html">What I have done in the third week of 2023 (teaser: podcasts, playdate, no movies)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/22/133800.html" class="u-url"><time class="dt-published" datetime="2023-01-22 13:38:00 &#43;0100">Jan 22, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/22/133800.html" class="u-url"><time class="dt-published" datetime="2023-01-22 14:38:00 &#43;0200">Jan 22, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5002,7 +5066,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/01/22/what-i-have.html">What I have done in the third week of 2023 (teaser: podcasts, playdate, no movies)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/22/what-i-have.html" class="u-url"><time class="dt-published" datetime="2023-01-22 13:35:54 &#43;0100">Jan 22, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/22/what-i-have.html" class="u-url"><time class="dt-published" datetime="2023-01-22 14:35:54 &#43;0200">Jan 22, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Streak, this is the third time this year I&rsquo;ve managed to write down what I&rsquo;ve done during the week.</p>
@@ -5034,7 +5098,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/21/ah-cool-gravity.html" class="u-url"><time class="dt-published" datetime="2023-01-21 14:24:46 &#43;0100">Jan 21, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/21/ah-cool-gravity.html" class="u-url"><time class="dt-published" datetime="2023-01-21 15:24:46 &#43;0200">Jan 21, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5045,7 +5109,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/21/successfully-subscribed-to.html" class="u-url"><time class="dt-published" datetime="2023-01-21 07:37:52 &#43;0100">Jan 21, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/21/successfully-subscribed-to.html" class="u-url"><time class="dt-published" datetime="2023-01-21 08:37:52 &#43;0200">Jan 21, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5056,7 +5120,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/19/lets-see-if.html" class="u-url"><time class="dt-published" datetime="2023-01-19 17:57:45 &#43;0100">Jan 19, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/19/lets-see-if.html" class="u-url"><time class="dt-published" datetime="2023-01-19 18:57:45 &#43;0200">Jan 19, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5067,7 +5131,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/19/soulver-is-now.html" class="u-url"><time class="dt-published" datetime="2023-01-19 13:00:48 &#43;0100">Jan 19, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/19/soulver-is-now.html" class="u-url"><time class="dt-published" datetime="2023-01-19 14:00:48 &#43;0200">Jan 19, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5078,7 +5142,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/18/pick-pack-pup.html" class="u-url"><time class="dt-published" datetime="2023-01-18 15:15:58 &#43;0100">Jan 18, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/18/pick-pack-pup.html" class="u-url"><time class="dt-published" datetime="2023-01-18 16:15:58 &#43;0200">Jan 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>🎮 <a href="https://www.giantbomb.com/pick-pack-pup/3030-82889/">Pick Pack Pup (2022)</a> - ★★★☆☆</p>
@@ -5090,7 +5154,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/17/a-little-bit.html" class="u-url"><time class="dt-published" datetime="2023-01-17 23:46:06 &#43;0100">Jan 17, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/17/a-little-bit.html" class="u-url"><time class="dt-published" datetime="2023-01-18 00:46:06 &#43;0200">Jan 18, 2023</time></a>
 
 		<div class="e-content">
 			 <p>A little bit too much water to ride my road bike I guess 😨</p>
@@ -5104,7 +5168,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/01/17/if-i-got.html">If I got 1 € for every bug, I would be ...</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/17/if-i-got.html" class="u-url"><time class="dt-published" datetime="2023-01-17 16:07:18 &#43;0100">Jan 17, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/17/if-i-got.html" class="u-url"><time class="dt-published" datetime="2023-01-17 17:07:18 &#43;0200">Jan 17, 2023</time></a>
 
 		<div class="e-content">
 			 <h2 id="2023-02-17">2023-02-17</h2>
@@ -5186,7 +5250,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/16/its-a-bit.html" class="u-url"><time class="dt-published" datetime="2023-01-16 21:50:22 &#43;0100">Jan 16, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/16/its-a-bit.html" class="u-url"><time class="dt-published" datetime="2023-01-16 22:50:22 &#43;0200">Jan 16, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5197,7 +5261,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/16/ah-nice-photos.html" class="u-url"><time class="dt-published" datetime="2023-01-16 17:44:25 &#43;0100">Jan 16, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/16/ah-nice-photos.html" class="u-url"><time class="dt-published" datetime="2023-01-16 18:44:25 &#43;0200">Jan 16, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5208,7 +5272,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/16/im-curious-to.html" class="u-url"><time class="dt-published" datetime="2023-01-16 10:16:26 &#43;0100">Jan 16, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/16/im-curious-to.html" class="u-url"><time class="dt-published" datetime="2023-01-16 11:16:26 &#43;0200">Jan 16, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5219,7 +5283,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/15/161200.html" class="u-url"><time class="dt-published" datetime="2023-01-15 16:12:00 &#43;0100">Jan 15, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/15/161200.html" class="u-url"><time class="dt-published" datetime="2023-01-15 17:12:00 &#43;0200">Jan 15, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5230,7 +5294,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/15/when-exactly-did.html" class="u-url"><time class="dt-published" datetime="2023-01-15 12:43:00 &#43;0100">Jan 15, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/15/when-exactly-did.html" class="u-url"><time class="dt-published" datetime="2023-01-15 13:43:00 &#43;0200">Jan 15, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5243,7 +5307,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/01/15/what-i-have.html">What I have done in the second week of 2023 (teaser: playdate, macOS apps, podcasts, movie)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/15/what-i-have.html" class="u-url"><time class="dt-published" datetime="2023-01-15 12:16:11 &#43;0100">Jan 15, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/15/what-i-have.html" class="u-url"><time class="dt-published" datetime="2023-01-15 13:16:11 &#43;0200">Jan 15, 2023</time></a>
 
 		<div class="e-content">
 			 <p>After all, this is the second time this year that I&rsquo;ve managed to <a href="https://esamecar.net/2023/01/08/what-i-have.html">write down a bit</a> what has been keeping me busy during the week. 🥳</p>
@@ -5267,7 +5331,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/15/i-think-i.html" class="u-url"><time class="dt-published" datetime="2023-01-15 10:35:13 &#43;0100">Jan 15, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/15/i-think-i.html" class="u-url"><time class="dt-published" datetime="2023-01-15 11:35:13 &#43;0200">Jan 15, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5280,7 +5344,7 @@ Update 2024-03-12T21:35: add Text Workflow</p>
 			<h1><a href="https://mb.esamecar.net/2023/01/14/even-more-macos.html">Even more macOS apps I enjoy using.</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/14/even-more-macos.html" class="u-url"><time class="dt-published" datetime="2023-01-14 01:04:18 &#43;0100">Jan 14, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/14/even-more-macos.html" class="u-url"><time class="dt-published" datetime="2023-01-14 02:04:18 &#43;0200">Jan 14, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Sure, shortly after I&rsquo;ve published the <a href="https://mb.esamecar.net/2023/01/12/a-short-list.html">short list of non-work related macOS apps I really like</a> it came to my mind, that I forgot the most important ones. But hey, I never claimed it was an exhaustive list 😇
@@ -5304,7 +5368,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/12/reading-some-tricks.html" class="u-url"><time class="dt-published" datetime="2023-01-12 12:40:17 &#43;0100">Jan 12, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/12/reading-some-tricks.html" class="u-url"><time class="dt-published" datetime="2023-01-12 13:40:17 &#43;0200">Jan 12, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5317,7 +5381,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 			<h1><a href="https://mb.esamecar.net/2023/01/12/a-short-list.html">A short list of non-work related macOS apps I really like</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/12/a-short-list.html" class="u-url"><time class="dt-published" datetime="2023-01-12 10:35:34 &#43;0100">Jan 12, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/12/a-short-list.html" class="u-url"><time class="dt-published" datetime="2023-01-12 11:35:34 &#43;0200">Jan 12, 2023</time></a>
 
 		<div class="e-content">
 			 <p>Here is a short list of apps I use a lot under macOS privately (so not only work related) or I have recently discovered and think I&rsquo;ll stick with them.</p>
@@ -5364,7 +5428,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/11/okay-i-will.html" class="u-url"><time class="dt-published" datetime="2023-01-11 14:17:42 &#43;0100">Jan 11, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/11/okay-i-will.html" class="u-url"><time class="dt-published" datetime="2023-01-11 15:17:42 &#43;0200">Jan 11, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5375,7 +5439,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/11/is-there-a.html" class="u-url"><time class="dt-published" datetime="2023-01-11 08:46:52 &#43;0100">Jan 11, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/11/is-there-a.html" class="u-url"><time class="dt-published" datetime="2023-01-11 09:46:52 &#43;0200">Jan 11, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5386,7 +5450,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/11/woke-up-with.html" class="u-url"><time class="dt-published" datetime="2023-01-11 06:58:28 &#43;0100">Jan 11, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/11/woke-up-with.html" class="u-url"><time class="dt-published" datetime="2023-01-11 07:58:28 &#43;0200">Jan 11, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5397,7 +5461,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/10/yesterday-my-defective.html" class="u-url"><time class="dt-published" datetime="2023-01-10 15:42:46 &#43;0100">Jan 10, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/10/yesterday-my-defective.html" class="u-url"><time class="dt-published" datetime="2023-01-10 16:42:46 &#43;0200">Jan 10, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5408,7 +5472,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/10/i-dont-know.html" class="u-url"><time class="dt-published" datetime="2023-01-10 10:45:24 &#43;0100">Jan 10, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/10/i-dont-know.html" class="u-url"><time class="dt-published" datetime="2023-01-10 11:45:24 &#43;0200">Jan 10, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5419,7 +5483,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/10/called-back-an.html" class="u-url"><time class="dt-published" datetime="2023-01-10 09:56:32 &#43;0100">Jan 10, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/10/called-back-an.html" class="u-url"><time class="dt-published" datetime="2023-01-10 10:56:32 &#43;0200">Jan 10, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5430,7 +5494,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/10/uff.html" class="u-url"><time class="dt-published" datetime="2023-01-10 06:52:07 &#43;0100">Jan 10, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/10/uff.html" class="u-url"><time class="dt-published" datetime="2023-01-10 07:52:07 &#43;0200">Jan 10, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5441,7 +5505,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/too-tired-to.html" class="u-url"><time class="dt-published" datetime="2023-01-09 22:43:07 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/too-tired-to.html" class="u-url"><time class="dt-published" datetime="2023-01-09 23:43:07 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5454,7 +5518,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 			<h1><a href="https://mb.esamecar.net/2023/01/09/laughing-about-random.html">🤣 Laughing about [RANDOM NSFW COMIC GENERATOR](https://theoatmeal.com/pages/horrible_therapist?q=q_wet&amp;amp;a=a_masturbated_avatar&amp;amp;t=t_me_too)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/laughing-about-random.html" class="u-url"><time class="dt-published" datetime="2023-01-09 22:06:14 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/laughing-about-random.html" class="u-url"><time class="dt-published" datetime="2023-01-09 23:06:14 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5465,7 +5529,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/finally-closing-time.html" class="u-url"><time class="dt-published" datetime="2023-01-09 18:08:10 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/finally-closing-time.html" class="u-url"><time class="dt-published" datetime="2023-01-09 19:08:10 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5476,7 +5540,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/my-feet-feel.html" class="u-url"><time class="dt-published" datetime="2023-01-09 17:32:33 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/my-feet-feel.html" class="u-url"><time class="dt-published" datetime="2023-01-09 18:32:33 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5487,7 +5551,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/even-if-the.html" class="u-url"><time class="dt-published" datetime="2023-01-09 14:27:45 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/even-if-the.html" class="u-url"><time class="dt-published" datetime="2023-01-09 15:27:45 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5498,7 +5562,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/its-freezing-cold.html" class="u-url"><time class="dt-published" datetime="2023-01-09 11:55:43 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/its-freezing-cold.html" class="u-url"><time class="dt-published" datetime="2023-01-09 12:55:43 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5509,7 +5573,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/the-first-working.html" class="u-url"><time class="dt-published" datetime="2023-01-09 09:50:06 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/the-first-working.html" class="u-url"><time class="dt-published" datetime="2023-01-09 10:50:06 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5520,7 +5584,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/09/first-day-after.html" class="u-url"><time class="dt-published" datetime="2023-01-09 07:00:48 &#43;0100">Jan 9, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/09/first-day-after.html" class="u-url"><time class="dt-published" datetime="2023-01-09 08:00:48 &#43;0200">Jan 9, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5531,7 +5595,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/08/rss-reading-before.html" class="u-url"><time class="dt-published" datetime="2023-01-08 22:14:35 &#43;0100">Jan 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/08/rss-reading-before.html" class="u-url"><time class="dt-published" datetime="2023-01-08 23:14:35 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5544,7 +5608,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 			<h1><a href="https://mb.esamecar.net/2023/01/08/published-what-i.html">📖 Published [What I have done in the first week of 2023 (teaser: mastodon, omg.lol, playdate, ankermake) - esamecar](https://esamecar.de/2023/01/08/what-i-have.html).</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/08/published-what-i.html" class="u-url"><time class="dt-published" datetime="2023-01-08 21:19:34 &#43;0100">Jan 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/08/published-what-i.html" class="u-url"><time class="dt-published" datetime="2023-01-08 22:19:34 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5557,7 +5621,7 @@ So, I&rsquo;ll just continue and list randomly some more apps, I enjoy using:</p
 			<h1><a href="https://mb.esamecar.net/2023/01/08/what-i-have.html">What I have done in the first week of 2023  (teaser: mastodon, omg.lol, playdate, ankermake)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/08/what-i-have.html" class="u-url"><time class="dt-published" datetime="2023-01-08 21:06:52 &#43;0100">Jan 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/08/what-i-have.html" class="u-url"><time class="dt-published" datetime="2023-01-08 22:06:52 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I was motivated by <a href="https://micro.blog/muhh">muhh</a>&rsquo;s <a href="https://www.byzero.de/2023/01/08/week-its-a.html">blog entry</a> to write down what was on my mind in the first week of January. I&rsquo;m not sure yet if this will become something more regular, but I wanted to start putting something online more often anyway - more on that below.</p>
@@ -5601,7 +5665,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/08/typing-a-blogpost.html" class="u-url"><time class="dt-published" datetime="2023-01-08 19:41:12 &#43;0100">Jan 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/08/typing-a-blogpost.html" class="u-url"><time class="dt-published" datetime="2023-01-08 20:41:12 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5612,7 +5676,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/08/161100.html" class="u-url"><time class="dt-published" datetime="2023-01-08 16:11:00 &#43;0100">Jan 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/08/161100.html" class="u-url"><time class="dt-published" datetime="2023-01-08 17:11:00 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5623,7 +5687,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/08/good-night.html" class="u-url"><time class="dt-published" datetime="2023-01-08 01:45:00 &#43;0100">Jan 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/08/good-night.html" class="u-url"><time class="dt-published" datetime="2023-01-08 02:45:00 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5634,7 +5698,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/08/another-walk-with.html" class="u-url"><time class="dt-published" datetime="2023-01-08 00:01:27 &#43;0100">Jan 8, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/08/another-walk-with.html" class="u-url"><time class="dt-published" datetime="2023-01-08 01:01:27 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5645,7 +5709,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/still-messing-around.html" class="u-url"><time class="dt-published" datetime="2023-01-07 23:28:58 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/still-messing-around.html" class="u-url"><time class="dt-published" datetime="2023-01-08 00:28:58 &#43;0200">Jan 8, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5658,7 +5722,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 			<h1><a href="https://mb.esamecar.net/2023/01/07/connecting-my-statuslog.html">🤔 Connecting my Statuslog with Day One via [IFTTT](https://ifttt.com).</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/connecting-my-statuslog.html" class="u-url"><time class="dt-published" datetime="2023-01-07 22:58:03 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/connecting-my-statuslog.html" class="u-url"><time class="dt-published" datetime="2023-01-07 23:58:03 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5669,7 +5733,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/configuring-my-new.html" class="u-url"><time class="dt-published" datetime="2023-01-07 22:54:31 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/configuring-my-new.html" class="u-url"><time class="dt-published" datetime="2023-01-07 23:54:31 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5680,7 +5744,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/moving-my-mastodonsocial.html" class="u-url"><time class="dt-published" datetime="2023-01-07 21:58:23 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/moving-my-mastodonsocial.html" class="u-url"><time class="dt-published" datetime="2023-01-07 22:58:23 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5691,7 +5755,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/walking-the-dog.html" class="u-url"><time class="dt-published" datetime="2023-01-07 19:48:02 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/walking-the-dog.html" class="u-url"><time class="dt-published" datetime="2023-01-07 20:48:02 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5702,7 +5766,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/tinkering-with-the.html" class="u-url"><time class="dt-published" datetime="2023-01-07 19:45:18 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/tinkering-with-the.html" class="u-url"><time class="dt-published" datetime="2023-01-07 20:45:18 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5715,7 +5779,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 			<h1><a href="https://mb.esamecar.net/2023/01/07/192800.html">Hello, World!</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/192800.html" class="u-url"><time class="dt-published" datetime="2023-01-07 19:28:00 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/192800.html" class="u-url"><time class="dt-published" datetime="2023-01-07 20:28:00 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5728,7 +5792,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 			<h1><a href="https://mb.esamecar.net/2023/01/07/hello-world.html">Hello, World!</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/hello-world.html" class="u-url"><time class="dt-published" datetime="2023-01-07 19:28:00 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/hello-world.html" class="u-url"><time class="dt-published" datetime="2023-01-07 20:28:00 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5741,7 +5805,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 			<h1><a href="https://mb.esamecar.net/2023/01/07/konfiguriere-seit-stunden.html">😍 Konfiguriere seit Stunden vergnüglich [omg.lol](https://home.omg.lol/).</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/konfiguriere-seit-stunden.html" class="u-url"><time class="dt-published" datetime="2023-01-07 19:04:28 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/konfiguriere-seit-stunden.html" class="u-url"><time class="dt-published" datetime="2023-01-07 20:04:28 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5754,7 +5818,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 			<h1><a href="https://mb.esamecar.net/2023/01/07/playdate.html">playdate</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/07/playdate.html" class="u-url"><time class="dt-published" datetime="2023-01-07 12:25:32 &#43;0100">Jan 7, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/07/playdate.html" class="u-url"><time class="dt-published" datetime="2023-01-07 13:25:32 &#43;0200">Jan 7, 2023</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -5767,7 +5831,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 			<h1><a href="https://mb.esamecar.net/2023/01/02/shelly-plug-s.html">Shelly Plug S - Custom firmware integrates adapter plug into Apple HomeKit </a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2023/01/02/shelly-plug-s.html" class="u-url"><time class="dt-published" datetime="2023-01-02 22:44:41 &#43;0100">Jan 2, 2023</time></a>
+		<a href="https://mb.esamecar.net/2023/01/02/shelly-plug-s.html" class="u-url"><time class="dt-published" datetime="2023-01-02 23:44:41 &#43;0200">Jan 2, 2023</time></a>
 
 		<div class="e-content">
 			 <p>I have been using <a href="https://www.shelly.cloud/de">Shelly Plug S</a> plug adapters for some time now and am very happy with them. They are inexpensive, run reliably and can be controlled easily within your own network via REST API. The only thing they are not compatible with is HomeKit. Thanks to <a href="https://www.appgefahren.de/shelly-plug-s-smarter-zwischenstecker-fuer-1590-euro-im-angebot-329891.html">appgefahren.de</a> I just stumbled across a custom firmware published on <a href="https://github.com/mongoose-os-apps/shelly-homekit">github</a>, which can be installed via a single URL call. Then you can hang via QR code the plug super easy in HomeKit. However, with HomeKit integration, you give up the ability to use the Shelly Cloud and therefore its native app. Of course, this should be weighed up carefully beforehand. However, the way back to the original firmware should be just as easy.</p>
@@ -5780,7 +5844,7 @@ On omg.lol you ultimately get a &ldquo;funny&rdquo; address on the web that cont
 			<h1><a href="https://mb.esamecar.net/2022/12/29/chef-der-bundesnetzagentur.html">Chef der Bundesnetzagentur unterstützt Schuko-Stecker</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2022/12/29/chef-der-bundesnetzagentur.html" class="u-url"><time class="dt-published" datetime="2022-12-29 15:37:01 &#43;0100">Dec 29, 2022</time></a>
+		<a href="https://mb.esamecar.net/2022/12/29/chef-der-bundesnetzagentur.html" class="u-url"><time class="dt-published" datetime="2022-12-29 16:37:01 &#43;0200">Dec 29, 2022</time></a>
 
 		<div class="e-content">
 			 <p>„Alle weiteren Hemmnisse und Hürden beim Ausbau der Solarenergie müssen abgebaut werden. Die Teilnahme an der Energiewende sollte gerade für die privaten Haushalte mehr Freude bereiten!“</p>
@@ -5793,7 +5857,7 @@ Grade bringt es zumindest wenig Spaß, Teil der Energiewende sein zu wollen - im
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2022/12/23/sieben-ntzliche-gadgets.html" class="u-url"><time class="dt-published" datetime="2022-12-23 17:32:26 &#43;0100">Dec 23, 2022</time></a>
+		<a href="https://mb.esamecar.net/2022/12/23/sieben-ntzliche-gadgets.html" class="u-url"><time class="dt-published" datetime="2022-12-23 18:32:26 &#43;0200">Dec 23, 2022</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://www.heise.de/news/Sieben-nuetzliche-Gadgets-aus-dem-3D-Drucker-7442460.html?wt_mc=rss.red.ho.ho.rdf.beitrag.beitrag">Sieben nützliche Gadgets aus dem 3D-Drucker - heise online</a></p>
@@ -5804,7 +5868,7 @@ Grade bringt es zumindest wenig Spaß, Teil der Energiewende sein zu wollen - im
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2022/12/23/mastodon-and-rss.html" class="u-url"><time class="dt-published" datetime="2022-12-23 00:08:11 &#43;0100">Dec 23, 2022</time></a>
+		<a href="https://mb.esamecar.net/2022/12/23/mastodon-and-rss.html" class="u-url"><time class="dt-published" datetime="2022-12-23 01:08:11 &#43;0200">Dec 23, 2022</time></a>
 
 		<div class="e-content">
 			 <p><a href="https://derekkedziora.com/notes/20221112094802">Mastodon and RSS</a></p>
@@ -5817,7 +5881,7 @@ Grade bringt es zumindest wenig Spaß, Teil der Energiewende sein zu wollen - im
 			<h1><a href="https://mb.esamecar.net/2022/12/22/anybox-manage-bookmarks.html">Anybox - Manage bookmarks like a pro (iOS / macOS)</a></h1>
 		
 
-		<a href="https://mb.esamecar.net/2022/12/22/anybox-manage-bookmarks.html" class="u-url"><time class="dt-published" datetime="2022-12-22 17:53:48 &#43;0100">Dec 22, 2022</time></a>
+		<a href="https://mb.esamecar.net/2022/12/22/anybox-manage-bookmarks.html" class="u-url"><time class="dt-published" datetime="2022-12-22 18:53:48 &#43;0200">Dec 22, 2022</time></a>
 
 		<div class="e-content">
 			 <p>One app that I&rsquo;ve been using a lot for a while now is <!-- raw HTML omitted -->Anybox<!-- raw HTML omitted -->. Both the Mac app and the iOS app are very functional and the developer is friendly. It has completely replaced <a href="https://pinboard.in/u:racemase">pinboard.in</a> as my bookmark manager, although there is also a very nice iOS / macOS third party companion app called <!-- raw HTML omitted -->Pins<!-- raw HTML omitted -->, which is currently no longer being developed as rapidly as it was in the beginning, but is still great.</p>
@@ -5828,7 +5892,7 @@ Grade bringt es zumindest wenig Spaß, Teil der Energiewende sein zu wollen - im
 	  <div class="h-entry">
 		
 
-		<a href="https://mb.esamecar.net/2022/12/22/hello-world.html" class="u-url"><time class="dt-published" datetime="2022-12-22 17:13:48 &#43;0100">Dec 22, 2022</time></a>
+		<a href="https://mb.esamecar.net/2022/12/22/hello-world.html" class="u-url"><time class="dt-published" datetime="2022-12-22 18:13:48 &#43;0200">Dec 22, 2022</time></a>
 
 		<div class="e-content">
 			 <p>Hello, world!</p>
