@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2025/06/13/my-current-ios-podcast-client.html",
+				"title": "My Current iOS Podcast Client: Queue",
+				"content_html": "<p>I have been listening to podcasts regularly for a very long time, actually since the iPod era. Sometimes more, sometimes less. Of course, I&rsquo;ve tried many apps because of this. I&rsquo;ve used <a href=\"https://pocketcasts.com/\">Pocket Casts</a>, <a href=\"https://castro.fm/\">Castro</a> for a long time, <a href=\"https://overcast.fm/\">Overcast</a>, and then one app or another, going back to Apple’s Podcast app a few times. Somehow, there were always things that bothered me. Sometimes the interface was too complex, and sometimes I missed essential features. </p>\n<p>But fundamentally, what I really want from a podcast app is quite simple: a queue that automatically sorts new episodes, where I can set how many unheard episodes of the same podcast I want to keep in this queue at most, and then have a simple way to sort the queue a bit if necessary. The relatively new app to me, <a href=\"https://www.eikedrescher.com/queueapp\">Queue</a>, surprisingly does all of this very well with great design. The only thing that bothers me a little is its subscription price. But there&rsquo;s always something to criticise 😇.</p>\n",
+				"content_text": "\nI have been listening to podcasts regularly for a very long time, actually since the iPod era. Sometimes more, sometimes less. Of course, I've tried many apps because of this. I've used [Pocket Casts](https://pocketcasts.com/), [Castro](https://castro.fm/) for a long time, [Overcast](https://overcast.fm/), and then one app or another, going back to Apple’s Podcast app a few times. Somehow, there were always things that bothered me. Sometimes the interface was too complex, and sometimes I missed essential features. \n\nBut fundamentally, what I really want from a podcast app is quite simple: a queue that automatically sorts new episodes, where I can set how many unheard episodes of the same podcast I want to keep in this queue at most, and then have a simple way to sort the queue a bit if necessary. The relatively new app to me, [Queue](https://www.eikedrescher.com/queueapp), surprisingly does all of this very well with great design. The only thing that bothers me a little is its subscription price. But there's always something to criticise 😇.\n\n",
+				"date_published": "2025-06-13T11:43:55+02:00",
+				"url": "https://mb.esamecar.net/2025/06/13/my-current-ios-podcast-client.html",
+				"tags": ["Software"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2025/06/08/til-that-if-your-switch.html",
+				
+				"content_html": "<p>TIL that if your Switch 2 feels hot just sitting in the dock in standby mode, you should check if the following setting is enabled and turn it off: System Settings → Sleep Mode → Keep Wired Connection Active in Sleep Mode</p>\n",
+				"content_text": "TIL that if your Switch 2 feels hot just sitting in the dock in standby mode, you should check if the following setting is enabled and turn it off: System Settings → Sleep Mode → Keep Wired Connection Active in Sleep Mode\n",
+				"date_published": "2025-06-08T15:10:38+02:00",
+				"url": "https://mb.esamecar.net/2025/06/08/til-that-if-your-switch.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2025/06/07/til-that-you-can-update.html",
 				
 				"content_html": "<p>TIL that you can update the firmware of your ASUS ROG Swift OLED PG32UCDM via a USB stick. I always thought I had to find a Windows PC for this, so I never did tried it.</p>\n",
