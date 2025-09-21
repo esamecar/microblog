@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2025/09/21/finished-reading-auf-see-by.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783446275577\">Auf See</a> by Theresia Enzensberger 📚</p>\n",
+				"content_text": "Finished reading: [Auf See](https://micro.blog/books/9783446275577) by Theresia Enzensberger 📚\n",
+				"date_published": "2025-09-21T16:30:57+02:00",
+				"url": "https://mb.esamecar.net/2025/09/21/finished-reading-auf-see-by.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2025/09/20/skyscraper-frankfurt-am-main-germany.html",
+				"title": "Skyscraper (Frankfurt am Main, Germany)",
+				"content_html": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://mb.esamecar.net/uploads/2025/68cec35d69bf8.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://mb.esamecar.net/uploads/2025/68cec35d69bf8.jpg\"></p>\n",
+				"date_published": "2025-09-20T17:08:16+02:00",
+				"url": "https://mb.esamecar.net/2025/09/20/skyscraper-frankfurt-am-main-germany.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2025/09/20/notebook-navigator.html",
 				"title": "Notebook Navigator",
 				"content_html": "<blockquote>Modern file explorer for Obsidian<br />Full keyboard navigation. Dual-pane layout. Mobile optimized.</blockquote>\n<p><a href=\"https://notebooknavigator.com\">Notebook Navigator</a> is a\ntruly great <a\nhref=\"https://mb.esamecar.net/2025/02/25/sharemyplugin-all-my-enabled-obsidian.html\">plugin</a>\nfor one of my favorite apps, <a\nhref=\"https://obsidian.md\">Obsidian</a>.<br /></p>\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK3RTQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--40c676262b1ce8f082a86e9cb94b56ddd613eb00/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202025-09-20%20at%2011-53-29%20Notebook%20Navigator%20-%20Modern%20File%20Explorer%20for%20Obsidian.png 2x\" loading=\"lazy\" alt=\"Screenshot Homepage Notebook Navigator (2025-09-20)\" src=\"https://mb.esamecar.net/uploads/2025/screenshot202025-09-2020at2011-53-2920notebook20navigator20-20modern20file2.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Screenshot Homepage Notebook Navigator (2025-09-20)\n    </figcaption>\n</figure>\n<p><a\nhref=\"https://notebooknavigator.com\"><strong>notebooknavigator.com/</strong></a><strong><br\n/></strong><br /></p>\n",
@@ -35,8 +51,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/08/30/boat.html",
 				"title": "Boat ⛵",
-				"content_html": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXROQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5312333f193502260bbe79d4460697f321e1aae7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-24%20-%20DSCF0073_DxO.jpeg 2x\" loading=\"lazy\" alt=\"A large white sailing ship, the Gorch Fock, with multiple masts and rigging is docked in calm water. The sky is blue with scattered clouds, and a small red flag is visible on one of the masts. The scene conveys a peaceful maritime atmosphere.\" src=\"https://mb.esamecar.net/uploads/2025/2025-08-2420-20dscf0073-dxo.jpg\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Gorch Fock\n    </figcaption>\n</figure>\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXROQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5312333f193502260bbe79d4460697f321e1aae7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-24%20-%20DSCF0073_DxO.jpeg 2x\" loading=\"lazy\" alt=\"A large white sailing ship, the Gorch Fock, with multiple masts and rigging is docked in calm water. The sky is blue with scattered clouds, and a small red flag is visible on one of the masts. The scene conveys a peaceful maritime atmosphere.\" src=\"https://mb.esamecar.net/uploads/2025/2025-08-2420-20dscf0073-dxo.jpg\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Gorch Fock\n    </figcaption>\n</figure>\n",
+				"content_html": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXROQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5312333f193502260bbe79d4460697f321e1aae7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-24%20-%20DSCF0073_DxO.jpeg 2x\" loading=\"lazy\" alt=\"A large white sailing ship, the Gorch Fock, with multiple masts and rigging is docked in calm water. The sky is blue with scattered clouds, and a small red flag is visible on one of the masts. The scene conveys a peaceful maritime atmosphere.\" src=\"https://eu.uploads.micro.blog/95406/2025/2025-08-2420-20dscf0073-dxo.jpg\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Gorch Fock\n    </figcaption>\n</figure>\n",
+				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXROQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5312333f193502260bbe79d4460697f321e1aae7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-24%20-%20DSCF0073_DxO.jpeg 2x\" loading=\"lazy\" alt=\"A large white sailing ship, the Gorch Fock, with multiple masts and rigging is docked in calm water. The sky is blue with scattered clouds, and a small red flag is visible on one of the masts. The scene conveys a peaceful maritime atmosphere.\" src=\"https://eu.uploads.micro.blog/95406/2025/2025-08-2420-20dscf0073-dxo.jpg\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Gorch Fock\n    </figcaption>\n</figure>\n",
 				"date_published": "2025-08-30T10:27:36+02:00",
 				"url": "https://mb.esamecar.net/2025/08/30/boat.html",
 				"tags": ["photography"]
@@ -44,8 +60,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/08/29/trees.html",
 				"title": "Trees 🌳",
-				"content_html": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzlNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8e661bb4f88141be09f9ad0aeebc00de62a5b41f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-26%20-%20DSCF0191_DxO.jpeg 2x\" loading=\"lazy\" src=\"https://mb.esamecar.net/uploads/2025/2025-08-2620-20dscf0191-dxo.jpg\" alt=\"A row of trees casting shadows on the side of a pastel-colored apartment building under a clear blue sky. The grass lawn in the foreground is well-maintained, and two cars are parked by the building. The trees' shadows create unique patterns on the building's surface.\" decoding=\"async\" />\n</figure>\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzlNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8e661bb4f88141be09f9ad0aeebc00de62a5b41f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-26%20-%20DSCF0191_DxO.jpeg 2x\" loading=\"lazy\" src=\"https://mb.esamecar.net/uploads/2025/2025-08-2620-20dscf0191-dxo.jpg\" alt=\"A row of trees casting shadows on the side of a pastel-colored apartment building under a clear blue sky. The grass lawn in the foreground is well-maintained, and two cars are parked by the building. The trees' shadows create unique patterns on the building's surface.\" decoding=\"async\" />\n</figure>\n",
+				"content_html": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzlNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8e661bb4f88141be09f9ad0aeebc00de62a5b41f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-26%20-%20DSCF0191_DxO.jpeg 2x\" loading=\"lazy\" src=\"https://eu.uploads.micro.blog/95406/2025/2025-08-2620-20dscf0191-dxo.jpg\" alt=\"A row of trees casting shadows on the side of a pastel-colored apartment building under a clear blue sky. The grass lawn in the foreground is well-maintained, and two cars are parked by the building. The trees' shadows create unique patterns on the building's surface.\" decoding=\"async\" />\n</figure>\n",
+				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzlNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8e661bb4f88141be09f9ad0aeebc00de62a5b41f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FCQnBBZ0FNT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--a744d8f75451afbcf118ec59ae617394a12029aa/2025-08-26%20-%20DSCF0191_DxO.jpeg 2x\" loading=\"lazy\" src=\"https://eu.uploads.micro.blog/95406/2025/2025-08-2620-20dscf0191-dxo.jpg\" alt=\"A row of trees casting shadows on the side of a pastel-colored apartment building under a clear blue sky. The grass lawn in the foreground is well-maintained, and two cars are parked by the building. The trees' shadows create unique patterns on the building's surface.\" decoding=\"async\" />\n</figure>\n",
 				"date_published": "2025-08-29T18:49:19+02:00",
 				"url": "https://mb.esamecar.net/2025/08/29/trees.html",
 				"tags": ["photography"]
@@ -512,8 +528,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2024/12/08/switchbuddy.html",
 				"title": "SwitchBuddy",
-				"content_html": "<blockquote>The unofficial companion app for Nintendo Switch</blockquote>\n<p><a href=\"https://switchbuddy.app/\">SwitchBuddy</a> is a companion app\nspecifically for the Nintendo Switch. You can easily transfer captured\nscreenshots to your iPhone, stay informed about new releases, get an\noverview of the latest news, follow sales, and, of course, track your\nown game collection along with a wishlist, etc. It may not be the most\nbeautiful app, but it is very functional. I use it daily.</p>\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckhBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--82652a136a5bd98b3502c5ba5ba4a9ed3a366292/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-23-36%20SwitchBuddy%20Nintendo%20Switch%20Companion%20App.png 2x\" loading=\"lazy\" alt=\"SwitchBuddy Homepage Screenshot (07.12.2024)\" src=\"https://mb.esamecar.net/uploads/2025/screenshot202024-12-0720at2012-23-3620switchbuddy20nintendo20switch20compan.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      SwitchBuddy Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n<p><a href=\"https://switchbuddy.app/\"><strong>switchbuddy.app/</strong></a></p>\n",
-				"content_text": "<blockquote>The unofficial companion app for Nintendo Switch</blockquote>\n\n<p><a href=\"https://switchbuddy.app/\">SwitchBuddy</a> is a companion app\nspecifically for the Nintendo Switch. You can easily transfer captured\nscreenshots to your iPhone, stay informed about new releases, get an\noverview of the latest news, follow sales, and, of course, track your\nown game collection along with a wishlist, etc. It may not be the most\nbeautiful app, but it is very functional. I use it daily.</p>\n\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckhBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--82652a136a5bd98b3502c5ba5ba4a9ed3a366292/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-23-36%20SwitchBuddy%20Nintendo%20Switch%20Companion%20App.png 2x\" loading=\"lazy\" alt=\"SwitchBuddy Homepage Screenshot (07.12.2024)\" src=\"https://mb.esamecar.net/uploads/2025/screenshot202024-12-0720at2012-23-3620switchbuddy20nintendo20switch20compan.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      SwitchBuddy Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n\n<p><a href=\"https://switchbuddy.app/\"><strong>switchbuddy.app/</strong></a></p>\n",
+				"content_html": "<blockquote>The unofficial companion app for Nintendo Switch</blockquote>\n<p><a href=\"https://switchbuddy.app/\">SwitchBuddy</a> is a companion app\nspecifically for the Nintendo Switch. You can easily transfer captured\nscreenshots to your iPhone, stay informed about new releases, get an\noverview of the latest news, follow sales, and, of course, track your\nown game collection along with a wishlist, etc. It may not be the most\nbeautiful app, but it is very functional. I use it daily.</p>\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckhBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--82652a136a5bd98b3502c5ba5ba4a9ed3a366292/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-23-36%20SwitchBuddy%20Nintendo%20Switch%20Companion%20App.png 2x\" loading=\"lazy\" alt=\"SwitchBuddy Homepage Screenshot (07.12.2024)\" src=\"https://eu.uploads.micro.blog/95406/2025/screenshot202024-12-0720at2012-23-3620switchbuddy20nintendo20switch20compan.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      SwitchBuddy Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n<p><a href=\"https://switchbuddy.app/\"><strong>switchbuddy.app/</strong></a></p>\n",
+				"content_text": "<blockquote>The unofficial companion app for Nintendo Switch</blockquote>\n\n<p><a href=\"https://switchbuddy.app/\">SwitchBuddy</a> is a companion app\nspecifically for the Nintendo Switch. You can easily transfer captured\nscreenshots to your iPhone, stay informed about new releases, get an\noverview of the latest news, follow sales, and, of course, track your\nown game collection along with a wishlist, etc. It may not be the most\nbeautiful app, but it is very functional. I use it daily.</p>\n\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckhBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--82652a136a5bd98b3502c5ba5ba4a9ed3a366292/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-23-36%20SwitchBuddy%20Nintendo%20Switch%20Companion%20App.png 2x\" loading=\"lazy\" alt=\"SwitchBuddy Homepage Screenshot (07.12.2024)\" src=\"https://eu.uploads.micro.blog/95406/2025/screenshot202024-12-0720at2012-23-3620switchbuddy20nintendo20switch20compan.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      SwitchBuddy Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n\n<p><a href=\"https://switchbuddy.app/\"><strong>switchbuddy.app/</strong></a></p>\n",
 				"date_published": "2024-12-08T13:24:00+02:00",
 				"url": "https://mb.esamecar.net/2024/12/08/switchbuddy.html",
 				"tags": ["yaa"]
@@ -521,8 +537,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2024/12/07/festivitas.html",
 				"title": "Festivitas",
-				"content_html": "<blockquote>Festivitas brings the holiday spirit to your Mac with festive lights for the dock and menu bar 🎄</blockquote>\n<p>&quot;<a href=\"https://www.festivitas.app\">Festivitas</a> automatically adds\nfestive lights to your menu bar and dock upon launch and you can tweak\ntheir appearance to match your preferences ✨&quot; - nothing to add here. As\nwritten on my <a\nhref=\"https://mb.esamecar.net/2024/12/04/apps-that-make.html\">blog</a>,\nit just makes me smile.</p>\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXZBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1acc310866ae2a6017ae4113b4572a8e2880ec04/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-14-32%20%F0%9F%8E%84%20Festivitas.png 2x\" loading=\"lazy\" alt=\"Festivitas Homepage Screenshot (07.12.2024)\" src=\"https://mb.esamecar.net/uploads/2025/screenshot202024-12-0720at2012-14-3220f09f8e8420festivitas.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Festivitas Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n<p><a\nhref=\"https://www.festivitas.app/\"><strong>www.festivitas.app/</strong></a></p>\n",
-				"content_text": "<blockquote>Festivitas brings the holiday spirit to your Mac with festive lights for the dock and menu bar 🎄</blockquote>\n\n<p>&quot;<a href=\"https://www.festivitas.app\">Festivitas</a> automatically adds\nfestive lights to your menu bar and dock upon launch and you can tweak\ntheir appearance to match your preferences ✨&quot; - nothing to add here. As\nwritten on my <a\nhref=\"https://mb.esamecar.net/2024/12/04/apps-that-make.html\">blog</a>,\nit just makes me smile.</p>\n\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXZBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1acc310866ae2a6017ae4113b4572a8e2880ec04/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-14-32%20%F0%9F%8E%84%20Festivitas.png 2x\" loading=\"lazy\" alt=\"Festivitas Homepage Screenshot (07.12.2024)\" src=\"https://mb.esamecar.net/uploads/2025/screenshot202024-12-0720at2012-14-3220f09f8e8420festivitas.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Festivitas Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n\n<p><a\nhref=\"https://www.festivitas.app/\"><strong>www.festivitas.app/</strong></a></p>\n",
+				"content_html": "<blockquote>Festivitas brings the holiday spirit to your Mac with festive lights for the dock and menu bar 🎄</blockquote>\n<p>&quot;<a href=\"https://www.festivitas.app\">Festivitas</a> automatically adds\nfestive lights to your menu bar and dock upon launch and you can tweak\ntheir appearance to match your preferences ✨&quot; - nothing to add here. As\nwritten on my <a\nhref=\"https://mb.esamecar.net/2024/12/04/apps-that-make.html\">blog</a>,\nit just makes me smile.</p>\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXZBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1acc310866ae2a6017ae4113b4572a8e2880ec04/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-14-32%20%F0%9F%8E%84%20Festivitas.png 2x\" loading=\"lazy\" alt=\"Festivitas Homepage Screenshot (07.12.2024)\" src=\"https://eu.uploads.micro.blog/95406/2025/screenshot202024-12-0720at2012-14-3220f09f8e8420festivitas.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Festivitas Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n<p><a\nhref=\"https://www.festivitas.app/\"><strong>www.festivitas.app/</strong></a></p>\n",
+				"content_text": "<blockquote>Festivitas brings the holiday spirit to your Mac with festive lights for the dock and menu bar 🎄</blockquote>\n\n<p>&quot;<a href=\"https://www.festivitas.app\">Festivitas</a> automatically adds\nfestive lights to your menu bar and dock upon launch and you can tweak\ntheir appearance to match your preferences ✨&quot; - nothing to add here. As\nwritten on my <a\nhref=\"https://mb.esamecar.net/2024/12/04/apps-that-make.html\">blog</a>,\nit just makes me smile.</p>\n\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" srcset=\"https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXZBIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1acc310866ae2a6017ae4113b4572a8e2880ec04/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUVHa0NBQXc2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a18847b6c1cccf2736612f487841b9c550593dc1/Screenshot%202024-12-07%20at%2012-14-32%20%F0%9F%8E%84%20Festivitas.png 2x\" loading=\"lazy\" alt=\"Festivitas Homepage Screenshot (07.12.2024)\" src=\"https://eu.uploads.micro.blog/95406/2025/screenshot202024-12-0720at2012-14-3220f09f8e8420festivitas.png\" decoding=\"async\" />\n    <figcaption class=\"attachment__caption text-center\">\n      Festivitas Homepage Screenshot (07.12.2024)\n    </figcaption>\n</figure>\n\n<p><a\nhref=\"https://www.festivitas.app/\"><strong>www.festivitas.app/</strong></a></p>\n",
 				"date_published": "2024-12-07T13:19:02+02:00",
 				"url": "https://mb.esamecar.net/2024/12/07/festivitas.html",
 				"tags": ["yaa"]
@@ -1143,6 +1159,14 @@
 				"tags": ["iOS","macOS","weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2024/01/28/a-field-in-winter-in.html",
+				"title": "A field in winter in the dark. The field is covered in snow, a dog is standing in front, looking away from the viewer and wearing a collar with a light.  Night Shot on iOS",
+				"content_html": "<p><img width=\"640\" height=\"480\" alt=\"A field in winter in the dark. The field is covered in snow, a dog is standing in front, looking away from the viewer and wearing a collar with a light.  Night Shot on iOS\" src=\"https://mb.esamecar.net/uploads/2025/65b645f4cd5c2.jpg\"></p>\n",
+				"content_text": "<p><img width=\"640\" height=\"480\" alt=\"A field in winter in the dark. The field is covered in snow, a dog is standing in front, looking away from the viewer and wearing a collar with a light.  Night Shot on iOS\" src=\"https://mb.esamecar.net/uploads/2025/65b645f4cd5c2.jpg\"></p>\n",
+				"date_published": "2024-01-28T14:18:02+02:00",
+				"url": "https://mb.esamecar.net/2024/01/28/a-field-in-winter-in.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2024/01/28/what-caught-my.html",
 				"title": "What caught my attention in week four, 2024",
 				"content_html": "<p>Continuing from week <a href=\"https://mb.esamecar.net/2024/01/22/what-caught-my.html\">03</a>, here are a few thoughts and things that caught my attention in the fourth week of 2024:</p>\n<ul>\n<li>\n<p>🌐 I didn&rsquo;t quite understand the commotion about the DMA this week. <a href=\"https://daringfireball.net/2024/01/apples_plans_for_the_dma\">Gruber</a> proved himself to be a true patriot once again, and I still don&rsquo;t understand where exactly the doomsday mood is coming from. Whether Apple has chosen an appropriate strategy, I don&rsquo;t know either, see also <a href=\"https://thedent.net/post/apple-ruins-its-big-week-9nanx5jv\">Apple ruins its big week</a>.</p>\n</li>\n<li>\n<p>🎮 My <a href=\"https://anbernic.com/products/rg35xx-h\">Anbernic RG35XX H</a> arrived. Now I can sell my RG353PS and send the RGB30 (more or less electronic waste right from the start) to recycling. So far, one is more or less reliant on the stock firmware, which isn&rsquo;t very nice. But there are a number of very young <a href=\"https://retrohandheldguides.com/rg35xx-h-custom-firmware/\">Custom Firmware Projects</a> and also a <a href=\"https://github.com/cbepx-me/RG35xx-P-RG35xx-H-Modification\">cleaned-up stock version</a>. To not lose track of all the associated SD cards, I printed a series of these <a href=\"https://www.printables.com/de/model/27021-micro-sd-label-sticks\">Micro-SD Label Sticks</a>.</p>\n</li>\n<li>\n<p>🕹️ I was surprised to learn how easy it is to get <a href=\"https://youtu.be/KURrNV7jupI?si=brG7PHl53uC_GAQB\">The Full AMIGA Experience on Analogue Pocket</a>. Until now, I was also unaware that you can convert save states created with an emulator to and from the Pocket / MISTER: <a href=\"https://savefileconverter.com/#/mister\">Save File Converter</a>.</p>\n</li>\n<li>\n<p>🛠️ I am actually very satisfied with <a href=\"https://anybox.app\">Anybox</a>. Only sometimes I wish that the sync speed would be much faster. I recently archived 20,000 (!) old bookmarks and kept &ldquo;only&rdquo; the last 2k, which only helped to a limited extent in getting the bookmarks stored on the iPhone displayed faster on the Mac. Over the last few years, I&rsquo;ve tried more or less all the alternatives, except for Link Cluster. Its developer <a href=\"https://witt-software.com\">Daniel Witt</a> is not an unknown<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup>, the app was an up-front one-time purchase, and so far I have been hesitant to pay the money without knowing that the app does better than Anybox. That changed this week. A big update to <a href=\"https://www.witt-software.com/releasenotes/?app=linkcluster\">Version 2.0</a> has been released and you can now (very limited) test it first, which I will definitely do over the next week: <a href=\"https://apps.apple.com/us/app/link-cluster/id6443942506\">Link Cluster</a> - <em>Collect and manage links</em>.</p>\n</li>\n<li>\n<p>📰 I checked out <a href=\"https://netnewswire.com\">NetNewsWire</a> for macOS again. I will stick with <a href=\"https://reederapp.com\">Reeder</a> for the time being.</p>\n</li>\n<li>\n<p>💻 I changed my window manager again. The app <a href=\"https://manytricks.com/moom/\">Moom</a>, which has been used on my macOS for decades, has now been replaced by <a href=\"https://rectangleapp.com/pro\">Rectangle Pro</a>. <a href=\"https://ryanhanson.dev\">Ryan Hanson</a> is another indie developer who releases just great utilities, and that&rsquo;s why I bought the Pro version right away. Alternatively, you can also use the free <a href=\"https://rectangleapp.com\">Rectangle</a> first. In fact, I can hardly imagine my life without <a href=\"https://superkey.app\">Superkey</a> (alternatively <a href=\"https://hyperkey.app\">Hyperkey</a>) anymore.</p>\n</li>\n<li>\n<p>📱 No week without a new app from Sindre: <a href=\"https://sindresorhus.com/doodle-draw\">Doodle Draw</a>.</p>\n</li>\n<li>\n<p>🏠 I hung a very inexpensive Amazon Kindle Fire tablet on the refrigerator a year or two ago and display in a Full Kiosk Browser <a href=\"https://magicmirror.builders\">Magic Mirror2</a>, which runs on a Raspberry Pi. I programmed a series of small Python scripts that show me the energy consumption and our weekly changing family tasks, in addition to standard functions like family calendar, weather, date, time, etc. Unfortunately, I have forgotten most of what I taught myself with Python last year, and for some reason, Magic Mirror can no longer be updated without everything breaking afterwards. I&rsquo;m afraid that if the shaky construct falls apart completely soon, I&rsquo;ll have to hang an old iPad on the wall and perhaps use a solution like the recently updated <a href=\"https://apps.apple.com/app/wallflower-f%C3%BCr-homekit/id1406806705\">Wallflower for HomeKit</a> or just understand more about IT, Linux, Python, NPM, and Node ;-)</p>\n</li>\n<li>\n<p>🏆 The Obsidian <a href=\"https://obsidian.md/blog/2023-goty-winners/\">2023 Gems of the year winners</a> have been announced. It&rsquo;s a pity that <a href=\"https://actions.work/actions-for-obsidian\">Actions for Obsidian</a> didn&rsquo;t win. While looking at the entries, I stumbled upon <a href=\"https://youtu.be/djj7QXZAIjM?si=eywCZXEaZMjyGh2r\">Data Visualization in Obsidian with Obsidian Charts</a>. There&rsquo;s simply nothing you can&rsquo;t do with Obsidian, albeit much more complicatedly than with other programs better suited for the task. I love that! 🤣</p>\n</li>\n<li>\n<p>🔋 If I ever think I need a big battery pack on the go, I might buy this one: <a href=\"https://www.indiegogo.com/projects/shargeek-170-unbeatable-power-unparalleled-style#/\">Shargeek 170: Unbeatable Power</a>.</p>\n</li>\n<li>\n<p>⏰ The idea of a location-based alarm clock for train rides or similar is great. But I believe I wouldn&rsquo;t have the confidence to rely on this solution: <a href=\"https://apps.apple.com/app/wakemehere/id448033390\">WakeMeHere</a> - A Location Alarm with Brain.</p>\n</li>\n<li>\n<p>📚 I have been diligently reading <a href=\"https://openlibrary.org/works/OL34057778W/Holly\">Holly</a> - for my standards. However, I am disappointed with the <a href=\"https://pocketbook.com\">PocketBook Era</a>. I had hoped that e-book readers would have evolved somehow over the past ten years. But at least the Era is insanely sluggish, and marking text is an outrage. Well, at least most of the time the text is displayed&hellip;</p>\n</li>\n<li>\n<p>🎬 Watched <a href=\"https://www.themoviedb.org/movie/998022\">The Teachers’ Lounge (2023)</a>; I know exactly why I work at the university and not at a school.</p>\n</li>\n<li>\n<p>🙋‍♂️ Have a great week!</p>\n</li>\n</ul>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>For example, I am a big fan of <a href=\"https://apps.apple.com/app/pdf-squeezer-4/id1502111349?mt=12\">PDF Squeezer 4</a> and regularly use <a href=\"https://apps.apple.com/app/remote-wake-up/id860874272?mt=12\">Remote Wake Up</a>.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
@@ -1325,6 +1349,14 @@
 				"tags": ["weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/09/17/road-with-car-driving-towards.html",
+				"title": "Road with car driving towards sunset with bike lane next to it.",
+				"content_html": "<p><img width=\"4032\" height=\"3024\" alt=\"Road with car driving towards sunset with bike lane next to it.\" src=\"https://mb.esamecar.net/uploads/2025/65076093a5df6.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"Road with car driving towards sunset with bike lane next to it.\" src=\"https://mb.esamecar.net/uploads/2025/65076093a5df6.jpg\"></p>\n",
+				"date_published": "2023-09-17T22:24:55+02:00",
+				"url": "https://mb.esamecar.net/2023/09/17/road-with-car-driving-towards.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/09/10/here-are-a.html",
 				
 				"content_html": "<p>Here are a few things that caught my attention in week 36: <a href=\"https://week.esamecar.net/36\">week.esamecar.net/36</a></p>\n<p>Teaser: not so much 🤷‍♂️</p>\n<p>#weeknotes</p>\n<img style=\"display:block; margin-left:auto; margin-right:auto;\" src=\"https://mb.esamecar.net/uploads/2023/img-0044-1.jpeg\" alt=\"Hot air balloon that just landed on a field.\" title=\"IMG_0044 (1).jpeg\" border=\"0\" width=\"225\" height=\"300\" />\n",
@@ -1332,6 +1364,14 @@
 				"date_published": "2023-09-10T16:30:32+02:00",
 				"url": "https://mb.esamecar.net/2023/09/10/here-are-a.html",
 				"tags": ["weeknotes"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/09/10/hot-air-balloon-that-just.html",
+				"title": "Hot air balloon that just landed on a field.",
+				"content_html": "<p><img width=\"2369\" height=\"3159\" alt=\"Hot air balloon that just landed on a field.\" src=\"https://mb.esamecar.net/uploads/2025/64fdcf99b01b7.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2369\" height=\"3159\" alt=\"Hot air balloon that just landed on a field.\" src=\"https://mb.esamecar.net/uploads/2025/64fdcf99b01b7.jpg\"></p>\n",
+				"date_published": "2023-09-10T16:15:58+02:00",
+				"url": "https://mb.esamecar.net/2023/09/10/hot-air-balloon-that-just.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/09/03/here-are-a.html",
@@ -1343,6 +1383,14 @@
 				"tags": ["iOS","macOS","journal","weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/09/03/old-gas-station-in-bonn.html",
+				"title": "Old gas station in Bonn, Germany, no longer operated as such.",
+				"content_html": "<p><img width=\"1280\" height=\"960\" alt=\"Old gas station in Bonn, Germany, no longer operated as such.\" src=\"https://eu.uploads.micro.blog/95406/2025/64f4bd838a2cd.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"960\" alt=\"Old gas station in Bonn, Germany, no longer operated as such.\" src=\"https://eu.uploads.micro.blog/95406/2025/64f4bd838a2cd.jpg\"></p>\n",
+				"date_published": "2023-09-03T19:08:22+02:00",
+				"url": "https://mb.esamecar.net/2023/09/03/old-gas-station-in-bonn.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/08/27/here-are-a.html",
 				
 				"content_html": "<p>Here are a few things that caught my attention in week 32 - 34: <a href=\"https://week.esamecar.net/34\">week.esamecar.net/34</a></p>\n<p>Teaser: Family vacation, lots of RetroGaming, a little Obsidian, iOS and macOS stuff, one movie and a little TV.</p>\n<p>#weeknotes</p>\n<img style=\"display:block; margin-left:auto; margin-right:auto;\" src=\"https://mb.esamecar.net/uploads/2023/img-9844.jpeg\" alt=\"A very, very nice old road bike in front of a brick wall.\" title=\"IMG_9844.jpeg\" border=\"0\" width=\"300\" height=\"225\" />\n",
@@ -1350,6 +1398,14 @@
 				"date_published": "2023-08-27T15:26:42+02:00",
 				"url": "https://mb.esamecar.net/2023/08/27/here-are-a.html",
 				"tags": ["weeknotes"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/08/27/a-very-very-nice-old.html",
+				"title": "A very, very nice old road bike in front of a brick wall.",
+				"content_html": "<p><img width=\"1280\" height=\"961\" alt=\"A very, very nice old road bike in front of a brick wall.\" src=\"https://eu.uploads.micro.blog/95406/2025/64eb426c37780.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"961\" alt=\"A very, very nice old road bike in front of a brick wall.\" src=\"https://eu.uploads.micro.blog/95406/2025/64eb426c37780.jpg\"></p>\n",
+				"date_published": "2023-08-27T14:32:48+02:00",
+				"url": "https://mb.esamecar.net/2023/08/27/a-very-very-nice-old.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/08/27/use-kagi-as.html",
@@ -1432,6 +1488,14 @@
 				"tags": ["photography"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/08/04/field-path-a-lot-of.html",
+				"title": "Field path, a lot of green, on the horizon a castle on a hill",
+				"content_html": "<p><img width=\"1280\" height=\"960\" alt=\"Field path, a lot of green, on the horizon a castle on a hill\" src=\"https://eu.uploads.micro.blog/95406/2025/64cd5757aa602.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"960\" alt=\"Field path, a lot of green, on the horizon a castle on a hill\" src=\"https://eu.uploads.micro.blog/95406/2025/64cd5757aa602.jpg\"></p>\n",
+				"date_published": "2023-08-04T21:54:04+02:00",
+				"url": "https://mb.esamecar.net/2023/08/04/field-path-a-lot-of.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/08/03/ive-come-to.html",
 				"title": "I've come to a decision today.",
 				"content_html": "<p>I&rsquo;ve been using Apple products for almost 18 years now. I adore their hardware and used to be a big fan of their software ecosystem. However, the software quality has plummeted lately, to the point where I&rsquo;ve decided not to buy any new Apple products for the time being.</p>\n<p><strong>Because it just does not work</strong> (reliably).</p>\n<p>I will continue using the devices I already have, and I do have quite a few. But I will actively resist the urge to acquire new flashy products from Cupertino until I feel that Apple gets its act together again.</p>\n<p>Here are just a few random examples:</p>\n<ol>\n<li>My new Airpods Pro (2nd Gen) just do not appear in Find My.</li>\n<li>The for us essential Screen Time feature often doesn&rsquo;t work at all on my youngest son&rsquo;s iPhone.</li>\n<li>Both of my Macs often lose all their entries in System Settings / Accessibility, rendering a bunch of apps useless until I manually add them back in.</li>\n<li>System Settings itself are a nightmare.</li>\n<li>Messages ALWAYS informs me that my son has enabled &ldquo;do not disturb mode,&rdquo; preventing him from receiving incoming messages. Of course, that is not true at all.</li>\n<li>Screen Time requests from my son show up in a group chat with him and my wife. I have to delete all messages daily in that chat because the Screen Time messages make the thread unresponsive. It even crashes on macOS. So, the chat becomes unusable for communication. We have to use another app - WTF?</li>\n<li>Preview under macOS loses text notes for annotations I&rsquo;ve made after saving a PDF. This is a complete showstopper for the entire app. Data loss should be unacceptable.</li>\n<li>My Home Pod mini in the kitchen often forgets timers. This really makes me happy during cooking.</li>\n<li>Don&rsquo;t even get me started on the general reliability of Siri.</li>\n<li>Recently, I discovered that many files do not appear in Spotlight search. It&rsquo;s frustrating when I know a file is there, but it simply cannot be found. This is almost as bad as data loss.</li>\n<li>And then there all those little bugs I just ignore on a daily basis. There are definitely enough to start a &ldquo;a bug a day&rdquo; series &hellip;</li>\n</ol>\n",
@@ -1464,6 +1528,14 @@
 				"date_published": "2023-07-30T22:42:39+02:00",
 				"url": "https://mb.esamecar.net/2023/07/30/here-are-a.html",
 				"tags": ["weeknotes"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/07/30/ein-waldweg-in-der-mitte.html",
+				"title": "Ein Waldweg in der Mitte Richtung Horizont. Rechts und links Bäume. Vorne ein Hund von hinten zu sehen.",
+				"content_html": "<p><img width=\"960\" height=\"1280\" alt=\"Ein Waldweg in der Mitte Richtung Horizont. Rechts und links Bäume. Vorne ein Hund von hinten zu sehen.\" src=\"https://eu.uploads.micro.blog/95406/2025/64c6c601c1b0c.jpg\"></p>\n",
+				"content_text": "<p><img width=\"960\" height=\"1280\" alt=\"Ein Waldweg in der Mitte Richtung Horizont. Rechts und links Bäume. Vorne ein Hund von hinten zu sehen.\" src=\"https://eu.uploads.micro.blog/95406/2025/64c6c601c1b0c.jpg\"></p>\n",
+				"date_published": "2023-07-30T22:20:22+02:00",
+				"url": "https://mb.esamecar.net/2023/07/30/ein-waldweg-in-der-mitte.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/07/29/i-am-very.html",
@@ -1511,6 +1583,14 @@
 				"tags": ["journal","weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/07/16/in-the-center-a-dog.html",
+				"title": "In the center a dog on a dirt road, right and left grain fields; in the background a thunderstorm front.",
+				"content_html": "<p><img width=\"2924\" height=\"2194\" alt=\"In the center a dog on a dirt road, right and left grain fields; in the background a thunderstorm front.\" src=\"https://eu.uploads.micro.blog/95406/2025/64b3fd564fb0d.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2924\" height=\"2194\" alt=\"In the center a dog on a dirt road, right and left grain fields; in the background a thunderstorm front.\" src=\"https://eu.uploads.micro.blog/95406/2025/64b3fd564fb0d.jpg\"></p>\n",
+				"date_published": "2023-07-16T16:23:21+02:00",
+				"url": "https://mb.esamecar.net/2023/07/16/in-the-center-a-dog.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/07/11/the-sky-is.html",
 				
 				"content_html": "<p>The sky is falling down.</p>\n<img src=\"uploads/2023/cb10799a76.jpg\" width=\"600\" height=\"449\" alt=\"\">\n",
@@ -1537,6 +1617,14 @@
 				"tags": ["journal","weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/07/09/burning-grain-field.html",
+				"title": "Burning grain field",
+				"content_html": "<p><img width=\"1280\" height=\"961\" alt=\"Burning grain field\" src=\"https://eu.uploads.micro.blog/95406/2025/64ab07eb05ed5.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"961\" alt=\"Burning grain field\" src=\"https://eu.uploads.micro.blog/95406/2025/64ab07eb05ed5.jpg\"></p>\n",
+				"date_published": "2023-07-09T21:18:06+02:00",
+				"url": "https://mb.esamecar.net/2023/07/09/burning-grain-field.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/07/05/towards-the-rainbow.html",
 				
 				"content_html": "<p><img src=\"https://mb.esamecar.net/uploads/2023/image.jpg\" alt=\"Dog on a country lane; on the horizon a rainbow\"></p>\n<p>towards the rainbow 🌈</p>\n",
@@ -1552,6 +1640,14 @@
 				"date_published": "2023-07-03T22:06:59+02:00",
 				"url": "https://mb.esamecar.net/2023/07/03/here-are-a.html",
 				"tags": ["journal","weeknotes"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/07/03/stage-of-red-hot-chili.html",
+				"title": "Stage of Red Hot Chili Peppers concert in Mannheim, Germany",
+				"content_html": "<p><img width=\"1280\" height=\"960\" alt=\"Stage of Red Hot Chili Peppers concert in Mannheim, Germany\" src=\"https://eu.uploads.micro.blog/95406/2025/64a322901374c.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"960\" alt=\"Stage of Red Hot Chili Peppers concert in Mannheim, Germany\" src=\"https://eu.uploads.micro.blog/95406/2025/64a322901374c.jpg\"></p>\n",
+				"date_published": "2023-07-03T21:33:41+02:00",
+				"url": "https://mb.esamecar.net/2023/07/03/stage-of-red-hot-chili.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/06/26/okay-i-didnt.html",
@@ -1597,6 +1693,14 @@
 				"tags": ["journal","weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/06/11/a-small-green-twoperson-tent.html",
+				"title": "A small, green, two-person tent on a wooden platform in a wooded area. On the platform you can see a man who is just putting something into the tent, a boy and a dog.",
+				"content_html": "<p><img width=\"2564\" height=\"3419\" alt=\"A small, green, two-person tent on a wooden platform in a wooded area. On the platform you can see a man who is just putting something into the tent, a boy and a dog.\" src=\"https://eu.uploads.micro.blog/95406/2025/6485ef9899a82.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2564\" height=\"3419\" alt=\"A small, green, two-person tent on a wooden platform in a wooded area. On the platform you can see a man who is just putting something into the tent, a boy and a dog.\" src=\"https://eu.uploads.micro.blog/95406/2025/6485ef9899a82.jpg\"></p>\n",
+				"date_published": "2023-06-11T18:00:28+02:00",
+				"url": "https://mb.esamecar.net/2023/06/11/a-small-green-twoperson-tent.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/06/09/okay-this-was.html",
 				
 				"content_html": "<p>Okay, this was insane. Now to bed 🙂</p>\n<p><img src=\"uploads/2023/4ced004b8a.jpg\" width=\"450\" height=\"600\" alt=\"Mickey Mouse Sticker on bench with Strava statistics of the hike \"><img src=\"uploads/2023/f8810abcd0.jpg\" width=\"600\" height=\"450\" alt=\"Two small tents on a platform for hikers\"><img src=\"uploads/2023/87d8e1c3a4.jpg\" width=\"450\" height=\"600\" alt=\"Flower meadow along hiking trail with cable car.\"></p>\n",
@@ -1636,6 +1740,14 @@
 				"date_published": "2023-06-03T20:31:35+02:00",
 				"url": "https://mb.esamecar.net/2023/06/03/here-are-a.html",
 				"tags": ["journal","weeknotes"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/06/03/centered-a-single-beautiful-red.html",
+				"title": "Centered, a single, beautiful, red poppy in a field.",
+				"content_html": "<p><img width=\"5491\" height=\"3661\" alt=\"Centered, a single, beautiful, red poppy in a field.\" src=\"https://eu.uploads.micro.blog/95406/2025/647b808ce3419.jpg\"></p>\n",
+				"content_text": "<p><img width=\"5491\" height=\"3661\" alt=\"Centered, a single, beautiful, red poppy in a field.\" src=\"https://eu.uploads.micro.blog/95406/2025/647b808ce3419.jpg\"></p>\n",
+				"date_published": "2023-06-03T20:04:00+02:00",
+				"url": "https://mb.esamecar.net/2023/06/03/centered-a-single-beautiful-red.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/06/02/finished-season-of.html",
@@ -1688,6 +1800,14 @@
 				"tags": ["journal","weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/05/29/woman-on-a-gravel-bike.html",
+				"title": "Woman on a gravel bike on a dirt road in the sunshine later in the evening.",
+				"content_html": "<p><img width=\"960\" height=\"1280\" alt=\"Woman on a gravel bike on a dirt road in the sunshine later in the evening.\" src=\"https://eu.uploads.micro.blog/95406/2025/6474e8991d090.jpg\"></p>\n",
+				"content_text": "<p><img width=\"960\" height=\"1280\" alt=\"Woman on a gravel bike on a dirt road in the sunshine later in the evening.\" src=\"https://eu.uploads.micro.blog/95406/2025/6474e8991d090.jpg\"></p>\n",
+				"date_published": "2023-05-29T20:02:06+02:00",
+				"url": "https://mb.esamecar.net/2023/05/29/woman-on-a-gravel-bike.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/05/29/where-have-i.html",
 				"title": "Where Have I Been",
 				"content_html": "<p>I saw <a href=\"https://maique.eu/2023/05/28/where-have-i.html\">maique</a> posting it and it seems, <a href=\"https://www.manton.org/2023/05/28/where-have-i.html\">Manton</a> started it &hellip;</p>\n<p>The idea is very nice and so I thought I would join in. 😎</p>\n<p>I haven&rsquo;t yet been to many different countries. That&rsquo;s mainly because my wife and I decided two decades ago to avoid cars and planes for traveling. And with just a bike and / or by train, you don&rsquo;t get very far unless you have a lot of time. Unfortunately, I don&rsquo;t. (And of course money always plays a certain role, too.)</p>\n<p>Anyway, here is the list of countries I have visited so far:</p>\n<ul>\n<li>Argentina 🇦🇷</li>\n<li>Austria 🇦🇹</li>\n<li>Czech Republic 🇨🇿</li>\n<li>Denmark 🇩🇰</li>\n<li>England 🏴󠁧󠁢󠁥󠁮󠁧󠁿</li>\n<li>France 🇫🇷</li>\n<li>Germany 🇩🇪</li>\n<li>Italy 🇮🇹</li>\n<li>Russia 🇷🇺</li>\n<li>Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</li>\n<li>Slovenia 🇸🇮</li>\n<li>Spain 🇪🇸</li>\n<li>Switzerland 🇨🇭</li>\n<li>Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿</li>\n<li>USA 🇺🇸</li>\n</ul>\n",
@@ -1703,6 +1823,14 @@
 				"date_published": "2023-05-21T20:05:09+02:00",
 				"url": "https://mb.esamecar.net/2023/05/21/here-are-a.html",
 				"tags": ["journal","weeknotes"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/05/21/an-old-port-crane-about.html",
+				"title": "An old port crane, about dilapidated and sprayed everywhere with graffiti, in Hamburg Hafen City.",
+				"content_html": "<p><img width=\"1280\" height=\"960\" alt=\"An old port crane, about dilapidated and sprayed everywhere with graffiti, in Hamburg Hafen City.\" src=\"https://eu.uploads.micro.blog/95406/2025/646a57ac8387f.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"960\" alt=\"An old port crane, about dilapidated and sprayed everywhere with graffiti, in Hamburg Hafen City.\" src=\"https://eu.uploads.micro.blog/95406/2025/646a57ac8387f.jpg\"></p>\n",
+				"date_published": "2023-05-21T19:41:03+02:00",
+				"url": "https://mb.esamecar.net/2023/05/21/an-old-port-crane-about.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/05/20/iron-curtain-trail.html",
@@ -1761,12 +1889,116 @@
 				"url": "https://mb.esamecar.net/2023/05/18/days-of-cycling.html"
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/05/15/green-landscape-field.html",
+				"title": "green landscape (field)",
+				"content_html": "<p><img width=\"1280\" height=\"854\" alt=\"green landscape (field)\" src=\"https://eu.uploads.micro.blog/95406/2025/6461e5ca7dd13.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"854\" alt=\"green landscape (field)\" src=\"https://eu.uploads.micro.blog/95406/2025/6461e5ca7dd13.jpg\"></p>\n",
+				"date_published": "2023-05-15T09:57:01+02:00",
+				"url": "https://mb.esamecar.net/2023/05/15/green-landscape-field.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/05/08/a-field-on-the-horizon.html",
+				"title": "A field, on the Horizon a Rapps field and a castle. In front, only in sections two racing cyclists.",
+				"content_html": "<p><img width=\"1280\" height=\"961\" alt=\"A field, on the Horizon a Rapps field and a castle. In front, only in sections two racing cyclists.\" src=\"https://eu.uploads.micro.blog/95406/2025/64591c9f69fd9.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"961\" alt=\"A field, on the Horizon a Rapps field and a castle. In front, only in sections two racing cyclists.\" src=\"https://eu.uploads.micro.blog/95406/2025/64591c9f69fd9.jpg\"></p>\n",
+				"date_published": "2023-05-08T18:00:34+02:00",
+				"url": "https://mb.esamecar.net/2023/05/08/a-field-on-the-horizon.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/05/01/specialized-diverge-gravel-bike.html",
+				"title": "Specialized Diverge Gravel bike",
+				"content_html": "<p><img width=\"3807\" height=\"2411\" alt=\"Specialized Diverge Gravel bike\" src=\"https://eu.uploads.micro.blog/95406/2025/64501e4a3a9c2.jpg\"></p>\n",
+				"content_text": "<p><img width=\"3807\" height=\"2411\" alt=\"Specialized Diverge Gravel bike\" src=\"https://eu.uploads.micro.blog/95406/2025/64501e4a3a9c2.jpg\"></p>\n",
+				"date_published": "2023-05-01T22:17:18+02:00",
+				"url": "https://mb.esamecar.net/2023/05/01/specialized-diverge-gravel-bike.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/04/24/a-dark-hall-in-an.html",
+				"title": "A dark hall in an event center with people sitting on chairs in front of a stage on which a woman sits on a bar stool at a small table to give a reading.",
+				"content_html": "<p><img width=\"3243\" height=\"2432\" alt=\"A dark hall in an event center with people sitting on chairs in front of a stage on which a woman sits on a bar stool at a small table to give a reading.\" src=\"https://eu.uploads.micro.blog/95406/2025/6446e0ffa56fe.jpg\"></p>\n",
+				"content_text": "<p><img width=\"3243\" height=\"2432\" alt=\"A dark hall in an event center with people sitting on chairs in front of a stage on which a woman sits on a bar stool at a small table to give a reading.\" src=\"https://eu.uploads.micro.blog/95406/2025/6446e0ffa56fe.jpg\"></p>\n",
+				"date_published": "2023-04-24T22:05:22+02:00",
+				"url": "https://mb.esamecar.net/2023/04/24/a-dark-hall-in-an.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/04/16/two-pizzas-in-a-pizza.html",
+				"title": "Two pizzas in a pizza oven with a wood fire burning inside.",
+				"content_html": "<p><img width=\"2508\" height=\"3344\" alt=\"Two pizzas in a pizza oven with a wood fire burning inside.\" src=\"https://eu.uploads.micro.blog/95406/2025/643be9fb3f49a.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2508\" height=\"3344\" alt=\"Two pizzas in a pizza oven with a wood fire burning inside.\" src=\"https://eu.uploads.micro.blog/95406/2025/643be9fb3f49a.jpg\"></p>\n",
+				"date_published": "2023-04-16T14:28:47+02:00",
+				"url": "https://mb.esamecar.net/2023/04/16/two-pizzas-in-a-pizza.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/04/16/a-tree-fungus-probably-a.html",
+				"title": "A tree fungus, probably a Trametes sp., on a tree stump in the forest.",
+				"content_html": "<p><img width=\"4032\" height=\"3024\" alt=\"A tree fungus, probably a Trametes sp., on a tree stump in the forest.\" src=\"https://eu.uploads.micro.blog/95406/2025/643be730b3d92.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"A tree fungus, probably a Trametes sp., on a tree stump in the forest.\" src=\"https://eu.uploads.micro.blog/95406/2025/643be730b3d92.jpg\"></p>\n",
+				"date_published": "2023-04-16T14:16:53+02:00",
+				"url": "https://mb.esamecar.net/2023/04/16/a-tree-fungus-probably-a.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/04/09/forest-landscape-in-the-palatinate.html",
+				"title": "Forest landscape in the Palatinate Forest. A dog on a leash is standing a little distance away.",
+				"content_html": "<p><img width=\"4032\" height=\"3024\" alt=\"Forest landscape in the Palatinate Forest. A dog on a leash is standing a little distance away.\" src=\"https://eu.uploads.micro.blog/95406/2025/64329d3e74924.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"Forest landscape in the Palatinate Forest. A dog on a leash is standing a little distance away.\" src=\"https://eu.uploads.micro.blog/95406/2025/64329d3e74924.jpg\"></p>\n",
+				"date_published": "2023-04-09T13:10:58+02:00",
+				"url": "https://mb.esamecar.net/2023/04/09/forest-landscape-in-the-palatinate.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/04/02/a-dog-looking-into-the.html",
+				"title": "A dog looking into the camera.",
+				"content_html": "<p><img width=\"4032\" height=\"3024\" alt=\"A dog looking into the camera.\" src=\"https://eu.uploads.micro.blog/95406/2025/6429eaa1aa1f7.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"A dog looking into the camera.\" src=\"https://eu.uploads.micro.blog/95406/2025/6429eaa1aa1f7.jpg\"></p>\n",
+				"date_published": "2023-04-02T22:50:44+02:00",
+				"url": "https://mb.esamecar.net/2023/04/02/a-dog-looking-into-the.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/03/26/a-case-snail-on-a.html",
+				"title": "A case snail on a forest path.",
+				"content_html": "<p><img width=\"3186\" height=\"2389\" alt=\"A case snail on a forest path.\" src=\"https://eu.uploads.micro.blog/95406/2025/642028a496688.jpg\"></p>\n",
+				"content_text": "<p><img width=\"3186\" height=\"2389\" alt=\"A case snail on a forest path.\" src=\"https://eu.uploads.micro.blog/95406/2025/642028a496688.jpg\"></p>\n",
+				"date_published": "2023-03-26T13:12:39+02:00",
+				"url": "https://mb.esamecar.net/2023/03/26/a-case-snail-on-a.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/03/19/gravel-bike-in-front-of.html",
+				"title": "Gravel bike  in front of a former gas station.",
+				"content_html": "<p><img width=\"1280\" height=\"960\" alt=\"Gravel bike  in front of a former gas station.\" src=\"https://eu.uploads.micro.blog/95406/2025/64172bfd1ca14.jpg\"></p>\n",
+				"content_text": "<p><img width=\"1280\" height=\"960\" alt=\"Gravel bike  in front of a former gas station.\" src=\"https://eu.uploads.micro.blog/95406/2025/64172bfd1ca14.jpg\"></p>\n",
+				"date_published": "2023-03-19T17:36:32+02:00",
+				"url": "https://mb.esamecar.net/2023/03/19/gravel-bike-in-front-of.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/03/12/inselbrauerei-auf-rgen-deutschland.html",
+				"title": "Insel-Brauerei auf Rügen, Deutschland",
+				"content_html": "<p><img width=\"450\" height=\"600\" alt=\"Insel-Brauerei auf Rügen, Deutschland\" src=\"https://eu.uploads.micro.blog/95406/2025/640cfe9f0c486.jpg\"></p>\n",
+				"content_text": "<p><img width=\"450\" height=\"600\" alt=\"Insel-Brauerei auf Rügen, Deutschland\" src=\"https://eu.uploads.micro.blog/95406/2025/640cfe9f0c486.jpg\"></p>\n",
+				"date_published": "2023-03-12T00:20:17+02:00",
+				"url": "https://mb.esamecar.net/2023/03/12/inselbrauerei-auf-rgen-deutschland.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/03/09/lots-of-fish-in-an.html",
+				"title": "Lots of fish in an aquarium.",
+				"content_html": "<p><img width=\"4032\" height=\"3024\" alt=\"Lots of fish in an aquarium.\" src=\"https://eu.uploads.micro.blog/95406/2025/640a4eb62c6f3.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"Lots of fish in an aquarium.\" src=\"https://eu.uploads.micro.blog/95406/2025/640a4eb62c6f3.jpg\"></p>\n",
+				"date_published": "2023-03-09T23:25:13+02:00",
+				"url": "https://mb.esamecar.net/2023/03/09/lots-of-fish-in-an.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/03/08/brewery.html",
 				"title": "Brewery",
 				"content_html": "<h1>Brewery</h1>\n<p>I went to a brewery and had </p>\n<p><img src=\"https://cdn.some.pics/esamecar/6405d4b744606.jpg\" alt=\"Beer 🍻 lots of\" title=\"Beer 🍻 lots of\" /></p>\n",
 				"content_text": "<h1>Brewery</h1>\n<p>I went to a brewery and had </p>\n<p><img src=\"https://cdn.some.pics/esamecar/6405d4b744606.jpg\" alt=\"Beer 🍻 lots of\" title=\"Beer 🍻 lots of\" /></p>\n",
 				"date_published": "2023-03-08T22:21:10+02:00",
 				"url": "https://mb.esamecar.net/2023/03/08/brewery.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/03/06/beer-lots-of.html",
+				"title": "Beer 🍻 lots of",
+				"content_html": "<p><img width=\"2214\" height=\"2951\" alt=\"Beer 🍻 lots of\" src=\"https://eu.uploads.micro.blog/95406/2025/6405d4b744606.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2214\" height=\"2951\" alt=\"Beer 🍻 lots of\" src=\"https://eu.uploads.micro.blog/95406/2025/6405d4b744606.jpg\"></p>\n",
+				"date_published": "2023-03-06T13:55:38+02:00",
+				"url": "https://mb.esamecar.net/2023/03/06/beer-lots-of.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/03/04/problems-connecting-apple.html",
