@@ -7,12 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2025/09/21/215836.html",
+				
+				"content_html": "<img src=\"uploads/2025/a77846ff8c.png\" width=\"600\" height=\"315\" alt=\"Parasite (2019) movie review: disturbing but very good\">\n",
+				"content_text": "<img src=\"uploads/2025/a77846ff8c.png\" width=\"600\" height=\"315\" alt=\"Parasite (2019) movie review: disturbing but very good\">\n",
+				"date_published": "2025-09-21T21:58:36+02:00",
+				"url": "https://mb.esamecar.net/2025/09/21/215836.html",
+				"tags": ["media_consumption","crosspost"]
+			},
+			{
 				"id": "http://esamecar.micro.blog/2025/09/21/finished-reading-auf-see-by.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783446275577\">Auf See</a> by Theresia Enzensberger 📚</p>\n",
-				"content_text": "Finished reading: [Auf See](https://micro.blog/books/9783446275577) by Theresia Enzensberger 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783446275577/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783446275577\">Auf See</a> by Theresia Enzensberger 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783446275577/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Auf See](https://micro.blog/books/9783446275577) by Theresia Enzensberger 📚\n",
 				"date_published": "2025-09-21T16:30:57+02:00",
-				"url": "https://mb.esamecar.net/2025/09/21/finished-reading-auf-see-by.html"
+				"url": "https://mb.esamecar.net/2025/09/21/finished-reading-auf-see-by.html",
+				"tags": ["crosspost","reading"]
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/09/20/skyscraper-frankfurt-am-main-germany.html",
@@ -20,7 +30,8 @@
 				"content_html": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://mb.esamecar.net/uploads/2025/68cec35d69bf8.jpg\"></p>\n",
 				"content_text": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://mb.esamecar.net/uploads/2025/68cec35d69bf8.jpg\"></p>\n",
 				"date_published": "2025-09-20T17:08:16+02:00",
-				"url": "https://mb.esamecar.net/2025/09/20/skyscraper-frankfurt-am-main-germany.html"
+				"url": "https://mb.esamecar.net/2025/09/20/skyscraper-frankfurt-am-main-germany.html",
+				"tags": ["photography"]
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/09/20/notebook-navigator.html",
@@ -42,8 +53,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/09/13/dieter-rams-ein-stilraum-museum.html",
 				"title": "Dieter Rams. Ein Stilraum / Museum Angewandte Kunst",
-				"content_html": "<img src=\"uploads/2025/2025-09-06-dscf2526-1-resized.jpg\" width=\"600\" height=\"398\" alt=\"A vintage BRAUN reel-to-reel tape recorder with two visible spools is displayed against a plain background. Designed by Dieter Rams.\">\n<br> <br>\n<img src=\"uploads/2025/2025-09-06-dscf2525-resized.jpg\">\n",
-				"content_text": "<img src=\"uploads/2025/2025-09-06-dscf2526-1-resized.jpg\" width=\"600\" height=\"398\" alt=\"A vintage BRAUN reel-to-reel tape recorder with two visible spools is displayed against a plain background. Designed by Dieter Rams.\">\n<br> <br>\n\n<img src=\"uploads/2025/2025-09-06-dscf2525-resized.jpg\">\n",
+				"content_html": "<img src=\"https://eu.uploads.micro.blog/95406/2025/2025-09-06-dscf2526-1-resized.jpg\" width=\"600\" height=\"398\" alt=\"A vintage BRAUN reel-to-reel tape recorder with two visible spools is displayed against a plain background. Designed by Dieter Rams.\">\n<br> <br>\n<img src=\"https://eu.uploads.micro.blog/95406/2025/2025-09-06-dscf2525-resized.jpg\">\n",
+				"content_text": "<img src=\"https://eu.uploads.micro.blog/95406/2025/2025-09-06-dscf2526-1-resized.jpg\" width=\"600\" height=\"398\" alt=\"A vintage BRAUN reel-to-reel tape recorder with two visible spools is displayed against a plain background. Designed by Dieter Rams.\">\n<br> <br>\n\n<img src=\"https://eu.uploads.micro.blog/95406/2025/2025-09-06-dscf2525-resized.jpg\">\n",
 				"date_published": "2025-09-13T15:47:43+02:00",
 				"url": "https://mb.esamecar.net/2025/09/13/dieter-rams-ein-stilraum-museum.html",
 				"tags": ["photography"]
@@ -1368,8 +1379,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2023/09/10/hot-air-balloon-that-just.html",
 				"title": "Hot air balloon that just landed on a field.",
-				"content_html": "<p><img width=\"2369\" height=\"3159\" alt=\"Hot air balloon that just landed on a field.\" src=\"https://mb.esamecar.net/uploads/2025/64fdcf99b01b7.jpg\"></p>\n",
-				"content_text": "<p><img width=\"2369\" height=\"3159\" alt=\"Hot air balloon that just landed on a field.\" src=\"https://mb.esamecar.net/uploads/2025/64fdcf99b01b7.jpg\"></p>\n",
+				"content_html": "<p><img width=\"2369\" height=\"3159\" alt=\"Hot air balloon that just landed on a field.\" src=\"https://eu.uploads.micro.blog/95406/2025/64fdcf99b01b7.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2369\" height=\"3159\" alt=\"Hot air balloon that just landed on a field.\" src=\"https://eu.uploads.micro.blog/95406/2025/64fdcf99b01b7.jpg\"></p>\n",
 				"date_published": "2023-09-10T16:15:58+02:00",
 				"url": "https://mb.esamecar.net/2023/09/10/hot-air-balloon-that-just.html"
 			},
