@@ -7,19 +7,68 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2025/11/05/today-was-a-good-day.html",
+				"title": "Today was a good day to shoot the moon. It looks a bit like a melon.",
+				"content_html": "<p><img width=\"5677\" height=\"3785\" alt=\"Full moon against a dark sky.\" src=\"https://mb.esamecar.net/uploads/2025/690bbf740f82d.jpg\"></p>\n",
+				"content_text": "<p><img width=\"5677\" height=\"3785\" alt=\"Full moon against a dark sky.\" src=\"https://mb.esamecar.net/uploads/2025/690bbf740f82d.jpg\"></p>\n",
+				"date_published": "2025-11-05T23:19:50+02:00",
+				"url": "https://mb.esamecar.net/2025/11/05/today-was-a-good-day.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2025/11/02/231322.html",
+				
+				"content_html": "<img src=\"uploads/2025/5ad1727b9e.png\" width=\"600\" height=\"315\" alt=\"Review Poor Things: Just when you think you've seen it all 😳 (Liked It)\">\n",
+				"content_text": "<img src=\"uploads/2025/5ad1727b9e.png\" width=\"600\" height=\"315\" alt=\"Review Poor Things: Just when you think you've seen it all 😳 (Liked It)\">\n",
+				"date_published": "2025-11-02T23:13:22+02:00",
+				"url": "https://mb.esamecar.net/2025/11/02/231322.html",
+				"tags": ["media_consumption"]
+			},
+			{
+				"id": "http://esamecar.micro.blog/2025/11/01/yesterday-we-had-a-pretty.html",
+				"title": "Yesterday, we had a pretty impressive sunrise.",
+				"content_html": "<p><img width=\"3864\" height=\"2576\" alt=\"A dramatic sunset with streaks of pink and red clouds dominating the sky. Silhouetted rooftops are visible along the horizon.\" src=\"https://mb.esamecar.net/uploads/2025/6905ef403b733.jpg\"></p>\n",
+				"content_text": "<p><img width=\"3864\" height=\"2576\" alt=\"A dramatic sunset with streaks of pink and red clouds dominating the sky. Silhouetted rooftops are visible along the horizon.\" src=\"https://mb.esamecar.net/uploads/2025/6905ef403b733.jpg\"></p>\n",
+				"date_published": "2025-11-01T13:30:10+02:00",
+				"url": "https://mb.esamecar.net/2025/11/01/yesterday-we-had-a-pretty.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2025/10/26/here-we-go.html",
+				"title": "Here We Go!",
+				"content_html": "<p><img width=\"5002\" height=\"7503\" alt=\"A black and white photograph of a narrow cobblestone passageway lined with tiled walls and overhead lighting. A person wearing a hooded jacket is walking away from the camera. To the right, there's a large sign with the words \"HERE WE GO!\" in bold letters. The passage seems to extend into the distance, creating a sense of depth and perspective.\" src=\"https://mb.esamecar.net/uploads/2025/68fdfe3724f02.jpg\"></p>\n",
+				"content_text": "<p><img width=\"5002\" height=\"7503\" alt=\"A black and white photograph of a narrow cobblestone passageway lined with tiled walls and overhead lighting. A person wearing a hooded jacket is walking away from the camera. To the right, there's a large sign with the words \"HERE WE GO!\" in bold letters. The passage seems to extend into the distance, creating a sense of depth and perspective.\" src=\"https://mb.esamecar.net/uploads/2025/68fdfe3724f02.jpg\"></p>\n",
+				"date_published": "2025-10-26T12:55:54+02:00",
+				"url": "https://mb.esamecar.net/2025/10/26/here-we-go.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2025/10/22/finished-reading-mnner-die-die.html",
+				
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783843731645/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783843731645\">Männer, die die Welt verbrennen</a> by Christian Stöcker 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783843731645/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Männer, die die Welt verbrennen](https://micro.blog/books/9783843731645) by Christian Stöcker 📚\n",
+				"date_published": "2025-10-22T20:42:37+02:00",
+				"url": "https://mb.esamecar.net/2025/10/22/finished-reading-mnner-die-die.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2025/10/22/berlin.html",
+				"title": "Berlin",
+				"content_html": "<p><img width=\"960\" height=\"1280\" alt=\"A modern urban scene with a tall, thin pole casting a long shadow across a wide plaza. The sun is directly behind the pole, creating a halo effect. On the left, silhouetted people are walking and pulling suitcases. To the right, a tall, glass-paneled building reflects the sky, with its geometric design adding visual interest. A construction crane and city buildings are visible in the background. The sky is partly cloudy, enhancing the dramatic lighting.\" src=\"https://eu.uploads.micro.blog/95406/2025/68f879a51490a.jpg\"></p>\n",
+				"content_text": "<p><img width=\"960\" height=\"1280\" alt=\"A modern urban scene with a tall, thin pole casting a long shadow across a wide plaza. The sun is directly behind the pole, creating a halo effect. On the left, silhouetted people are walking and pulling suitcases. To the right, a tall, glass-paneled building reflects the sky, with its geometric design adding visual interest. A construction crane and city buildings are visible in the background. The sky is partly cloudy, enhancing the dramatic lighting.\" src=\"https://eu.uploads.micro.blog/95406/2025/68f879a51490a.jpg\"></p>\n",
+				"date_published": "2025-10-22T08:28:55+02:00",
+				"url": "https://mb.esamecar.net/2025/10/22/berlin.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2025/10/05/lego.html",
 				"title": "LEGO 72046",
-				"content_html": "<p>I am extremely impressed with the LEGO Game Boy set. The build technique is outstanding. There are only two stickers and it looks absolutely brilliant. I am glad I made an exception to my “no new LEGO sets” rule.</p>\n<img src=\"uploads/2025/img-5419.jpg\" width=\"600\" height=\"324\" alt=\"A shelf displaying various handheld gaming devices and cartridges. There are several Game Boys (DMG, Color), a Modretro Chromatic and an Analogue Pocket. Cartridges are neatly arranged, with one prominently featuring &quot;Donkeykong Land&quot; game in a yellow case inside an Epilogue GP Operator. A yellow handheld console with a crank is also visible, a Playdate device.\">\n",
-				"content_text": "I am extremely impressed with the LEGO Game Boy set. The build technique is outstanding. There are only two stickers and it looks absolutely brilliant. I am glad I made an exception to my “no new LEGO sets” rule.\n\n<img src=\"uploads/2025/img-5419.jpg\" width=\"600\" height=\"324\" alt=\"A shelf displaying various handheld gaming devices and cartridges. There are several Game Boys (DMG, Color), a Modretro Chromatic and an Analogue Pocket. Cartridges are neatly arranged, with one prominently featuring &quot;Donkeykong Land&quot; game in a yellow case inside an Epilogue GP Operator. A yellow handheld console with a crank is also visible, a Playdate device.\">\n",
+				"content_html": "<p>I am extremely impressed with the LEGO Game Boy set. The build technique is outstanding. There are only two stickers and it looks absolutely brilliant. I am glad I made an exception to my “no new LEGO sets” rule.</p>\n<img src=\"https://eu.uploads.micro.blog/95406/2025/img-5419.jpg\" width=\"600\" height=\"324\" alt=\"A shelf displaying various handheld gaming devices and cartridges. There are several Game Boys (DMG, Color), a Modretro Chromatic and an Analogue Pocket. Cartridges are neatly arranged, with one prominently featuring &quot;Donkeykong Land&quot; game in a yellow case inside an Epilogue GP Operator. A yellow handheld console with a crank is also visible, a Playdate device.\">\n",
+				"content_text": "I am extremely impressed with the LEGO Game Boy set. The build technique is outstanding. There are only two stickers and it looks absolutely brilliant. I am glad I made an exception to my “no new LEGO sets” rule.\n\n<img src=\"https://eu.uploads.micro.blog/95406/2025/img-5419.jpg\" width=\"600\" height=\"324\" alt=\"A shelf displaying various handheld gaming devices and cartridges. There are several Game Boys (DMG, Color), a Modretro Chromatic and an Analogue Pocket. Cartridges are neatly arranged, with one prominently featuring &quot;Donkeykong Land&quot; game in a yellow case inside an Epilogue GP Operator. A yellow handheld console with a crank is also visible, a Playdate device.\">\n",
 				"date_published": "2025-10-05T20:01:53+02:00",
 				"url": "https://mb.esamecar.net/2025/10/05/lego.html",
-				"tags": ["crosspost","RetroGaming"]
+				"tags": ["crosspost","RetroGaming","LEGO"]
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/10/02/224926.html",
 				
-				"content_html": "<img src=\"uploads/2025/17e454d70b.png\" width=\"600\" height=\"315\" alt=\"Family Plan review: Nice idea, but the dull action bored me pretty quickly. Rating: Decent\">\n",
-				"content_text": "<img src=\"uploads/2025/17e454d70b.png\" width=\"600\" height=\"315\" alt=\"Family Plan review: Nice idea, but the dull action bored me pretty quickly. Rating: Decent\">\n",
+				"content_html": "<img src=\"https://eu.uploads.micro.blog/95406/2025/17e454d70b.png\" width=\"600\" height=\"315\" alt=\"Family Plan review: Nice idea, but the dull action bored me pretty quickly. Rating: Decent\">\n",
+				"content_text": "<img src=\"https://eu.uploads.micro.blog/95406/2025/17e454d70b.png\" width=\"600\" height=\"315\" alt=\"Family Plan review: Nice idea, but the dull action bored me pretty quickly. Rating: Decent\">\n",
 				"date_published": "2025-10-02T22:49:26+02:00",
 				"url": "https://mb.esamecar.net/2025/10/02/224926.html",
 				"tags": ["media_consumption"]
@@ -27,16 +76,16 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/09/27/migration-is-not-a-crime.html",
 				"title": "Migration is not a Crime",
-				"content_html": "<p><img width=\"4607\" height=\"6911\" alt=\"Street art on a textured wall shows a figure of a bear wearing a coat and hat, holding a suitcase. The text above and below reads \"Migration is not a crime.\" A drainpipe to the right has several colorful stickers attached.\" src=\"https://mb.esamecar.net/uploads/2025/68d7ab4fcefd3.jpg\"></p>\n",
-				"content_text": "<p><img width=\"4607\" height=\"6911\" alt=\"Street art on a textured wall shows a figure of a bear wearing a coat and hat, holding a suitcase. The text above and below reads \"Migration is not a crime.\" A drainpipe to the right has several colorful stickers attached.\" src=\"https://mb.esamecar.net/uploads/2025/68d7ab4fcefd3.jpg\"></p>\n",
+				"content_html": "<p><img width=\"4607\" height=\"6911\" alt=\"Street art on a textured wall shows a figure of a bear wearing a coat and hat, holding a suitcase. The text above and below reads \"Migration is not a crime.\" A drainpipe to the right has several colorful stickers attached.\" src=\"https://eu.uploads.micro.blog/95406/2025/68d7ab4fcefd3.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4607\" height=\"6911\" alt=\"Street art on a textured wall shows a figure of a bear wearing a coat and hat, holding a suitcase. The text above and below reads \"Migration is not a crime.\" A drainpipe to the right has several colorful stickers attached.\" src=\"https://eu.uploads.micro.blog/95406/2025/68d7ab4fcefd3.jpg\"></p>\n",
 				"date_published": "2025-09-27T11:16:03+02:00",
 				"url": "https://mb.esamecar.net/2025/09/27/migration-is-not-a-crime.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/09/21/215836.html",
 				
-				"content_html": "<img src=\"uploads/2025/a77846ff8c.png\" width=\"600\" height=\"315\" alt=\"Parasite (2019) movie review: disturbing but very good\">\n",
-				"content_text": "<img src=\"uploads/2025/a77846ff8c.png\" width=\"600\" height=\"315\" alt=\"Parasite (2019) movie review: disturbing but very good\">\n",
+				"content_html": "<img src=\"https://eu.uploads.micro.blog/95406/2025/a77846ff8c.png\" width=\"600\" height=\"315\" alt=\"Parasite (2019) movie review: disturbing but very good\">\n",
+				"content_text": "<img src=\"https://eu.uploads.micro.blog/95406/2025/a77846ff8c.png\" width=\"600\" height=\"315\" alt=\"Parasite (2019) movie review: disturbing but very good\">\n",
 				"date_published": "2025-09-21T21:58:36+02:00",
 				"url": "https://mb.esamecar.net/2025/09/21/215836.html",
 				"tags": ["media_consumption","crosspost"]
@@ -53,8 +102,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/09/20/skyscraper-frankfurt-am-main-germany.html",
 				"title": "Skyscraper (Frankfurt am Main, Germany)",
-				"content_html": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://mb.esamecar.net/uploads/2025/68cec35d69bf8.jpg\"></p>\n",
-				"content_text": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://mb.esamecar.net/uploads/2025/68cec35d69bf8.jpg\"></p>\n",
+				"content_html": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://eu.uploads.micro.blog/95406/2025/68cec35d69bf8.jpg\"></p>\n",
+				"content_text": "<p><img width=\"2856\" height=\"3808\" alt=\"Tall modern buildings against a clear blue sky. The central skyscraper has a distinctive overhanging section near the top, casting a bright silhouette with the sun positioned directly behind it. Surrounding the buildings are several trees, and there’s a curved, glass-covered structure on the right. Shadows create contrasting patterns on the ground.\" src=\"https://eu.uploads.micro.blog/95406/2025/68cec35d69bf8.jpg\"></p>\n",
 				"date_published": "2025-09-20T17:08:16+02:00",
 				"url": "https://mb.esamecar.net/2025/09/20/skyscraper-frankfurt-am-main-germany.html",
 				"tags": ["photography"]
@@ -106,8 +155,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/08/09/finished-reading-survival-of-the.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781914484704\">Survival of the Richest</a> by Douglas Rushkoff 📚 Recommended.</p>\n",
-				"content_text": "Finished reading: [Survival of the Richest](https://micro.blog/books/9781914484704) by Douglas Rushkoff 📚 Recommended.\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9781914484704/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9781914484704\">Survival of the Richest</a> by Douglas Rushkoff 📚 Recommended.</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9781914484704/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Survival of the Richest](https://micro.blog/books/9781914484704) by Douglas Rushkoff 📚 Recommended.\n",
 				"date_published": "2025-08-09T23:12:45+02:00",
 				"url": "https://mb.esamecar.net/2025/08/09/finished-reading-survival-of-the.html",
 				"tags": ["reading","book"]
@@ -223,8 +272,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/05/16/finished-reading-atomic-habits-by.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781473537804\">Atomic Habits</a> by James Clear 📚</p>\n",
-				"content_text": "Finished reading: [Atomic Habits](https://micro.blog/books/9781473537804) by James Clear 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9781473537804/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9781473537804\">Atomic Habits</a> by James Clear 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9781473537804/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Atomic Habits](https://micro.blog/books/9781473537804) by James Clear 📚\n",
 				"date_published": "2025-05-16T12:47:40+02:00",
 				"url": "https://mb.esamecar.net/2025/05/16/finished-reading-atomic-habits-by.html",
 				"tags": ["reading"]
@@ -295,8 +344,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/05/06/finished-reading-four-thousand-weeks.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/\">Four Thousand Weeks</a> by Oliver Burkeman 📚</p>\n",
-				"content_text": "Finished reading: [Four Thousand Weeks](https://micro.blog/books/) by Oliver Burkeman 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/books/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/\">Four Thousand Weeks</a> by Oliver Burkeman 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/books/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Four Thousand Weeks](https://micro.blog/books/) by Oliver Burkeman 📚\n",
 				"date_published": "2025-05-06T12:02:05+02:00",
 				"url": "https://mb.esamecar.net/2025/05/06/finished-reading-four-thousand-weeks.html",
 				"tags": ["reading"]
@@ -499,8 +548,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2025/02/14/finished-reading-die-bulletjournalmethode-by.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783644403222\">Die Bullet-Journal-Methode</a> by Ryder Carroll 📚</p>\n",
-				"content_text": "Finished reading: [Die Bullet-Journal-Methode](https://micro.blog/books/9783644403222) by Ryder Carroll 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783644403222/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783644403222\">Die Bullet-Journal-Methode</a> by Ryder Carroll 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783644403222/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Die Bullet-Journal-Methode](https://micro.blog/books/9783644403222) by Ryder Carroll 📚\n",
 				"date_published": "2025-02-14T18:37:00+02:00",
 				"url": "https://mb.esamecar.net/2025/02/14/finished-reading-die-bulletjournalmethode-by.html",
 				"tags": ["reading"]
@@ -763,8 +812,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2024/08/25/finished-reading-mr.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783641142933\">Mr. Mercedes</a> by Stephen King 📚</p>\n",
-				"content_text": "Finished reading: [Mr. Mercedes](https://micro.blog/books/9783641142933) by Stephen King 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783641142933/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783641142933\">Mr. Mercedes</a> by Stephen King 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783641142933/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Mr. Mercedes](https://micro.blog/books/9783641142933) by Stephen King 📚\n",
 				"date_published": "2024-08-25T00:37:45+02:00",
 				"url": "https://mb.esamecar.net/2024/08/25/finished-reading-mr.html"
 			},
@@ -841,8 +890,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2024/08/03/finished-reading-der.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783641272838\">Der Astronaut</a> by Andy Weir 📚</p>\n",
-				"content_text": "Finished reading: [Der Astronaut](https://micro.blog/books/9783641272838) by Andy Weir 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783641272838/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783641272838\">Der Astronaut</a> by Andy Weir 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783641272838/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Der Astronaut](https://micro.blog/books/9783641272838) by Andy Weir 📚\n",
 				"date_published": "2024-08-03T23:21:02+02:00",
 				"url": "https://mb.esamecar.net/2024/08/03/finished-reading-der.html"
 			},
@@ -857,8 +906,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2024/07/28/finished-reading-brssel.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783644019447\">Brüssel sehen und sterben</a> by Nico Semsrott 📚</p>\n",
-				"content_text": "Finished reading: [Brüssel sehen und sterben](https://micro.blog/books/9783644019447) by Nico Semsrott 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783644019447/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783644019447\">Brüssel sehen und sterben</a> by Nico Semsrott 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783644019447/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Brüssel sehen und sterben](https://micro.blog/books/9783644019447) by Nico Semsrott 📚\n",
 				"date_published": "2024-07-28T21:12:32+02:00",
 				"url": "https://mb.esamecar.net/2024/07/28/finished-reading-brssel.html"
 			},
@@ -1027,8 +1076,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2024/05/21/finished-reading-doom.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781647005368\">Doom Guy</a> by John Romero 📚</p>\n",
-				"content_text": "Finished reading: [Doom Guy](https://micro.blog/books/9781647005368) by John Romero 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9781647005368/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9781647005368\">Doom Guy</a> by John Romero 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9781647005368/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Doom Guy](https://micro.blog/books/9781647005368) by John Romero 📚\n",
 				"date_published": "2024-05-21T21:07:10+02:00",
 				"url": "https://mb.esamecar.net/2024/05/21/finished-reading-doom.html",
 				"tags": ["reading"]
@@ -1224,8 +1273,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2024/01/15/finished-reading-die.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783961210596\">Die subtile Kunst des Daraufscheißens</a> by Mark Manson 📚</p>\n",
-				"content_text": "Finished reading: [Die subtile Kunst des Daraufscheißens](https://micro.blog/books/9783961210596) by Mark Manson 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783961210596/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783961210596\">Die subtile Kunst des Daraufscheißens</a> by Mark Manson 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783961210596/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Die subtile Kunst des Daraufscheißens](https://micro.blog/books/9783961210596) by Mark Manson 📚\n",
 				"date_published": "2024-01-15T22:21:02+02:00",
 				"url": "https://mb.esamecar.net/2024/01/15/finished-reading-die.html",
 				"tags": ["reading"]
@@ -1501,8 +1550,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2023/08/07/finished-reading-nutzen.html",
 				
-				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9783962674830\">Nutzen Sie Ihr zweites Gehirn</a> by Tiago Forte 📚</p>\n",
-				"content_text": "Finished reading: [Nutzen Sie Ihr zweites Gehirn](https://micro.blog/books/9783962674830) by Tiago Forte 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783962674830/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Finished reading: <a href=\"https://micro.blog/books/9783962674830\">Nutzen Sie Ihr zweites Gehirn</a> by Tiago Forte 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783962674830/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Nutzen Sie Ihr zweites Gehirn](https://micro.blog/books/9783962674830) by Tiago Forte 📚\n",
 				"date_published": "2023-08-07T11:20:43+02:00",
 				"url": "https://mb.esamecar.net/2023/08/07/finished-reading-nutzen.html",
 				"tags": ["reading"]
@@ -1837,6 +1886,14 @@
 				"tags": ["journal","weeknotes"]
 			},
 			{
+				"id": "http://esamecar.micro.blog/2023/05/29/woman-on-a-gravel-bike.html",
+				"title": "Woman on a gravel bike on a dirt road in the sunshine later in the evening.",
+				"content_html": "<p><img width=\"960\" height=\"1280\" alt=\"Woman on a gravel bike on a dirt road in the sunshine later in the evening.\" src=\"https://eu.uploads.micro.blog/95406/2025/6474e8991d090.jpg\"></p>\n",
+				"content_text": "<p><img width=\"960\" height=\"1280\" alt=\"Woman on a gravel bike on a dirt road in the sunshine later in the evening.\" src=\"https://eu.uploads.micro.blog/95406/2025/6474e8991d090.jpg\"></p>\n",
+				"date_published": "2023-05-29T20:02:06+02:00",
+				"url": "https://mb.esamecar.net/2023/05/29/woman-on-a-gravel-bike.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2023/05/29/where-have-i.html",
 				"title": "Where Have I Been",
 				"content_html": "<p>I saw <a href=\"https://maique.eu/2023/05/28/where-have-i.html\">maique</a> posting it and it seems, <a href=\"https://www.manton.org/2023/05/28/where-have-i.html\">Manton</a> started it &hellip;</p>\n<p>The idea is very nice and so I thought I would join in. 😎</p>\n<p>I haven&rsquo;t yet been to many different countries. That&rsquo;s mainly because my wife and I decided two decades ago to avoid cars and planes for traveling. And with just a bike and / or by train, you don&rsquo;t get very far unless you have a lot of time. Unfortunately, I don&rsquo;t. (And of course money always plays a certain role, too.)</p>\n<p>Anyway, here is the list of countries I have visited so far:</p>\n<ul>\n<li>Argentina 🇦🇷</li>\n<li>Austria 🇦🇹</li>\n<li>Czech Republic 🇨🇿</li>\n<li>Denmark 🇩🇰</li>\n<li>England 🏴󠁧󠁢󠁥󠁮󠁧󠁿</li>\n<li>France 🇫🇷</li>\n<li>Germany 🇩🇪</li>\n<li>Italy 🇮🇹</li>\n<li>Russia 🇷🇺</li>\n<li>Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</li>\n<li>Slovenia 🇸🇮</li>\n<li>Spain 🇪🇸</li>\n<li>Switzerland 🇨🇭</li>\n<li>Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿</li>\n<li>USA 🇺🇸</li>\n</ul>\n",
@@ -1904,8 +1961,8 @@
 			{
 				"id": "http://esamecar.micro.blog/2023/05/18/currently-reading-how.html",
 				
-				"content_html": "<p>Currently reading: <a href=\"https://micro.blog/books/9783982438818\">How to Take Smart Notes</a> by Sönke Ahrens 📚</p>\n",
-				"content_text": "Currently reading: [How to Take Smart Notes](https://micro.blog/books/9783982438818) by Sönke Ahrens 📚\n",
+				"content_html": "<img src=\"https://cdn.micro.blog/books/9783982438818/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n<p>Currently reading: <a href=\"https://micro.blog/books/9783982438818\">How to Take Smart Notes</a> by Sönke Ahrens 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783982438818/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nCurrently reading: [How to Take Smart Notes](https://micro.blog/books/9783982438818) by Sönke Ahrens 📚\n",
 				"date_published": "2023-05-18T13:39:20+02:00",
 				"url": "https://mb.esamecar.net/2023/05/18/currently-reading-how.html"
 			},
@@ -1964,6 +2021,22 @@
 				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"A tree fungus, probably a Trametes sp., on a tree stump in the forest.\" src=\"https://eu.uploads.micro.blog/95406/2025/643be730b3d92.jpg\"></p>\n",
 				"date_published": "2023-04-16T14:16:53+02:00",
 				"url": "https://mb.esamecar.net/2023/04/16/a-tree-fungus-probably-a.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/04/09/forest-landscape-in-the-palatinate.html",
+				"title": "Forest landscape in the Palatinate Forest. A dog on a leash is standing a little distance away.",
+				"content_html": "<p><img width=\"4032\" height=\"3024\" alt=\"Forest landscape in the Palatinate Forest. A dog on a leash is standing a little distance away.\" src=\"https://eu.uploads.micro.blog/95406/2025/64329d3e74924.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"Forest landscape in the Palatinate Forest. A dog on a leash is standing a little distance away.\" src=\"https://eu.uploads.micro.blog/95406/2025/64329d3e74924.jpg\"></p>\n",
+				"date_published": "2023-04-09T13:10:58+02:00",
+				"url": "https://mb.esamecar.net/2023/04/09/forest-landscape-in-the-palatinate.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2023/04/02/a-dog-looking-into-the.html",
+				"title": "A dog looking into the camera.",
+				"content_html": "<p><img width=\"4032\" height=\"3024\" alt=\"A dog looking into the camera.\" src=\"https://eu.uploads.micro.blog/95406/2025/6429eaa1aa1f7.jpg\"></p>\n",
+				"content_text": "<p><img width=\"4032\" height=\"3024\" alt=\"A dog looking into the camera.\" src=\"https://eu.uploads.micro.blog/95406/2025/6429eaa1aa1f7.jpg\"></p>\n",
+				"date_published": "2023-04-02T22:50:44+02:00",
+				"url": "https://mb.esamecar.net/2023/04/02/a-dog-looking-into-the.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2023/03/26/a-case-snail-on-a.html",
