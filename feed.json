@@ -7,13 +7,29 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2026/02/19/phantom-obligation.html",
+				"title": "Phantom Obligation",
+				"content_html": "<p>Enjoyed reading <a href=\"https://www.terrygodier.com/phantom-obligation\">Phantom Obligation</a>.</p>\n<p>The answer might be <a href=\"https://www.terrygodier.com/current\">Current</a>.</p>\n<p>Thanks <a href=\"https://canion.blog/2026/02/18/app-review-current.html\">canion</a> for the heads up.</p>\n<p>I haven&rsquo;t tried the app yet, but its concept seems very interesting. In my RSS reader, I already have one folder a while - it&rsquo;s called &lsquo;People&rsquo;. Here, I&rsquo;ve gathered a few selected blogs that I always read. Often, I just click on the title to directly go to their website so that I can enjoy the whole package and not just read the text. Additionally, I&rsquo;ve disabled the Notification Badges<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> for my RSS reader and force myself to click on &lsquo;Mark All As Red&rsquo; more often.</p>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>Actually I have turned off the badge for almost all my apps and finally also the vibration alarm (it always muted anyway). I&rsquo;m about to get along with a dump phone, which actually feels quite nice.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
+				"content_text": "Enjoyed reading [Phantom Obligation](https://www.terrygodier.com/phantom-obligation).\n\nThe answer might be [Current](https://www.terrygodier.com/current).\n\nThanks [canion](https://canion.blog/2026/02/18/app-review-current.html) for the heads up.\n\nI haven't tried the app yet, but its concept seems very interesting. In my RSS reader, I already have one folder a while - it's called 'People'. Here, I've gathered a few selected blogs that I always read. Often, I just click on the title to directly go to their website so that I can enjoy the whole package and not just read the text. Additionally, I've disabled the Notification Badges[^1] for my RSS reader and force myself to click on 'Mark All As Red' more often.\n\n[^1]: Actually I have turned off the badge for almost all my apps and finally also the vibration alarm (it always muted anyway). I'm about to get along with a dump phone, which actually feels quite nice.\n",
+				"date_published": "2026-02-19T09:06:09+01:00",
+				"url": "https://mb.esamecar.net/2026/02/19/phantom-obligation.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2026/01/18/finished-reading-enshittification-by-cory.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n<p>Finished reading: <a href=\"https://micro.blog/books/9780374619336\">Enshittification</a> by Cory Doctorow 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9780374619336/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Enshittification](https://micro.blog/books/9780374619336) by Cory Doctorow 📚\n",
+				"date_published": "2026-01-18T23:26:43+01:00",
+				"url": "https://mb.esamecar.net/2026/01/18/finished-reading-enshittification-by-cory.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2026/01/18/the-last-viking.html",
-				"title": "The last viking",
-				"content_html": "<p>I love this kind of movies and this one, too.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I love this kind of movies and this one, too.\n\n<img src=\"uploads/2026/45e583089e.jpg\" width=\"600\" height=\"315\" alt=\"Two men wearing suits, one holding an axe, stand in a misty forest setting with text indicating the movie title The Last Viking and a user review stating I love this kind of movies.\">\n",
+				
+				"content_html": "<p>Watched: <a href=\"https://www.themoviedb.org/movie/1295400\">The Last Viking</a> 🍿</p>\n<p>I love this kind of movies and this one, too.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Watched: [The Last Viking](https://www.themoviedb.org/movie/1295400) 🍿\n\nI love this kind of movies and this one, too.\n\n<img src=\"uploads/2026/45e583089e.jpg\" alt=\"Two men wearing suits, one holding an axe, stand in a misty forest setting with text indicating the movie title The Last Viking and a user review stating I love this kind of movies.\">\n",
 				"date_published": "2026-01-18T17:00:22+01:00",
 				"url": "https://mb.esamecar.net/2026/01/18/the-last-viking.html",
-				"tags": ["media-consumption","photography"]
+				"tags": ["media-consumption"]
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/12/02/defaults.html",
@@ -46,7 +62,7 @@
 				"id": "http://esamecar.micro.blog/2025/11/21/watched-rushmore-enjoyed-it.html",
 				
 				"content_html": "<p>Watched: <a href=\"https://www.themoviedb.org/movie/11545\">Rushmore</a> 🍿 - enjoyed it</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Watched: [Rushmore](https://www.themoviedb.org/movie/11545) 🍿 - enjoyed it\n\n<img src=\"uploads/2025/fc3f90f5f7.jpg\" alt=\"Cover art of the movie Rushmore by Wes Anderson from 1998 with a review rating it as Liked It.\">\n",
+				"content_text": "Watched: [Rushmore](https://www.themoviedb.org/movie/11545) 🍿 - enjoyed it\n\n<img src=\"https://eu.uploads.micro.blog/95406/2025/fc3f90f5f7.jpg\" alt=\"Cover art of the movie Rushmore by Wes Anderson from 1998 with a review rating it as Liked It.\">\n",
 				"date_published": "2025-11-21T22:15:53+01:00",
 				"url": "https://mb.esamecar.net/2025/11/21/watched-rushmore-enjoyed-it.html",
 				"tags": ["media-consumption"]
@@ -136,7 +152,7 @@
 				"id": "http://esamecar.micro.blog/2025/10/22/berlin.html",
 				
 				"content_html": "<p>Berlin</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Berlin\n\n<p><img width=\"960\" height=\"1280\" alt=\"A modern urban scene with a tall, thin pole casting a long shadow across a wide plaza. The sun is directly behind the pole, creating a halo effect. On the left, silhouetted people are walking and pulling suitcases. To the right, a tall, glass-paneled building reflects the sky, with its geometric design adding visual interest. A construction crane and city buildings are visible in the background. The sky is partly cloudy, enhancing the dramatic lighting.\" src=\"https://mb.esamecar.net/uploads/2025/68f879a51490a.jpg\"></p>\n",
+				"content_text": "Berlin\n\n<p><img width=\"960\" height=\"1280\" alt=\"A modern urban scene with a tall, thin pole casting a long shadow across a wide plaza. The sun is directly behind the pole, creating a halo effect. On the left, silhouetted people are walking and pulling suitcases. To the right, a tall, glass-paneled building reflects the sky, with its geometric design adding visual interest. A construction crane and city buildings are visible in the background. The sky is partly cloudy, enhancing the dramatic lighting.\" src=\"https://eu.uploads.micro.blog/95406/2025/68f879a51490a.jpg\"></p>\n",
 				"date_published": "2025-10-22T07:28:55+01:00",
 				"url": "https://mb.esamecar.net/2025/10/22/berlin.html",
 				"tags": ["photography"]
