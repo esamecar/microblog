@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2026/03/30/til-that-when-using-wireguard.html",
+				
+				"content_html": "<p>TIL that when using WireGuard to connect remotely to your home network, and you have configured Pi‑Hole as a local DNS server in your Fritz!Box, if the IP address of the Pi‑Hole server changes, it is not enough to update it in the Fritz!Box; it must also be reflected in the WireGuard configuration on every client you use it with. Once this becomes clear, many things suddenly become so much simpler and easier to get running again 🤦‍♂️.</p>\n",
+				"content_text": "TIL that when using WireGuard to connect remotely to your home network, and you have configured Pi‑Hole as a local DNS server in your Fritz!Box, if the IP address of the Pi‑Hole server changes, it is not enough to update it in the Fritz!Box; it must also be reflected in the WireGuard configuration on every client you use it with. Once this becomes clear, many things suddenly become so much simpler and easier to get running again 🤦‍♂️.\n",
+				"date_published": "2026-03-30T11:53:53+01:00",
+				"url": "https://mb.esamecar.net/2026/03/30/til-that-when-using-wireguard.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2026/03/26/successful-products-every-time-i.html",
 				
 				"content_html": "<p><a href=\"https://manuelmoreale.com/thoughts/successful-products\">Successful products</a>:</p>\n<blockquote>\n<p>Every time I stumble on articles or posts discussing tech products, I’m perplexed when someone uses the word “successful” to describe a product with a lot of users. There’s a better word for products like that, and that’s “popular”.</p>\n</blockquote>\n",
