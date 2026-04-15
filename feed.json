@@ -7,10 +7,26 @@
 	"items": [
 		
 			{
+				"id": "http://esamecar.micro.blog/2026/04/15/finished-reading-reset-thriller-die.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n<p>Finished reading: <a href=\"https://micro.blog/books/9783423284721\">Reset Thriller : die Wahrheit stirbt zuerst</a> by Peter Grandl 📚</p>\n",
+				"content_text": "<img src=\"https://cdn.micro.blog/books/9783423284721/cover.jpg\" align=\"left\" class=\"microblog_book\" style=\"max-width: 60px; margin-right: 20px; margin-top: 0px; padding-top: 0px;\">\n\nFinished reading: [Reset Thriller : die Wahrheit stirbt zuerst](https://micro.blog/books/9783423284721) by Peter Grandl 📚\n",
+				"date_published": "2026-04-15T23:33:44+02:00",
+				"url": "https://mb.esamecar.net/2026/04/15/finished-reading-reset-thriller-die.html"
+			},
+			{
+				"id": "http://esamecar.micro.blog/2026/04/14/thoughts-on-ai-and-privacy.html",
+				"title": "Thoughts on AI and Privacy",
+				"content_html": "<p>It still baffles me that so many people are willing to completely give up their privacy out of fascination with the possibilities of AI.\nPersonally, I don&rsquo;t think it&rsquo;s proportionate to feed all my notes and thoughts to Claude Code, for example, just so it can clean up my Obsidian Vault.\nI mean, the tech giants may promise to respect their users' privacy, but hey, these companies illegally downloaded the entire knowledge of the world, so why should they respect my privacy in particular?\nAs long as it&rsquo;s not possible to accomplish something similar locally on my computer, this technology is out of the question for me - even if the temptation is great.</p>\n",
+				"content_text": "It still baffles me that so many people are willing to completely give up their privacy out of fascination with the possibilities of AI.\nPersonally, I don't think it's proportionate to feed all my notes and thoughts to Claude Code, for example, just so it can clean up my Obsidian Vault.\nI mean, the tech giants may promise to respect their users' privacy, but hey, these companies illegally downloaded the entire knowledge of the world, so why should they respect my privacy in particular?\nAs long as it's not possible to accomplish something similar locally on my computer, this technology is out of the question for me - even if the temptation is great.\n",
+				"date_published": "2026-04-14T21:26:57+02:00",
+				"url": "https://mb.esamecar.net/2026/04/14/thoughts-on-ai-and-privacy.html"
+			},
+			{
 				"id": "http://esamecar.micro.blog/2026/04/13/project-hail-mary-loved-the.html",
 				
-				"content_html": "<p>Project Hail Mary: Loved the book and enjoyed the movie.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Project Hail Mary: Loved the book and enjoyed the movie. \n\n<img src=\"uploads/2026/3f801fe77a.png\" width=\"600\" height=\"315\" alt=\"\">\n",
+				"content_html": "<p><a href=\"https://www.themoviedb.org/movie/687163-project-hail-mary\">Project Hail Mary</a>: Loved the book and enjoyed the movie. 🎥</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Project Hail Mary](https://www.themoviedb.org/movie/687163-project-hail-mary): Loved the book and enjoyed the movie. 🎥\n\n<img src=\"uploads/2026/3f801fe77a.png\">\n",
 				"date_published": "2026-04-13T07:51:32+02:00",
 				"url": "https://mb.esamecar.net/2026/04/13/project-hail-mary-loved-the.html",
 				"tags": ["media-consumption"]
@@ -70,7 +86,7 @@
 				"id": "http://esamecar.micro.blog/2026/02/19/itsyhome.html",
 				"title": "Itsyhome",
 				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
-				"content_text": "<blockquote>Your entire smart home in the macOS menu bar. Cameras, lights, thermostats, locks, and more - just one click away.</blockquote>\n\n<p><a href=\"https://itsyhome.app\">Itsyhome</a>, the <a href=\"https://www.home-assistant.io\">Home Assistant</a> app I knew I\nwanted but didn't know existed 🥰.<br></p>\n\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" alt=\"Screenshot Itsyhome Home Page\" src=\"https://mb.esamecar.net/uploads/2026/screenshot202026-02-1920at2016-06-2420itsyhome20e2809320control20homekit20a.png\" loading=\"lazy\" decoding=\"async\">\n    <figcaption class=\"attachment__caption text-center\">\n      Screenshot Itsyhome Home Page (2026-02-19)\n    </figcaption>\n</figure>\n\n<p><a href=\"https://itsyhome.app/\"><strong>itsyhome.app</strong></a></p>\n",
+				"content_text": "<blockquote>Your entire smart home in the macOS menu bar. Cameras, lights, thermostats, locks, and more - just one click away.</blockquote>\n\n<p><a href=\"https://itsyhome.app\">Itsyhome</a>, the <a href=\"https://www.home-assistant.io\">Home Assistant</a> app I knew I\nwanted but didn't know existed 🥰.<br></p>\n\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--png\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" alt=\"Screenshot Itsyhome Home Page\" src=\"https://eu.uploads.micro.blog/95406/2026/screenshot202026-02-1920at2016-06-2420itsyhome20e2809320control20homekit20a.png\" loading=\"lazy\" decoding=\"async\">\n    <figcaption class=\"attachment__caption text-center\">\n      Screenshot Itsyhome Home Page (2026-02-19)\n    </figcaption>\n</figure>\n\n<p><a href=\"https://itsyhome.app/\"><strong>itsyhome.app</strong></a></p>\n",
 				"date_published": "2026-02-19T17:12:22+02:00",
 				"url": "https://mb.esamecar.net/2026/02/19/itsyhome.html",
 				"tags": ["macOS","software"]
@@ -318,14 +334,6 @@
 				"tags": ["photography"]
 			},
 			{
-				"id": "http://esamecar.micro.blog/2025/08/30/092736.html",
-				"title": "Boat ⛵",
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" alt=\"A large white sailing ship, the Gorch Fock, with multiple masts and rigging is docked in calm water. The sky is blue with scattered clouds, and a small red flag is visible on one of the masts. The scene conveys a peaceful maritime atmosphere.\" src=\"https://eu.uploads.micro.blog/95406/2026/7676d0a69b.jpg\" loading=\"lazy\" decoding=\"async\">\n    <figcaption class=\"attachment__caption text-center\">\n      Gorch Fock\n    </figcaption>\n</figure>\n",
-				"date_published": "2025-08-30T09:27:36+01:00",
-				"url": "https://mb.esamecar.net/2025/08/30/092736.html"
-			},
-			{
 				"id": "http://esamecar.micro.blog/2025/08/29/trees.html",
 				
 				"content_html": "<p>Trees 🌳</p>\n<!-- raw HTML omitted -->\n",
@@ -333,14 +341,6 @@
 				"date_published": "2025-08-29T17:49:19+01:00",
 				"url": "https://mb.esamecar.net/2025/08/29/trees.html",
 				"tags": ["photography"]
-			},
-			{
-				"id": "http://esamecar.micro.blog/2025/08/29/174919.html",
-				"title": "Trees 🌳",
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/0cb06092e5.jpg\" alt=\"A row of trees casting shadows on the side of a pastel-colored apartment building under a clear blue sky. The grass lawn in the foreground is well-maintained, and two cars are parked by the building. The trees' shadows create unique patterns on the building's surface.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-08-29T17:49:19+01:00",
-				"url": "https://mb.esamecar.net/2025/08/29/174919.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/08/09/finished-reading-survival-of-the.html",
@@ -361,14 +361,6 @@
 				"tags": ["photography"]
 			},
 			{
-				"id": "http://esamecar.micro.blog/2025/08/02/114239.html",
-				"title": "Bumblebee",
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<div class=\"attachment-gallery attachment-gallery--3\">\n<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/62bd9e50db.jpg\" alt=\"A bee with an orange and black body is sitting on a spherical purple flower. The flower has many tiny petals and is attached to a slender green stem. The background is blurred, showing hints of greenery and a window frame.\" loading=\"lazy\" decoding=\"async\">\n</figure><figure class=\"attachment attachment--preview flex-col justify-center attachment--jpg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/45d6b39152.jpg\" alt=\"A bee with an orange and black body is sitting on a spherical purple flower. The flower has many tiny petals and is attached to a slender green stem. The background is blurred, showing hints of greenery and a window frame.\" loading=\"lazy\" decoding=\"async\">\n</figure><figure class=\"attachment attachment--preview flex-col justify-center attachment--jpg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/8e3448ef39.jpg\" alt=\"A bee with an orange and black body is sitting on a spherical purple flower. The flower has many tiny petals and is attached to a slender green stem. The background is blurred, showing hints of greenery and a window frame.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n</div>\n",
-				"date_published": "2025-08-02T11:42:39+01:00",
-				"url": "https://mb.esamecar.net/2025/08/02/114239.html"
-			},
-			{
 				"id": "http://esamecar.micro.blog/2025/07/23/printers-for-my-paper-journal.html",
 				"title": "Printers for my Paper Journal 🤦‍♂️",
 				"content_html": "<p>For several months now, I&rsquo;ve been keeping a paper journal for my tasks and a few thoughts, using the basic principles of a <a href=\"https://bulletjournal.com/\">bullet journal</a>. (However, I hardly like to utter that term, as I love the original, extremely simple idea, but I reject the empire or the almost sect-like movement that has emerged from it. Well, but nowadays, that&rsquo;s more or less the same with almost all interesting ideas.)\nBack to the topic. Although I try to become a bit more independent of <a href=\"https://mb.esamecar.net/2025/05/14/leaving-the-apple-watch-behind.html\">technology</a> and not to immediately jump on every trend, I couldn&rsquo;t help but get two technical devices for my paper journal - namely two printers. One is an <a href=\"https://instax.com/mini_link_3/en/\">Instax mini Link 3</a>, which I use to print and paste really beautiful memories, and the other is a thermal paper printer from <a href=\"https://www.peripageglobal.com/de/products/peripage-2-a6-mini-printer-203dpi?variant=42677293088917\">peripage</a>.<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> <sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup> There are adhesive sticker rolls available for it. Printing and pasting a blurry, black-and-white image quickly just brings joy ;-) BTW believe it or not, I’ve managed to avoid falling into the Rabbit Hole pens trap. So far. 😅</p>\n<!-- raw HTML omitted -->\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>I learned from <a href=\"https://ruminatepodcast.com/213/\">Ruminate</a> that there are incredibly cheaper models; but by then, I already had mine …&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n<li id=\"fn:2\" role=\"doc-endnote\">\n<p>With the purchase, I broke my own rule to only buy devices with USB-C; unfortunately, I had completely overlooked the fact that it has micro USB.&#160;<a href=\"#fnref:2\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
@@ -387,14 +379,6 @@
 				"tags": ["photography"]
 			},
 			{
-				"id": "http://esamecar.micro.blog/2025/06/16/125149.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/26691194dd.jpg\" alt=\"A close-up image of a clothes drying rack outdoors with blue denim jeans hanging on it. Multiple colored clothespins, including red and green, are clipped on the rack. The background is blurred and shows greenery, indicating a sunny day.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-06-16T12:51:49+01:00",
-				"url": "https://mb.esamecar.net/2025/06/16/125149.html"
-			},
-			{
 				"id": "http://esamecar.micro.blog/2025/06/16/135149.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
@@ -402,14 +386,6 @@
 				"date_published": "2025-06-16T12:51:49+01:00",
 				"url": "https://mb.esamecar.net/2025/06/16/135149.html",
 				"tags": ["photography"]
-			},
-			{
-				"id": "http://esamecar.micro.blog/2025/06/15/080300.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/c118a8ab1a.jpg\" alt=\"Close-up of a ballpoint pen tip on a textured surface. The pen is in focus, and the image is in black and white, highlighting the metallic tip and plastic casing.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-06-15T08:03:00+01:00",
-				"url": "https://mb.esamecar.net/2025/06/15/080300.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/06/15/090300.html",
@@ -428,14 +404,6 @@
 				"date_published": "2025-06-14T18:12:17+01:00",
 				"url": "https://mb.esamecar.net/2025/06/14/i-went-on-a-little.html",
 				"tags": ["photography"]
-			},
-			{
-				"id": "http://esamecar.micro.blog/2025/06/14/095157.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--JPG\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/6c10fd80d2.jpg\" alt=\"Black and white image of a modern building exterior at night. The structure features large glass windows and a flat roof supported by evenly spaced columns. The interior is well-lit, contrasting with the darkness outside.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-06-14T09:51:57+01:00",
-				"url": "https://mb.esamecar.net/2025/06/14/095157.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/06/14/105157.html",
@@ -481,14 +449,6 @@
 				"date_published": "2025-06-03T13:21:50+01:00",
 				"url": "https://mb.esamecar.net/2025/06/03/swift-shift.html",
 				"tags": ["macOS","software","yaa"]
-			},
-			{
-				"id": "http://esamecar.micro.blog/2025/06/03/111659.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/2cb7f103ed.jpg\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-06-03T11:16:59+01:00",
-				"url": "https://mb.esamecar.net/2025/06/03/111659.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/06/03/121659.html",
@@ -599,14 +559,6 @@
 				"tags": ["til"]
 			},
 			{
-				"id": "http://esamecar.micro.blog/2025/04/22/194636.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/4207f46a6d.jpg\" alt=\"View from a pedestrian bridge showing a road intersection. A red, X-shaped bike lane is marked distinctly, with dashed white lines bordering it. A white bicycle symbol is painted on the bike lane indicating its purpose. Surrounding roads have marked lanes, and green vegetation is visible on a small traffic island. The bridge has a textured, aged appearance with metal railings.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-04-22T19:46:36+01:00",
-				"url": "https://mb.esamecar.net/2025/04/22/194636.html"
-			},
-			{
 				"id": "http://esamecar.micro.blog/2025/04/22/204636.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
@@ -614,14 +566,6 @@
 				"date_published": "2025-04-22T19:46:36+01:00",
 				"url": "https://mb.esamecar.net/2025/04/22/204636.html",
 				"tags": ["photography"]
-			},
-			{
-				"id": "http://esamecar.micro.blog/2025/04/18/102729.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/ead152223d.jpg\" alt=\"A black and white photograph of a distant shoreline, featuring a small, faint island with trees barely visible on the horizon. The foreground is dominated by a vast, dark sea with gentle ripples. The sky is overcast and merges smoothly with the water, creating a minimalist and atmospheric scene.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-04-18T10:27:29+01:00",
-				"url": "https://mb.esamecar.net/2025/04/18/102729.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/04/18/112729.html",
@@ -633,14 +577,6 @@
 				"tags": ["photography"]
 			},
 			{
-				"id": "http://esamecar.micro.blog/2025/04/15/222109.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" alt=\"View from the bottom of a circular metal structure with mesh panels and support beams, looking up at a clear blue sky through an open top. The perspective creates a sense of depth and symmetry.\" src=\"https://eu.uploads.micro.blog/95406/2026/5a9299a403.jpg\" loading=\"lazy\" decoding=\"async\">\n    <figcaption class=\"attachment__caption text-center\">\n      Car Park\n    </figcaption>\n</figure>\n",
-				"date_published": "2025-04-15T22:21:09+01:00",
-				"url": "https://mb.esamecar.net/2025/04/15/222109.html"
-			},
-			{
 				"id": "http://esamecar.micro.blog/2025/04/15/car-park.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
@@ -648,14 +584,6 @@
 				"date_published": "2025-04-15T22:21:09+01:00",
 				"url": "https://mb.esamecar.net/2025/04/15/car-park.html",
 				"tags": ["photography"]
-			},
-			{
-				"id": "http://esamecar.micro.blog/2025/04/13/151054.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://eu.uploads.micro.blog/95406/2026/1083d17212.jpg\" alt=\"A modern, two-story house with blue siding and white trim. The roof is peaked, and the facade has several large windows. There are two visible exterior staircases on either side of the building. The sky is clear and blue, suggesting a calm weather setting.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-04-13T15:10:54+01:00",
-				"url": "https://mb.esamecar.net/2025/04/13/151054.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/04/13/161054.html",
@@ -693,14 +621,6 @@
 				"url": "https://mb.esamecar.net/2025/04/06/moving-my-data-to-europe.html"
 			},
 			{
-				"id": "http://esamecar.micro.blog/2025/03/26/214215.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" alt=\"A person wearing a red jacket walks across a modern, arched pedestrian bridge. In the background, a tall telecommunications tower with multiple circular dishes is visible against a cloudy sky. Several street lamps line the bridge, and a glass railing runs along the sides.\" src=\"https://eu.uploads.micro.blog/95406/2026/16e7e01b4c.jpg\" loading=\"lazy\" decoding=\"async\">\n    <figcaption class=\"attachment__caption text-center\">\n      Vienna\n    </figcaption>\n</figure>\n",
-				"date_published": "2025-03-26T21:42:15+01:00",
-				"url": "https://mb.esamecar.net/2025/03/26/214215.html"
-			},
-			{
 				"id": "http://esamecar.micro.blog/2025/03/26/vienna.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
@@ -710,14 +630,6 @@
 				"tags": ["photography"]
 			},
 			{
-				"id": "http://esamecar.micro.blog/2025/03/23/140929.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" alt=\"A small, colorful toy basket with a yellow top and pink sides featuring star patterns sits on a ledge. The background shows a blurred view of a street with an ornate building, featuring arched windows. Sunlight creates a bright highlight on the toy and casts its shadow onto the ledge.\" src=\"https://eu.uploads.micro.blog/95406/2026/a032c83cf4.jpg\" loading=\"lazy\" decoding=\"async\">\n    <figcaption class=\"attachment__caption text-center\">\n      SOOC\n    </figcaption>\n</figure>\n",
-				"date_published": "2025-03-23T14:09:29+01:00",
-				"url": "https://mb.esamecar.net/2025/03/23/140929.html"
-			},
-			{
 				"id": "http://esamecar.micro.blog/2025/03/23/sooc.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
@@ -725,14 +637,6 @@
 				"date_published": "2025-03-23T14:09:29+01:00",
 				"url": "https://mb.esamecar.net/2025/03/23/sooc.html",
 				"tags": ["photography"]
-			},
-			{
-				"id": "http://esamecar.micro.blog/2025/03/21/213127.html",
-				
-				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<figure class=\"attachment attachment--preview flex-col justify-center attachment--jpeg\">\n      <img class=\"lightbox__image strip-metadata lightbox__image\" src=\"https://mb.esamecar.net/uploads/2026/ef9846ca77.jpg\" alt=\"Black and white image of a pedestrian crosswalk, featuring alternating light and dark textured stripes. The surface appears rough, typical of outdoor pavement, with a curved edge of a sidewalk visible at the bottom.\" loading=\"lazy\" decoding=\"async\">\n</figure>\n",
-				"date_published": "2025-03-21T21:31:27+01:00",
-				"url": "https://mb.esamecar.net/2025/03/21/213127.html"
 			},
 			{
 				"id": "http://esamecar.micro.blog/2025/03/21/223127.html",
