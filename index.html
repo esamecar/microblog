@@ -24,6 +24,40 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://mb.esamecar.net/2026/04/30/180949.html">Reachy mini - für mich ein absoluter Fehlkauf</a></h1>
+		
+
+		<a href="https://mb.esamecar.net/2026/04/30/180949.html" class="u-url"><time class="dt-published" datetime="2026-04-30 18:09:49 &#43;0200">Apr 30, 2026</time></a>
+
+		<div class="e-content">
+			 <h1 id="reachy-mini-lite---für-mich-ein-fehlkauf">Reachy mini (Lite) - für mich ein Fehlkauf</h1>
+<p><strong>tl;dr</strong> Instabile Software, ungeeignet für Leute ohne tiefe Programmierkenntnisse (wie mich) und unprofessionelle Versandabwicklung.</p>
+<p>Irgendwann in den 80er habe ich als kleiner Junge ein programmierbares &ldquo;Spielzeugauto&rdquo; geschenkt bekommen, den <a href="https://de.wikipedia.org/wiki/Bigtrak">Bigtrak</a> von MB. Man konnte über das Folien-Keypad auf dem Fahrzeug eine Reihe von Befehlen eingeben, wie z.B. „vorwärts zwei Längen&quot;, „links drehen&quot; oder „Pause&quot;. Irgendwelche Geräusche konnte es glaube ich auch von sich geben. Damals hat es mich nicht irritiert, dass das Gefährt wie ein martialisches Militärweltraumfahrzeug aussah, sondern ich habe es absolut geliebt.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Es ist ja immer schwer zu sagen, was einen wann geprägt hat, aber ich glaube, spätestens das Teil hat damals meine Begeisterung für Technik geweckt. Was ich hingegen nie besessen habe, weil er einfach viel zu teuer war, war ein AIBO von Sony. Den habe ich ab ca. 2000 für unzählige Jahre auf meiner Wunschliste gehabt.</p>
+<p>Vielleicht war das auch der Grund dafür, dass ich Anfang diesen Jahres aus einem Impuls heraus, einen <a href="https://huggingface.co/spaces/pollen-robotics/Reachy_Mini">Reachy Mini</a> Lite von Pollen Robotics bestellt habe, nachdem ich diesen niedlichen Roboter in einem <a href="https://youtu.be/2KVfiftAaJ0">Video</a> von Keno im <a href="https://www.youtube.com/@ct3003">c&rsquo;t 3003</a>-Kanal gesehen hatte. Ich habe mir vorgestellt, wie der meinen <a href="https://www.home-assistant.io/voice-pe/">Home Assistant Voice Preview edition</a> ersetzen und man zusätzlich mit den hunderten von <a href="https://huggingface.co/spaces/pollen-robotics/Reachy_Mini#/apps">Apps</a> Spaß haben könnte. Auch dachte ich mir, dass ich später ggf. mit Hilfe einer LLM auch meine verrosteten Python-Kenntnisse ein wenig auffrischen und einfach ein wenig Spaß mit Technik haben könnte.
+Es kam aber komplett anders. Zunächst einmal durfte ich mich auf mindestens zwei Monate Lieferzeit einstellen, okay. Als die Zeit dann aber bereits überschritten war, und ich bislang keine weiteren Informationen erhalten hatte, habe ich plötzlich eine E-Mail von SEEED erhalten, die wie Spam aussah, von &ldquo;order_fulfillment2 (order_fulfillment2)&rdquo; stammte und fürchterlich unprofessionell verfasst war. Mir wurde mitgeteilt, dass leider der komplette Produktions-Batch aufgrund eines Softwareproblems an falsche Adressen verschickt worden war, sie versuchen würden das irgendwie wieder gerade zu ziehen und ich mich aber nicht zu sorgen bräuchte 😮. Bis dahin hatte ich noch nicht einmal eine Versandbestätigung erhalten. Meine Nachfrage bei Pollen Robotics ergab, dass die E-Mail authentisch war, SEEED die Produktion und Versand übernommen hatte und ich mich an die wenden sollte. Es hat dann wieder ein, zwei Wochen gedauert - meine Nachfrage bei SEEED blieb unbeantwortet - als ich auf einmal eine DHL-Sendungsnummer und eine Woche später auch den Reachy Mini Lite erhalten habe.
+Der Aufbau verlief problemlos - ein Kinderspiel im Vergleich zum <a href="https://www.prusa3d.com/de/produkt/prusa-core-one-kit/">Prusa Core One+</a>, den ich Ende letzten Jahres zusammengeschraubt habe. Die beworbene Online-Anleitung ist zwar ständig abgestürzt und es wurden mir ständig youtube-Videos aufgedrängt, die sich dann auf einmal nicht mehr verkleinern ließen, die gedruckte Anleitung war aber auch ausreichend. Nur beim Mikrofon war ich mir unsicher, wie das Kabel angeschlossen werden sollte, da ein anderes als in der Anleitung gezeigt verwendet wurde. In den <a href="https://huggingface.co/docs/reachy_mini/troubleshooting">FAQs</a> bin ich dann aber fündig geworden.</p>
+<p>Die absolute Ernüchterung kam dann beim Einschalten. Die Software ist so unfassbar buggy, dass zunächst nicht eine Reachy-App starten wollte - selbst die offiziellen nicht. Nach diversen Neustarts und Updates ging es dann irgendwann. Die eingebaute Software-Fernsteuerung führt aber nur zu sehr langsamen, arg ruckeligen Bewegungen; ständig kollidiert der Kopf mit dem Rumpf oder die Antennen mit sich und nach wenigen Minuten stürzt die Steuerungsapp einfach ab. Aber nicht einmal die <a href="https://huggingface.co/spaces/cdeplanne/wake_me_up">wake-me-up</a>-App läuft durch. Bei der Überprüfung des Mikrofons wird der gewünschte Pegel nicht erreicht und man kommt nicht weiter. Das Bild der Kamera ist ebenfalls viel zu dunkel. Das alles hat so schlecht funktioniert, dass ich mir unsicher war, ob der Roboter nicht ggf. defekt ist oder ich ihn doch falsch verkabelt haben könnte. Allerdings kann ich via USB auf die Kamera, Lautsprecher und das Mikrofon zugreifen und so angesteuert funktioniert alles einwandfrei. Auch andere Apps, wie z.B. <a href="https://huggingface.co/spaces/panny247/hello_world">hello-world</a> steuern den Roboter erst einmal problemlos an, die Bewegungen sind flüssig und die Kamera ist in Ordnung, wenn die Reachy-Mini-Software nicht gerade mal wieder abgestürzt ist und die Kommunikation deshalb abbricht. Nicht eine einzige der über 180 beworbenen Apps scheint zu irgendwas zu gebrauchen zu sein. Auch weiß man grundsätzlich nie sicher, welche Sensordaten grade an welche externen KI-Dienste geschickt werden, weil eine explizite Freigabe / Privacy-Kontrolle völlig fehlt.
+Mein Fazit nach einem Abend war klar: Das Teil taugt maximal für Leute, die wirklich in der Materie drin stecken und v.a. selbst programmieren wollen und können. Enttäuscht habe ich dann einen Karton gesucht, um ihn bei nächster Gelegenheit via eBay jemandem zukommen zu lassen, der hoffentlich mehr Freude an dem Teil hat. Ich habe viel gelernt, aber nicht unbedingt das, was ich mir erhofft hatte.</p>
+<p>Das war aber noch nicht alles. Vor ein paar Tagen habe ich dann auf einmal wieder von dem ominösen Absender eine E-Mail erhalten, adressiert an 78 im Klartext angegebene Kund:innen von Pollen Robotics. SEEED wollte mal nachfragen, ob die Pakete mittlerweile angekommen sind. WTF? Wie unprofessionell ist das denn bitte? Mal kurz ~80 E-Mailadressen in einem offenen Verteiler zu verschicken? Meine Rückfrage bei Pollen Robotics und SEEED wurden mit einem &ldquo;sorry, darf nicht passieren&rdquo; beantwortet. Aber das Kind war natürlich schon in den Brunnen gefallen. Eine Handvoll Empfänger haben dann auch brav an alle geantwortet, dass ihre Pakete noch nicht angekommen sind und ihre Bestellbestätigungen angehangen, schön mit Privatadressen und drum und dran. Und was macht SEEED? Die antworten weiterhin brav an alle und bedanken sich für die Rückmeldungen. Ich kann das alles gar nicht glauben. Vielleicht sollten die Leute ihre OpenClaw-Bots mal wieder einfangen?! Aber vielleicht bin ich auch grade nur mies drauf - wer weiß.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://mb.esamecar.net/2026/04/29/i-switched-from-zwift-to.html" class="u-url"><time class="dt-published" datetime="2026-04-29 17:35:04 &#43;0200">Apr 29, 2026</time></a>
+
+		<div class="e-content">
+			 <p>I switched from Zwift to Rouvy some time ago for reasons. Today, now this: <a href="https://crmcdn.rouvy.com/rouvy-prod/e/Cgxo_fgqyctY80L9P5ESIDXxQLuwJbu-3cm3vzVoboTUtGtHvbm1_Hnk53ZAHOQPMb-1pBGIfNpBcgxp8iBG1frG47y4WT0.SSWfP7j_mr81sA">Ride Into a New Chapter</a></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 			<h1><a href="https://mb.esamecar.net/2026/04/29/not-interested-either.html">Not interested either</a></h1>
 		
 
